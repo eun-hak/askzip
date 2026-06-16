@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import Script from 'next/script';
 import './globals.css';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
@@ -51,6 +52,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: SITE_URL,
   },
+  verification: {
+    google: 'ezl9RkG9WKs8d0m18RDpU_WoSH54h1y3iFEmTPo8-2M',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -61,6 +65,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossOrigin="anonymous" /> */}
       </head>
       <body className="min-h-screen flex flex-col bg-page">
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-8MSZNSW0P7"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-8MSZNSW0P7');
+          `}
+        </Script>
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

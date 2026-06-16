@@ -5,11 +5,18 @@ import { SITE_URL } from '@/lib/site';
 
 const policyLastModified = new Date('2026-05-15');
 
+function latestArticleModified(): Date {
+  const timestamps = articles.map((a) => new Date(a.updatedAt).getTime());
+  return new Date(Math.max(...timestamps));
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
+  const latestContent = latestArticleModified();
+
   const staticPages: MetadataRoute.Sitemap = [
     {
       url: SITE_URL,
-      lastModified: new Date(),
+      lastModified: latestContent,
       changeFrequency: 'weekly',
       priority: 1,
     },
@@ -23,7 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${SITE_URL}/privacy`,
       lastModified: policyLastModified,
       changeFrequency: 'yearly',
-      priority: 0.3,
+      priority: 0.4,
     },
     {
       url: `${SITE_URL}/contact`,
@@ -31,14 +38,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.5,
     },
+    {
+      url: `${SITE_URL}/search`,
+      lastModified: latestContent,
+      changeFrequency: 'weekly',
+      priority: 0.4,
+    },
   ];
 
-  const categoryPages: MetadataRoute.Sitemap = categories.map((cat) => ({
-    url: `${SITE_URL}/category/${cat.slug}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
-    priority: 0.8,
-  }));
+  const categoryPages: MetadataRoute.Sitemap = categories.map((cat) => {
+    const categoryArticles = articles.filter((a) => a.category === cat.slug);
+    const lastModified =
+      categoryArticles.length > 0
+        ? new Date(
+            Math.max(...categoryArticles.map((a) => new Date(a.updatedAt).getTime())),
+          )
+        : latestContent;
+
+    return {
+      url: `${SITE_URL}/category/${cat.slug}`,
+      lastModified,
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    };
+  });
 
   const articlePages: MetadataRoute.Sitemap = articles.map((article) => ({
     url: `${SITE_URL}/articles/${article.slug}`,

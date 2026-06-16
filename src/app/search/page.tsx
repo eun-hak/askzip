@@ -14,7 +14,6 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
   return {
     title: q ? `"${q}" 검색 결과` : '검색',
     description: q ? `"${q}"에 대한 ${SITE_NAME} 검색 결과입니다.` : `${SITE_NAME} 검색`,
-    robots: { index: false, follow: true },
   };
 }
 
