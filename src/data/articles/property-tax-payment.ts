@@ -1,0 +1,130 @@
+import type { Article } from '../types';
+
+export const propertyTaxPayment: Article = {
+    slug: 'property-tax-payment',
+    title: '재산세 납부 방법 안내 (위택스·고지서 납부)',
+    description:
+      '매년 7월과 9월에 부과되는 재산세를 위택스, 인터넷뱅킹, ARS, 편의점 등 다양한 방법으로 납부하는 방법을 안내합니다.',
+    category: 'tax-payment',
+    tags: ['재산세', '위택스', '세금납부'],
+    publishedAt: '2025-07-01',
+    updatedAt: '2025-07-01',
+    readingTime: 4,
+    toc: [
+      { id: 'what', title: '재산세란?' },
+      { id: 'schedule', title: '납부 일정' },
+      { id: 'how', title: '납부 방법' },
+      { id: 'wetax', title: '위택스 온라인 납부' },
+      { id: 'faq', title: '자주 묻는 질문' },
+    ],
+    summary: [
+      { label: '납부 기관', value: '위택스 또는 지자체' },
+      { label: '납부 시기', value: '7월(건물분), 9월(토지분)' },
+      { label: '납부 방법', value: '위택스, 인터넷뱅킹, ARS, 편의점' },
+      { label: '가산세', value: '납기 후 납부 시 3% 가산세' },
+    ],
+    content: [
+      {
+        type: 'h2',
+        id: 'what',
+        text: '재산세란?',
+      },
+      {
+        type: 'paragraph',
+        text: '재산세는 토지, 건물, 주택, 선박, 항공기 등의 재산을 보유하고 있는 사람에게 매년 부과되는 지방세입니다. 매년 6월 1일을 기준으로 재산을 보유한 사람에게 부과되며, 해당 재산의 공시가격을 기준으로 세액이 결정됩니다.',
+      },
+      {
+        type: 'h2',
+        id: 'schedule',
+        text: '납부 일정',
+      },
+      {
+        type: 'table',
+        headers: ['납부 시기', '대상', '납부 기간'],
+        rows: [
+          ['7월', '건축물, 주택(1/2)', '7월 16일 ~ 7월 31일'],
+          ['9월', '토지, 주택(나머지 1/2)', '9월 16일 ~ 9월 30일'],
+        ],
+      },
+      {
+        type: 'tip',
+        text: '주택의 경우 재산세 세액이 10만원 이하이면 7월에 한 번만 납부합니다.',
+      },
+      {
+        type: 'h2',
+        id: 'how',
+        text: '납부 방법',
+      },
+      {
+        type: 'table',
+        headers: ['납부 방법', '이용 방법'],
+        rows: [
+          ['위택스 인터넷', 'wetax.go.kr 접속 후 납부'],
+          ['스마트위택스 앱', '스마트위택스 앱에서 납부'],
+          ['인터넷뱅킹', '각 은행 인터넷뱅킹 → 공과금 납부'],
+          ['ARS', '각 은행 ARS 또는 지자체 ARS 이용'],
+          ['편의점', '고지서 바코드로 CU, GS25 등에서 납부'],
+          ['지방세입 계좌', '고지서의 가상계좌로 이체'],
+        ],
+      },
+      {
+        type: 'h2',
+        id: 'wetax',
+        text: '위택스 온라인 납부 방법',
+      },
+      {
+        type: 'steps',
+        steps: [
+          {
+            step: 1,
+            title: '위택스 접속 및 로그인',
+            description: 'wetax.go.kr 에 접속하여 공동인증서 또는 간편인증으로 로그인합니다.',
+          },
+          {
+            step: 2,
+            title: '납부하기 → 지방세 선택',
+            description: '메인 화면 [납부하기]를 클릭하고 [지방세] → [정기분] 메뉴를 선택합니다.',
+          },
+          {
+            step: 3,
+            title: '재산세 고지 내역 확인',
+            description: '본인 명의로 부과된 재산세 내역이 조회됩니다. 납부할 항목을 선택합니다.',
+          },
+          {
+            step: 4,
+            title: '결제 수단 선택 및 납부',
+            description: '신용카드, 계좌이체, 간편결제 중 선택하여 납부합니다. 납부 후 영수증을 저장해 두세요.',
+          },
+        ],
+      },
+      {
+        type: 'warning',
+        text: '이 사이트에서 제공하는 정보는 참고 목적입니다. 재산세 납부 기간 및 방법은 지자체마다 다소 다를 수 있으니 위택스(wetax.go.kr) 또는 해당 지자체에서 확인하세요.',
+      },
+      {
+        type: 'h2',
+        id: 'faq',
+        text: '자주 묻는 질문',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            question: '고지서가 도착하지 않으면 어떻게 하나요?',
+            answer:
+              '위택스에서 본인인증 후 부과된 고지 내역을 직접 조회할 수 있습니다. 고지서 미수령과 관계없이 납부 기한 내에 납부해야 가산세가 발생하지 않습니다.',
+          },
+          {
+            question: '납부 기한을 넘기면 가산세가 얼마나 되나요?',
+            answer:
+              '납부 기한이 지나면 납부세액의 3%가 가산세로 추가됩니다. 그 이후에도 매월 0.75%씩 중가산세가 부과됩니다.',
+          },
+          {
+            question: '분납이 가능한가요?',
+            answer:
+              '250만원 초과의 재산세는 납부세액 일부를 납부 기한 이후 2개월 이내에 분납할 수 있습니다. 지자체 세무과에 문의하세요.',
+          },
+        ],
+      },
+    ],
+    relatedSlugs: ['car-tax-annual-prepay', 'hometax-payment-statement', 'comprehensive-income-tax'],};

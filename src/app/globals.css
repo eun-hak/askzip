@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent: #2563EB;
+  --color-accent-light: #EFF6FF;
+  --color-accent-text: #1D4ED8;
+  --color-page: #F8FAFC;
+  --color-surface: #F1F5F9;
+  --color-site-white: #FFFFFF;
+  --color-site-border: #E5E7EB;
+  --color-border-light: #F3F4F6;
+  --color-info-bg: #EFF6FF;
+  --color-info-border: #BFDBFE;
+  --color-info-text: #1E40AF;
+  --color-success-bg: #F0FDF4;
+  --color-success-text: #166534;
+  --color-primary: #111827;
+  --color-secondary: #6B7280;
+  --color-muted: #9CA3AF;
+  --color-warning-bg: #FFFBEB;
+  --color-warning-border: #FDE68A;
+  --color-warning-text: #92400E;
+
+  --font-sans: "Inter", "Pretendard", system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background-color: #F8FAFC;
+  color: #111827;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* 스크롤바 스타일 */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+
+/* 아티클 콘텐츠 영역 */
+.article-prose p {
+  line-height: 1.8;
+  color: #6B7280;
+  font-size: 15px;
+  margin: 0;
+}
+
+.article-prose h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0;
+}

@@ -1,0 +1,144 @@
+import type { Article } from '../types';
+
+export const nationalPensionHistory: Article = {
+    slug: 'national-pension-history',
+    title: '국민연금 납부내역 조회 및 예상 수령액 확인 방법',
+    description:
+      '국민연금공단 내 연금 알아보기 서비스를 통해 국민연금 납부 이력, 가입 기간, 예상 수령액을 확인하는 방법을 안내합니다.',
+    category: 'inquiry-service',
+    tags: ['국민연금', '납부내역', '노후준비'],
+    publishedAt: '2025-03-10',
+    updatedAt: '2025-03-20',
+    readingTime: 4,
+    toc: [
+      { id: 'what', title: '조회 가능한 정보' },
+      { id: 'steps', title: '납부내역 조회 방법' },
+      { id: 'estimate', title: '예상 수령액 확인' },
+      { id: 'faq', title: '자주 묻는 질문' },
+    ],
+    summary: [
+      { label: '조회 기관', value: '국민연금공단' },
+      { label: '사이트', value: 'nps.or.kr → 내 연금 알아보기' },
+      { label: '조회 항목', value: '납부 이력, 가입 기간, 예상 수령액' },
+      { label: '수수료', value: '무료' },
+    ],
+    content: [
+      {
+        type: 'h2',
+        id: 'what',
+        text: '조회 가능한 정보',
+      },
+      {
+        type: 'paragraph',
+        text: '국민연금공단 홈페이지의 "내 연금 알아보기" 서비스를 통해 다음 정보를 확인할 수 있습니다.',
+      },
+      {
+        type: 'table',
+        headers: ['조회 항목', '내용'],
+        rows: [
+          ['납부내역', '연도·월별 납부 보험료 내역'],
+          ['가입 기간', '국민연금 총 납부 개월 수'],
+          ['가입 이력', '직장·지역 가입자 구분 및 사업장 정보'],
+          ['예상 수령액', '현재 기준 노령연금 예상 수령액'],
+          ['납부 증명서', '납부 이력 확인서 발급'],
+        ],
+      },
+      {
+        type: 'h2',
+        id: 'steps',
+        text: '납부내역 조회 방법',
+      },
+      {
+        type: 'steps',
+        steps: [
+          {
+            step: 1,
+            title: '국민연금공단 홈페이지 접속',
+            description: 'nps.or.kr 에 접속합니다.',
+          },
+          {
+            step: 2,
+            title: '내 연금 알아보기 선택',
+            description: '메인 화면에서 [내 연금 알아보기]를 클릭합니다.',
+          },
+          {
+            step: 3,
+            title: '본인인증',
+            description: '공동인증서, 간편인증(카카오·네이버·PASS) 중 하나로 로그인합니다.',
+          },
+          {
+            step: 4,
+            title: '가입·납부 내역 조회',
+            description: '메뉴에서 [가입·납부내역 조회]를 선택합니다. 연도별 또는 전체 내역을 확인할 수 있습니다.',
+          },
+          {
+            step: 5,
+            title: '납부확인서 발급 (필요 시)',
+            description: '납부 이력 증명이 필요하면 [납부확인서 발급]을 클릭합니다.',
+          },
+        ],
+      },
+      {
+        type: 'h2',
+        id: 'estimate',
+        text: '예상 수령액 확인',
+      },
+      {
+        type: 'paragraph',
+        text: '국민연금 예상 수령액은 현재까지의 납부 이력을 기반으로 계산한 추정치입니다. 앞으로 계속 납부하면 금액이 증가합니다.',
+      },
+      {
+        type: 'steps',
+        steps: [
+          {
+            step: 1,
+            title: '내 연금 예상액 조회',
+            description: '로그인 후 [예상연금 조회] → [노령연금 예상액]을 선택합니다.',
+          },
+          {
+            step: 2,
+            title: '예상 수령 나이 선택',
+            description: '출생연도에 따른 수령 개시 나이(최소 62세~65세)를 확인합니다.',
+          },
+          {
+            step: 3,
+            title: '예상액 확인',
+            description: '현재 기준 예상 월 수령액을 확인합니다. 향후 납부 지속 여부에 따라 수령액 시뮬레이션도 가능합니다.',
+          },
+        ],
+      },
+      {
+        type: 'tip',
+        text: '국민연금 크레딧 제도를 활용하면 군복무, 출산 등의 기간도 연금 가입 기간으로 인정받을 수 있습니다. 해당 여부를 확인해보세요.',
+      },
+      {
+        type: 'warning',
+        text: '이 사이트에서 제공하는 정보는 참고 목적입니다. 국민연금 관련 상세 사항은 국민연금공단(nps.or.kr) 또는 고객센터(1355)에서 확인하세요.',
+      },
+      {
+        type: 'h2',
+        id: 'faq',
+        text: '자주 묻는 질문',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            question: '직장을 그만두면 국민연금을 어떻게 납부하나요?',
+            answer:
+              '퇴직 후에는 지역가입자로 전환되며, 직접 고지서를 받아 납부해야 합니다. 소득이 없는 경우 납부 예외 신청을 통해 납부를 유예할 수 있습니다. 단, 예외 기간은 가입 기간에서 제외됩니다.',
+          },
+          {
+            question: '납부한 국민연금을 중도에 돌려받을 수 있나요?',
+            answer:
+              '원칙적으로 국민연금은 중도 인출이 불가합니다. 다만 국적 상실, 사망 등 특수한 경우에 한해 반환일시금을 청구할 수 있습니다.',
+          },
+          {
+            question: '국민연금 가입 기간이 너무 짧으면 연금을 못 받나요?',
+            answer:
+              '노령연금은 최소 10년(120개월) 이상 납부해야 받을 수 있습니다. 10년 미만인 경우 만 60세가 되면 반환일시금으로 수령할 수 있습니다.',
+          },
+        ],
+      },
+    ],
+    relatedSlugs: ['four-major-insurance-history', 'telecom-unrefunded-fee', 'health-insurance-eligibility-certificate'],};

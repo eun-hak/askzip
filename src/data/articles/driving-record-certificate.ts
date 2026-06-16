@@ -1,0 +1,115 @@
+import type { Article } from '../types';
+
+export const drivingRecordCertificate: Article = {
+  slug: 'driving-record-certificate',
+  title: '운전경력증명서 인터넷 발급 방법 (정부24·이파인)',
+  description:
+    '운전 경력과 사고·위반 이력을 증명하는 운전경력증명서. 정부24와 경찰청 교통민원24(이파인)에서 무료로 발급하는 방법과 영문 발급, 활용처를 안내합니다.',
+  category: 'civil-documents',
+  tags: ['운전경력증명서', '이파인', '민원서류'],
+  publishedAt: '2026-06-16',
+  updatedAt: '2026-06-16',
+  readingTime: 4,
+  toc: [
+    { id: 'what', title: '운전경력증명서란?' },
+    { id: 'when', title: '언제 필요한가?' },
+    { id: 'steps', title: '인터넷 발급 방법' },
+    { id: 'faq', title: '자주 묻는 질문' },
+  ],
+  summary: [
+    { label: '발급 기관', value: '정부24, 경찰청 교통민원24(이파인)' },
+    { label: '사이트', value: 'gov.kr / efine.go.kr' },
+    { label: '발급 항목', value: '면허 취득일, 무사고 경력, 사고·위반 이력' },
+    { label: '수수료', value: '온라인 무료' },
+  ],
+  content: [
+    {
+      type: 'h2',
+      id: 'what',
+      text: '운전경력증명서란?',
+    },
+    {
+      type: 'paragraph',
+      text: '운전경력증명서는 운전면허 취득일, 무사고 경력, 교통사고·법규위반 이력 등을 공식적으로 확인할 수 있는 문서입니다. 경찰청·도로교통공단에서 발급하며, 운전 경력을 증명해야 하는 다양한 상황에서 활용됩니다.',
+    },
+    {
+      type: 'h2',
+      id: 'when',
+      text: '언제 필요한가?',
+    },
+    {
+      type: 'table',
+      headers: ['용도', '설명'],
+      rows: [
+        ['자동차 보험 가입', '무사고 경력 인정으로 보험료 할인'],
+        ['해외 이민·취업', '외국 운전면허 전환용 서류'],
+        ['운전직 채용', '운전직 공무원·운수업 지원'],
+        ['법원·행정 제출', '운전 경력 확인'],
+      ],
+    },
+    {
+      type: 'h2',
+      id: 'steps',
+      text: '인터넷 발급 방법',
+    },
+    {
+      type: 'steps',
+      steps: [
+        {
+          step: 1,
+          title: '정부24 또는 이파인 접속',
+          description: 'gov.kr 또는 경찰청 교통민원24(efine.go.kr)에 접속해 간편인증·공동인증서로 본인 확인을 합니다.',
+        },
+        {
+          step: 2,
+          title: '운전경력증명서 신청',
+          description: '운전경력증명서 발급 메뉴를 선택하고, 발급 사유·기간·사고/위반 기록 포함 여부를 체크합니다.',
+        },
+        {
+          step: 3,
+          title: '한글/영문 선택',
+          description: '해외 제출용이면 영문 운전경력증명서를 선택합니다. 정부24에서 영문 발급이 가능합니다.',
+        },
+        {
+          step: 4,
+          title: '온라인 발급(본인출력)',
+          description: '"온라인발급(본인출력)"을 선택해 프린터로 인쇄하거나 PDF로 저장합니다.',
+        },
+      ],
+    },
+    {
+      type: 'tip',
+      text: '본인인증 수단(간편인증·공동인증서)이 없으면 가까운 경찰서 교통민원실에 신분증을 지참해 방문 발급할 수 있습니다. 무인민원발급기에서도 발급됩니다.',
+    },
+    {
+      type: 'warning',
+      text: '이 사이트에서 제공하는 정보는 참고 목적입니다. 정확한 절차와 최신 정보는 정부24(gov.kr) 또는 경찰청 교통민원24(efine.go.kr)에서 확인하세요.',
+    },
+    {
+      type: 'h2',
+      id: 'faq',
+      text: '자주 묻는 질문',
+    },
+    {
+      type: 'faq',
+      items: [
+        {
+          question: '개명했는데 이전 이름으로 조회해야 하나요?',
+          answer:
+            '아닙니다. 현재 사용 중인 실명 인증 수단으로 로그인하면 개명 전 취득·운전 기록까지 모두 통합되어 조회됩니다.',
+        },
+        {
+          question: '유효기간이 있나요?',
+          answer:
+            '법적 유효기간은 없지만, 대부분의 기관은 최근 3개월 이내 발급본을 요구합니다. 제출 전 해당 기관 기준을 확인하세요.',
+        },
+        {
+          question: '면허 취득일만 따로 확인할 수 있나요?',
+          answer:
+            '이파인의 운전면허 조회 메뉴에서 종별 취득일자를 확인할 수 있습니다. 보험 경력 할인 등에 필요한 정확한 취득일을 조회할 수 있습니다.',
+        },
+      ],
+    },
+  ],
+  relatedSlugs: ['traffic-fine-check', 'car-inspection-check', 'resident-registration-abstract'],
+};
