@@ -13,6 +13,7 @@ import ArticleCard from '@/components/cards/ArticleCard';
 import { Clock, Calendar } from 'lucide-react';
 import SourcesBox from '@/components/article/SourcesBox';
 import { articleSources } from '@/data/sources';
+import { SITE_NAME, SITE_URL } from '@/lib/site';
 
 const categoryNameMap: Record<string, string> = {
   'civil-documents': '민원서류 발급',
@@ -34,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = getArticleBySlug(slug);
   if (!article) return {};
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://livingdocs.kr';
+  const siteUrl = SITE_URL;
 
   return {
     title: article.title,
@@ -65,24 +66,45 @@ export default async function ArticleDetailPage({ params }: Props) {
     .map((s) => articles.find((a) => a.slug === s))
     .filter(Boolean) as typeof articles;
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://livingdocs.kr';
+  const siteUrl = SITE_URL;
+
+  const faqItems = article.content
+    .filter((block) => block.type === 'faq')
+    .flatMap((block) => (block.type === 'faq' ? block.items : []));
 
   // JSON-LD 구조화 데이터
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'HowTo',
-    name: article.title,
-    description: article.description,
-    datePublished: article.publishedAt,
-    dateModified: article.updatedAt,
-    url: `${siteUrl}/articles/${slug}`,
-    inLanguage: 'ko-KR',
-    publisher: {
-      '@type': 'Organization',
-      name: '생활문서 안내서',
-      url: siteUrl,
+  const jsonLd: Record<string, unknown>[] = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'HowTo',
+      name: article.title,
+      description: article.description,
+      datePublished: article.publishedAt,
+      dateModified: article.updatedAt,
+      url: `${siteUrl}/articles/${slug}`,
+      inLanguage: 'ko-KR',
+      publisher: {
+        '@type': 'Organization',
+        name: SITE_NAME,
+        url: siteUrl,
+      },
     },
-  };
+  ];
+
+  if (faqItems.length > 0) {
+    jsonLd.push({
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: faqItems.map((item) => ({
+        '@type': 'Question',
+        name: item.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: item.answer,
+        },
+      })),
+    });
+  }
 
   return (
     <>

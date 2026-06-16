@@ -3,6 +3,13 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import {
+  SITE_DESCRIPTION,
+  SITE_NAME,
+  SITE_SUBTITLE,
+  SITE_TITLE,
+  SITE_URL,
+} from '@/lib/site';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -10,35 +17,31 @@ const inter = Inter({
   variable: '--font-inter',
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://livingdocs.kr';
-
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
+  metadataBase: new URL(SITE_URL),
   title: {
-    default: '생활문서 안내서 | 행정서류·세금·지원금 발급 가이드',
-    template: '%s | 생활문서 안내서',
+    default: SITE_TITLE,
+    template: `%s | ${SITE_NAME}`,
   },
-  description:
-    '주민등록등본, 건강보험 자격득실확인서, 자동차세 연납, 근로장려금 등 생활에 필요한 행정 서류 발급과 정부 서비스 이용 방법을 단계별로 안내합니다.',
+  description: SITE_DESCRIPTION,
   keywords: [
-    '주민등록등본 발급', '건강보험 자격득실확인서', '자동차세 연납', '근로장려금', '재산세 납부',
-    '가족관계증명서', '정부24', '홈택스', '위택스', '생활서류 발급', '민원서류',
+    '애스크집', 'askzip', '민원서류 발급', '주민등록등본', '건강보험 자격득실확인서',
+    '자동차세 연납', '근로장려금', '재산세 납부', '가족관계증명서', '정부24', '홈택스', '위택스',
   ],
-  authors: [{ name: '생활문서 안내서' }],
-  creator: '생활문서 안내서',
+  authors: [{ name: SITE_NAME }],
+  creator: SITE_NAME,
   openGraph: {
     type: 'website',
     locale: 'ko_KR',
-    url: siteUrl,
-    siteName: '생활문서 안내서',
-    title: '생활문서 안내서 | 행정서류·세금·지원금 발급 가이드',
-    description:
-      '생활에 필요한 행정 서류 발급, 세금 납부, 정부 지원금 신청 방법을 쉽게 안내합니다.',
+    url: SITE_URL,
+    siteName: SITE_NAME,
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
   },
   twitter: {
     card: 'summary',
-    title: '생활문서 안내서',
-    description: '행정 서류 발급, 세금, 지원금 안내 사이트',
+    title: SITE_NAME,
+    description: SITE_SUBTITLE,
   },
   robots: {
     index: true,
@@ -46,7 +49,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true },
   },
   alternates: {
-    canonical: siteUrl,
+    canonical: SITE_URL,
   },
 };
 

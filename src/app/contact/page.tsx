@@ -1,11 +1,11 @@
 import type { Metadata } from 'next';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { Mail } from 'lucide-react';
+import { POLICY_DATE, SITE_DESCRIPTION, SITE_EMAIL, SITE_NAME } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: '문의 및 운영 안내',
-  description:
-    '생활문서 안내서에 대한 정보 오류 제보, 콘텐츠 요청, 광고·제휴 문의 방법을 안내합니다.',
+  description: `${SITE_NAME}에 대한 정보 오류 제보, 콘텐츠 요청, 광고·제휴 문의 방법을 안내합니다.`,
   alternates: { canonical: '/contact' },
 };
 
@@ -18,16 +18,17 @@ export default function ContactPage() {
         </div>
 
         <h1 className="text-primary text-[24px] font-bold">문의 및 운영 안내</h1>
+        <p className="text-muted text-[12px]">마지막 업데이트: {POLICY_DATE}</p>
 
         {/* 운영 안내 박스 */}
         <div className="bg-info-bg border border-info-border rounded-lg p-4 flex flex-col gap-1.5">
           <p className="text-info-text text-[13px] font-semibold">운영자 정보</p>
           <ul className="flex flex-col gap-1 pl-1">
-            <li className="text-info-text text-[13px]">· 사이트명: 생활문서 안내서</li>
+            <li className="text-info-text text-[13px]">· 사이트명: {SITE_NAME}</li>
             <li className="text-info-text text-[13px]">
               · 운영 이메일:{' '}
-              <a href="mailto:contact@livingdocs.kr" className="underline">
-                contact@livingdocs.kr
+              <a href={`mailto:${SITE_EMAIL}`} className="underline">
+                {SITE_EMAIL}
               </a>
             </li>
           </ul>
@@ -37,7 +38,7 @@ export default function ContactPage() {
         <section className="flex flex-col gap-3">
           <h2 className="text-primary text-[17px] font-semibold">사이트 운영 목적</h2>
           <p className="text-secondary text-[14px] leading-[1.8]">
-            이 사이트는 생활 속에서 자주 필요한 행정 서류 발급, 세금 납부, 정부 지원금 신청 등의 절차를 쉽게 안내하기 위해 운영되고 있습니다. 공공기관의 공식 정보를 바탕으로 작성하되, 복잡한 절차를 누구나 이해할 수 있도록 단계별로 정리하는 것이 목표입니다.
+            {SITE_DESCRIPTION} {SITE_NAME}은 공공기관의 공식 정보를 바탕으로 작성하되, 복잡한 절차를 누구나 이해할 수 있도록 단계별로 정리하는 것을 목표로 운영됩니다.
           </p>
         </section>
 
@@ -117,10 +118,10 @@ export default function ContactPage() {
             <div className="flex flex-col gap-1">
               <span className="text-info-text text-[12px] font-medium">이메일 문의</span>
               <a
-                href="mailto:contact@livingdocs.kr"
+                href={`mailto:${SITE_EMAIL}`}
                 className="text-primary text-[15px] font-semibold hover:text-accent transition-colors"
               >
-                contact@livingdocs.kr
+                {SITE_EMAIL}
               </a>
             </div>
           </div>

@@ -1,10 +1,15 @@
 import type { Metadata } from 'next';
 import Breadcrumb from '@/components/ui/Breadcrumb';
+import {
+  POLICY_DATE,
+  SITE_DESCRIPTION,
+  SITE_DISCLAIMER,
+  SITE_NAME,
+} from '@/lib/site';
 
 export const metadata: Metadata = {
   title: '사이트 소개',
-  description:
-    '생활문서 안내서는 일상에서 자주 필요한 행정 서류 발급, 세금 납부, 정부 지원금 신청 방법을 쉽게 정리하는 정보 사이트입니다.',
+  description: SITE_DESCRIPTION,
   alternates: { canonical: '/about' },
 };
 
@@ -17,16 +22,19 @@ export default function AboutPage() {
         </div>
 
         <h1 className="text-primary text-[24px] font-bold">사이트 소개</h1>
-        <p className="text-muted text-[12px]">마지막 업데이트: 2025년 6월 1일</p>
+        <p className="text-muted text-[12px]">마지막 업데이트: {POLICY_DATE}</p>
 
         {/* 섹션 1 */}
         <section className="flex flex-col gap-3">
           <h2 className="text-primary text-[17px] font-semibold">이 사이트가 하는 일</h2>
           <p className="text-secondary text-[14px] leading-[1.8]">
-            &apos;생활문서 안내서&apos;는 일상에서 자주 필요하지만 절차가 복잡하게 느껴지는 각종 행정 서류 발급, 세금 납부, 정부 지원금 신청 방법을 쉽게 정리하는 정보 사이트입니다.
+            {SITE_DESCRIPTION}
           </p>
           <p className="text-secondary text-[14px] leading-[1.8]">
-            공공기관 홈페이지에 흩어져 있는 정보를 한곳에 모아 단계별로 안내하여, 누구나 어렵지 않게 필요한 업무를 처리할 수 있도록 돕는 것이 이 사이트의 목적입니다.
+            공공기관 홈페이지에 흩어져 있는 정보를 한곳에 모아 단계별로 안내하여, 누구나 어렵지 않게 필요한 업무를 처리할 수 있도록 돕는 것이 {SITE_NAME}의 목적입니다.
+          </p>
+          <p className="text-muted text-[13px] leading-[1.7] bg-surface border border-site-border rounded-lg px-4 py-3">
+            {SITE_DISCLAIMER}
           </p>
         </section>
 
@@ -80,7 +88,7 @@ export default function AboutPage() {
         <section className="flex flex-col gap-3">
           <h2 className="text-primary text-[17px] font-semibold">정보의 정확성에 대하여</h2>
           <p className="text-secondary text-[14px] leading-[1.8]">
-            정부 정책과 행정 절차는 수시로 변경됩니다. 이 사이트의 모든 정보는 작성 시점을 기준으로 하며, 실제 상황과 차이가 있을 수 있습니다.
+            정부 정책과 행정 절차는 수시로 변경됩니다. {SITE_NAME}의 모든 정보는 작성 시점을 기준으로 하며, 실제 상황과 차이가 있을 수 있습니다.
           </p>
           <p className="text-secondary text-[14px] leading-[1.8]">
             중요한 사안에 대해서는 반드시 관련 기관의 공식 사이트 또는 담당 부서를 통해 최신 정보를 직접 확인하시기 바랍니다. 이 사이트에서 제공하는 정보를 활용한 결과에 대해서는 책임을 지지 않습니다.
@@ -93,7 +101,14 @@ export default function AboutPage() {
         <section className="flex flex-col gap-3">
           <h2 className="text-primary text-[17px] font-semibold">광고 운영에 대하여</h2>
           <p className="text-secondary text-[14px] leading-[1.8]">
-            이 사이트는 Google AdSense 등의 광고 네트워크를 통한 광고를 게재할 수 있습니다. 광고 수익은 사이트 운영 및 콘텐츠 유지·개선에 사용됩니다. 광고 내용은 이 사이트의 편집 방향에 영향을 주지 않습니다.
+            {SITE_NAME}은 Google AdSense 등의 광고 네트워크를 통한 광고를 게재할 수 있습니다. 광고 수익은 사이트 운영 및 콘텐츠 유지·개선에 사용됩니다. 광고 내용은 이 사이트의 편집 방향에 영향을 주지 않습니다.
+          </p>
+          <p className="text-secondary text-[14px] leading-[1.8]">
+            광고·쿠키 이용에 관한 자세한 내용은{' '}
+            <a href="/privacy" className="text-accent hover:underline">
+              개인정보처리방침
+            </a>
+            을 참고해 주세요.
           </p>
         </section>
       </div>

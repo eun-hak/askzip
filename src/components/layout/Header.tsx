@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import { SITE_NAME } from '@/lib/site';
 
 const navLinks = [
   { href: '/category/civil-documents', label: '발급안내' },
@@ -21,7 +22,7 @@ export default function Header() {
     <header className="bg-site-white border-b border-site-border sticky top-0 z-50">
       <div className="max-w-[1440px] mx-auto px-6 md:px-[120px] h-[56px] flex items-center justify-between">
         <Link href="/" className="text-primary font-bold text-[18px] shrink-0">
-          생활문서 안내서
+          {SITE_NAME}
         </Link>
 
         {/* 데스크톱 nav */}

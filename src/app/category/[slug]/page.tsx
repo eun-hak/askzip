@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { categories, getCategoryBySlug } from '@/data/categories';
+import { SITE_NAME } from '@/lib/site';
 import { getArticlesByCategory } from '@/data/articles';
 import ArticleListItem from '@/components/cards/ArticleListItem';
 import Breadcrumb from '@/components/ui/Breadcrumb';
@@ -34,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: category.description,
     alternates: { canonical: `/category/${slug}` },
     openGraph: {
-      title: `${category.name} 발급 안내 | 생활문서 안내서`,
+      title: `${category.name} 발급 안내 | ${SITE_NAME}`,
       description: category.description,
     },
   };

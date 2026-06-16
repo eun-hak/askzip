@@ -3,6 +3,7 @@ import { searchArticles } from '@/data/articles';
 import ArticleListItem from '@/components/cards/ArticleListItem';
 import SearchBar from '@/components/ui/SearchBar';
 import { Search } from 'lucide-react';
+import { SITE_NAME } from '@/lib/site';
 
 interface Props {
   searchParams: Promise<{ q?: string }>;
@@ -12,7 +13,7 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
   const { q } = await searchParams;
   return {
     title: q ? `"${q}" 검색 결과` : '검색',
-    description: q ? `"${q}"에 대한 생활문서 안내서 검색 결과입니다.` : '생활문서 안내서 검색',
+    description: q ? `"${q}"에 대한 ${SITE_NAME} 검색 결과입니다.` : `${SITE_NAME} 검색`,
     robots: { index: false, follow: true },
   };
 }

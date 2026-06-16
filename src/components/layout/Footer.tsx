@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { SITE_EMAIL, SITE_NAME, SITE_SUBTITLE, SITE_DISCLAIMER } from '@/lib/site';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -9,15 +10,15 @@ export default function Footer() {
         {/* 상단 */}
         <div className="flex flex-col md:flex-row md:justify-between gap-6 mb-6">
           <div className="flex flex-col gap-2">
-            <span className="text-primary text-[14px] font-semibold">생활문서 안내서</span>
+            <span className="text-primary text-[14px] font-semibold">{SITE_NAME}</span>
             <p className="text-secondary text-[12px] leading-relaxed max-w-[320px]">
-              생활 행정 정보를 쉽게 정리하는 개인 운영 정보 사이트
+              {SITE_SUBTITLE}
             </p>
             <a
-              href="mailto:contact@livingdocs.kr"
+              href={`mailto:${SITE_EMAIL}`}
               className="text-muted text-[12px] hover:text-primary transition-colors w-fit"
             >
-              운영자 문의: contact@livingdocs.kr
+              운영자 문의: {SITE_EMAIL}
             </a>
           </div>
           <div className="flex items-center gap-8">
@@ -39,10 +40,10 @@ export default function Footer() {
         {/* 하단 */}
         <div className="flex flex-col md:flex-row md:justify-between gap-2">
           <p className="text-muted text-[12px]">
-            © {currentYear} 생활문서 안내서. All rights reserved.
+            © {currentYear} {SITE_NAME}. All rights reserved.
           </p>
           <p className="text-muted text-[12px] leading-relaxed max-w-[620px]">
-            이 사이트의 정보는 공공기관 공식 자료를 바탕으로 작성된 참고용 안내입니다. 정확한 정보는 관련 기관 공식 사이트를 반드시 확인하시기 바랍니다.
+            {SITE_DISCLAIMER} 정확한 정보는 관련 기관 공식 사이트를 반드시 확인하시기 바랍니다.
           </p>
         </div>
       </div>
