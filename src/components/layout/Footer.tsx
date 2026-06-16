@@ -13,6 +13,12 @@ export default function Footer() {
             <p className="text-secondary text-[12px] leading-relaxed max-w-[320px]">
               생활 행정 정보를 쉽게 정리하는 개인 운영 정보 사이트
             </p>
+            <a
+              href="mailto:contact@livingdocs.kr"
+              className="text-muted text-[12px] hover:text-primary transition-colors w-fit"
+            >
+              운영자 문의: contact@livingdocs.kr
+            </a>
           </div>
           <div className="flex items-center gap-8">
             <Link href="/privacy" className="text-secondary text-[13px] hover:text-primary transition-colors">

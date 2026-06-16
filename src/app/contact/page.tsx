@@ -19,6 +19,20 @@ export default function ContactPage() {
 
         <h1 className="text-primary text-[24px] font-bold">문의 및 운영 안내</h1>
 
+        {/* 운영 안내 박스 */}
+        <div className="bg-info-bg border border-info-border rounded-lg p-4 flex flex-col gap-1.5">
+          <p className="text-info-text text-[13px] font-semibold">운영자 정보</p>
+          <ul className="flex flex-col gap-1 pl-1">
+            <li className="text-info-text text-[13px]">· 사이트명: 생활문서 안내서</li>
+            <li className="text-info-text text-[13px]">
+              · 운영 이메일:{' '}
+              <a href="mailto:contact@livingdocs.kr" className="underline">
+                contact@livingdocs.kr
+              </a>
+            </li>
+          </ul>
+        </div>
+
         {/* 섹션 1 */}
         <section className="flex flex-col gap-3">
           <h2 className="text-primary text-[17px] font-semibold">사이트 운영 목적</h2>

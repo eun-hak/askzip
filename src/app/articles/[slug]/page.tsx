@@ -11,6 +11,8 @@ import WarningBox from '@/components/article/WarningBox';
 import ArticleTable from '@/components/article/ArticleTable';
 import ArticleCard from '@/components/cards/ArticleCard';
 import { Clock, Calendar } from 'lucide-react';
+import SourcesBox from '@/components/article/SourcesBox';
+import { articleSources } from '@/data/sources';
 
 const categoryNameMap: Record<string, string> = {
   'civil-documents': '민원서류 발급',
@@ -169,8 +171,18 @@ export default async function ArticleDetailPage({ params }: Props) {
               })}
             </div>
 
+            {/* 공식 출처 링크 */}
+            {articleSources[article.slug] && (
+              <div className="mt-10">
+                <SourcesBox
+                  sources={articleSources[article.slug]}
+                  verifiedAt={article.updatedAt}
+                />
+              </div>
+            )}
+
             {/* 면책 조항 */}
-            <div className="mt-10 p-4 bg-surface rounded-lg border border-site-border">
+            <div className="mt-4 p-4 bg-surface rounded-lg border border-site-border">
               <p className="text-muted text-[12px] leading-[1.8]">
                 이 페이지에서 제공하는 정보는 공공기관 공식 자료를 바탕으로 작성된 참고용 안내입니다. 정책·제도·절차는 변경될 수 있으므로, 중요한 사항은 반드시 관련 기관의 공식 사이트 또는 전화 상담을 통해 최신 정보를 확인하시기 바랍니다.
               </p>
