@@ -55,16 +55,21 @@ export const metadata: Metadata = {
   verification: {
     google: 'ezl9RkG9WKs8d0m18RDpU_WoSH54h1y3iFEmTPo8-2M',
   },
+  other: {
+    'google-adsense-account': 'ca-pub-2643737170468374',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ko" className={inter.variable}>
-      <head>
-        {/* Google AdSense - 승인 후 아래 주석을 해제하고 실제 코드를 삽입하세요 */}
-        {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossOrigin="anonymous" /> */}
-      </head>
       <body className="min-h-screen flex flex-col bg-page">
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2643737170468374"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-8MSZNSW0P7"
           strategy="afterInteractive"
