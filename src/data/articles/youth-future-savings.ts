@@ -7,8 +7,8 @@ export const youthFutureSavings: Article = {
     '청년도약계좌의 후속 상품인 청년미래적금이 2026년 6월 출시되었습니다. 가입 조건, 정부 기여금, 만기 수령액, 청년도약계좌와의 차이를 정리했습니다.',
   category: 'living-support',
   tags: ['청년미래적금', '청년도약계좌', '자산형성'],
-  publishedAt: '2026-06-16',
-  updatedAt: '2026-06-16',
+  publishedAt: '2026-02-13',
+  updatedAt: '2026-04-04',
   readingTime: 5,
   toc: [
     { id: 'what', title: '청년미래적금이란?' },

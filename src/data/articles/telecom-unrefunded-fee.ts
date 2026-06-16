@@ -7,8 +7,8 @@ export const telecomUnrefundedFee: Article = {
       '모르고 놓친 통신비 미환급금을 과학기술정보통신부 통신분쟁조정위원회 또는 통신사 앱에서 조회하고 환급받는 방법을 안내합니다.',
     category: 'inquiry-service',
     tags: ['통신비', '미환급금', '환급신청'],
-    publishedAt: '2025-04-05',
-    updatedAt: '2025-04-10',
+    publishedAt: '2026-03-17',
+    updatedAt: '2026-06-14',
     readingTime: 4,
     toc: [
       { id: 'what', title: '통신비 미환급금이란?' },

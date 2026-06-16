@@ -7,8 +7,8 @@ export const trafficFineCheck: Article = {
     '미납 교통 범칙금·과태료를 경찰청 교통민원24(이파인)에서 조회하고 납부하는 방법을 안내합니다. 범칙금과 과태료의 차이도 함께 정리했습니다.',
   category: 'inquiry-service',
   tags: ['교통과태료', '범칙금', '이파인'],
-  publishedAt: '2026-06-16',
-  updatedAt: '2026-06-16',
+  publishedAt: '2026-02-26',
+  updatedAt: '2026-03-11',
   readingTime: 4,
   toc: [
     { id: 'diff', title: '범칙금과 과태료의 차이' },

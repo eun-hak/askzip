@@ -7,8 +7,8 @@ export const familyRelationCertificate: Article = {
       '대법원 전자가족관계등록시스템을 통해 가족관계증명서를 무료로 인터넷 발급받는 방법을 단계별로 안내합니다.',
     category: 'civil-documents',
     tags: ['가족관계증명서', '대법원', '민원서류'],
-    publishedAt: '2025-05-15',
-    updatedAt: '2025-05-20',
+    publishedAt: '2026-05-31',
+    updatedAt: '2026-06-03',
     readingTime: 4,
     toc: [
       { id: 'what', title: '가족관계증명서란?' },

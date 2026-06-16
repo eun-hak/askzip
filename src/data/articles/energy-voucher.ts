@@ -7,8 +7,8 @@ export const energyVoucher: Article = {
     '저소득 취약계층의 냉·난방비를 지원하는 에너지바우처. 2026년부터 계절 구분이 폐지되었습니다. 지원 대상, 세대별 금액, 신청 방법을 정리했습니다.',
   category: 'living-support',
   tags: ['에너지바우처', '냉난방비', '복지급여'],
-  publishedAt: '2026-06-16',
-  updatedAt: '2026-06-16',
+  publishedAt: '2026-05-04',
+  updatedAt: '2026-05-28',
   readingTime: 4,
   toc: [
     { id: 'what', title: '에너지바우처란?' },

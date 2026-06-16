@@ -7,8 +7,8 @@ export const youthRentSupport: Article = {
     '만 19~34세 무주택 청년에게 월 최대 20만원을 지원하는 청년월세지원. 2026년부터 상시 사업으로 전환되어 연중 신청이 가능합니다. 자격, 지원 금액, 신청 방법을 안내합니다.',
   category: 'living-support',
   tags: ['청년지원', '월세지원', '주거급여'],
-  publishedAt: '2025-03-15',
-  updatedAt: '2026-06-16',
+  publishedAt: '2026-05-30',
+  updatedAt: '2026-06-10',
   readingTime: 5,
   toc: [
     { id: 'what', title: '사업 개요 (2026년 변경 사항)' },

@@ -7,8 +7,8 @@ export const basicPension: Article = {
     '만 65세 이상 어르신에게 지급하는 기초연금. 2026년 기준 월 최대 지급액, 선정기준액(소득인정액), 신청 방법을 정리했습니다.',
   category: 'living-support',
   tags: ['기초연금', '노령연금', '복지급여'],
-  publishedAt: '2026-06-16',
-  updatedAt: '2026-06-16',
+  publishedAt: '2026-02-09',
+  updatedAt: '2026-02-27',
   readingTime: 4,
   toc: [
     { id: 'what', title: '기초연금이란?' },

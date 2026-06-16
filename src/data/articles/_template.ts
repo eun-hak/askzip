@@ -11,8 +11,8 @@ export const yourArticleSlug: Article = {
   description: '검색·목록에 표시될 한 줄 설명 (120자 내외)',
   category: 'civil-documents', // civil-documents | tax-payment | living-support | inquiry-service
   tags: ['태그1', '태그2'],
-  publishedAt: '2025-06-16',
-  updatedAt: '2025-06-16',
+  publishedAt: '2026-02-08',
+  updatedAt: '2026-06-07',
   readingTime: 5,
   toc: [
     { id: 'section-1', title: '첫 번째 섹션' },

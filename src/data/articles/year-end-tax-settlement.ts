@@ -7,8 +7,8 @@ export const yearEndTaxSettlement: Article = {
     '홈택스 연말정산 간소화 서비스로 공제 자료를 조회·다운로드하는 방법과 2026년 주요 일정, 간소화 자료 일괄제공 서비스를 정리했습니다.',
   category: 'tax-payment',
   tags: ['연말정산', '홈택스', '소득공제'],
-  publishedAt: '2026-06-16',
-  updatedAt: '2026-06-16',
+  publishedAt: '2026-03-10',
+  updatedAt: '2026-05-23',
   readingTime: 5,
   toc: [
     { id: 'what', title: '연말정산 간소화란?' },

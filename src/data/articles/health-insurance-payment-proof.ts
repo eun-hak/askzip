@@ -7,8 +7,8 @@ export const healthInsurancePaymentProof: Article = {
       '국민건강보험공단 사이트에서 건강보험료 납부확인서를 온라인으로 무료 발급받는 방법을 안내합니다. 청약, 대출, 각종 신청 시 자주 필요한 서류입니다.',
     category: 'civil-documents',
     tags: ['건강보험료', '납부확인서', '민원서류'],
-    publishedAt: '2025-04-20',
-    updatedAt: '2025-05-01',
+    publishedAt: '2026-04-21',
+    updatedAt: '2026-05-16',
     readingTime: 3,
     toc: [
       { id: 'what', title: '납부확인서가 필요한 경우' },

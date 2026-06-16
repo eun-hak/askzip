@@ -7,8 +7,8 @@ export const sealCertificate: Article = {
     '2024년 10월부터 인감증명서를 정부24에서 온라인 발급할 수 있게 되었습니다. 온라인 가능 용도와 방문이 필요한 용도, 본인서명사실확인서 대체 방법까지 정리했습니다.',
   category: 'civil-documents',
   tags: ['인감증명서', '정부24', '민원서류'],
-  publishedAt: '2026-06-16',
-  updatedAt: '2026-06-16',
+  publishedAt: '2026-02-21',
+  updatedAt: '2026-03-25',
   readingTime: 5,
   toc: [
     { id: 'what', title: '인감증명서란?' },

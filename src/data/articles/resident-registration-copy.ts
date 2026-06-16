@@ -7,8 +7,8 @@ export const residentRegistrationCopy: Article = {
       '정부24를 통해 주민등록등본을 무료로 발급받고 PDF로 저장하는 방법을 단계별로 설명합니다. 공동인증서 없이도 카카오, 네이버 인증서로 발급 가능합니다.',
     category: 'civil-documents',
     tags: ['주민등록등본', '정부24', '민원서류'],
-    publishedAt: '2025-05-28',
-    updatedAt: '2025-06-01',
+    publishedAt: '2026-05-19',
+    updatedAt: '2026-05-31',
     readingTime: 5,
     toc: [
       { id: 'what', title: '주민등록등본이란?' },

@@ -7,8 +7,8 @@ export const incomeAmountCertificate: Article = {
     '대출, 국가장학금, 각종 지원금 신청 시 자주 요구되는 소득금액증명원을 홈택스 또는 정부24에서 무료로 발급받는 방법을 안내합니다.',
   category: 'tax-payment',
   tags: ['소득금액증명원', '홈택스', '소득증빙'],
-  publishedAt: '2026-06-16',
-  updatedAt: '2026-06-16',
+  publishedAt: '2026-04-03',
+  updatedAt: '2026-04-13',
   readingTime: 4,
   toc: [
     { id: 'what', title: '소득금액증명원이란?' },

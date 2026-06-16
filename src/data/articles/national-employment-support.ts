@@ -7,8 +7,8 @@ export const nationalEmploymentSupport: Article = {
     '취업을 준비하는 구직자에게 구직촉진수당과 취업지원서비스를 제공하는 국민취업지원제도. 2026년 인상된 수당, 1·2유형 차이, 신청 방법을 정리했습니다.',
   category: 'living-support',
   tags: ['국민취업지원제도', '구직촉진수당', '고용24'],
-  publishedAt: '2026-06-16',
-  updatedAt: '2026-06-16',
+  publishedAt: '2026-05-24',
+  updatedAt: '2026-05-27',
   readingTime: 5,
   toc: [
     { id: 'what', title: '국민취업지원제도란?' },

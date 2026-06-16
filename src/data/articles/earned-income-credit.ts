@@ -7,8 +7,8 @@ export const earnedIncomeCredit: Article = {
     '일은 하지만 소득이 적은 근로자·사업자를 위한 근로장려금. 2026년 기준 가구별 소득 요건, 지급액, 홈택스 신청 방법을 정리했습니다.',
   category: 'living-support',
   tags: ['근로장려금', '홈택스', '복지급여'],
-  publishedAt: '2025-05-01',
-  updatedAt: '2026-06-16',
+  publishedAt: '2026-05-14',
+  updatedAt: '2026-05-16',
   readingTime: 5,
   toc: [
     { id: 'what', title: '근로장려금이란?' },

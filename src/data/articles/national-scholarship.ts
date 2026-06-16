@@ -7,8 +7,8 @@ export const nationalScholarship: Article = {
     '대학생 등록금 부담을 덜어주는 국가장학금. 2026년 기준 소득구간별 지원 금액, 성적 기준, 한국장학재단 신청 방법을 정리했습니다.',
   category: 'living-support',
   tags: ['국가장학금', '한국장학재단', '등록금'],
-  publishedAt: '2026-06-16',
-  updatedAt: '2026-06-16',
+  publishedAt: '2026-06-10',
+  updatedAt: '2026-06-13',
   readingTime: 5,
   toc: [
     { id: 'what', title: '국가장학금이란?' },

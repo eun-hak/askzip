@@ -7,8 +7,8 @@ export const landRegister: Article = {
     '정부24에서 토지대장(토지·임야대장)을 무료로 발급하는 방법을 안내합니다. 등기부등본·토지이용계획확인서와의 차이도 함께 정리했습니다.',
   category: 'civil-documents',
   tags: ['토지대장', '정부24', '부동산'],
-  publishedAt: '2026-06-16',
-  updatedAt: '2026-06-16',
+  publishedAt: '2026-04-24',
+  updatedAt: '2026-06-13',
   readingTime: 4,
   toc: [
     { id: 'what', title: '토지대장이란?' },

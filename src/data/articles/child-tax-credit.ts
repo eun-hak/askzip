@@ -7,8 +7,8 @@ export const childTaxCredit: Article = {
     '자녀를 부양하는 가구를 위한 자녀장려금. 2026년 기준 소득·재산 요건, 자녀 1인당 지급액, 홈택스 신청 방법을 정리했습니다.',
   category: 'living-support',
   tags: ['자녀장려금', '홈택스', '복지급여'],
-  publishedAt: '2025-05-05',
-  updatedAt: '2026-06-16',
+  publishedAt: '2026-03-27',
+  updatedAt: '2026-04-01',
   readingTime: 5,
   toc: [
     { id: 'what', title: '자녀장려금이란?' },

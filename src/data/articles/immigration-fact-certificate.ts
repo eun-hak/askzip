@@ -7,8 +7,8 @@ export const immigrationFactCertificate: Article = {
     '본인의 출국·입국 기록을 증명하는 출입국에 관한 사실증명을 정부24 또는 하이코리아에서 무료로 발급하는 방법을 안내합니다.',
   category: 'civil-documents',
   tags: ['출입국사실증명', '정부24', '하이코리아'],
-  publishedAt: '2026-06-16',
-  updatedAt: '2026-06-16',
+  publishedAt: '2026-06-10',
+  updatedAt: '2026-06-11',
   readingTime: 4,
   toc: [
     { id: 'what', title: '출입국 사실증명이란?' },

@@ -7,8 +7,8 @@ export const buildingRegister: Article = {
     '정부24에서 건축물대장(일반건축물·집합건축물, 총괄표제부·전유부 등)을 무료로 발급하는 방법을 안내합니다. 등기부등본과의 차이와 종류별 용도도 정리했습니다.',
   category: 'civil-documents',
   tags: ['건축물대장', '정부24', '부동산'],
-  publishedAt: '2026-06-16',
-  updatedAt: '2026-06-16',
+  publishedAt: '2026-06-04',
+  updatedAt: '2026-06-09',
   readingTime: 4,
   toc: [
     { id: 'what', title: '건축물대장이란?' },

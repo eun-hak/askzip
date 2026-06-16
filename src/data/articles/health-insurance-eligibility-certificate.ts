@@ -7,8 +7,8 @@ export const healthInsuranceEligibilityCertificate: Article = {
       '국민건강보험 사이트 또는 The건강보험 앱을 통해 건강보험 자격득실확인서를 무료로 발급받는 방법을 단계별로 안내합니다.',
     category: 'civil-documents',
     tags: ['건강보험', '자격득실확인서', '민원서류'],
-    publishedAt: '2025-06-10',
-    updatedAt: '2025-06-10',
+    publishedAt: '2026-03-31',
+    updatedAt: '2026-06-02',
     readingTime: 4,
     toc: [
       { id: 'what', title: '자격득실확인서란?' },

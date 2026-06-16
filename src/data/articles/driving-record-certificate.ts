@@ -7,8 +7,8 @@ export const drivingRecordCertificate: Article = {
     '운전 경력과 사고·위반 이력을 증명하는 운전경력증명서. 정부24와 경찰청 교통민원24(이파인)에서 무료로 발급하는 방법과 영문 발급, 활용처를 안내합니다.',
   category: 'civil-documents',
   tags: ['운전경력증명서', '이파인', '민원서류'],
-  publishedAt: '2026-06-16',
-  updatedAt: '2026-06-16',
+  publishedAt: '2026-04-20',
+  updatedAt: '2026-06-13',
   readingTime: 4,
   toc: [
     { id: 'what', title: '운전경력증명서란?' },

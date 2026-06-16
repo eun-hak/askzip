@@ -7,8 +7,8 @@ export const residentRegistrationAbstract: Article = {
     '정부24에서 주민등록초본을 무료로 발급받는 방법을 안내합니다. 등본과의 차이, 주소 변동 이력·병역 사항 등 발급 옵션 선택 기준까지 정리했습니다.',
   category: 'civil-documents',
   tags: ['주민등록초본', '정부24', '민원서류'],
-  publishedAt: '2026-06-16',
-  updatedAt: '2026-06-16',
+  publishedAt: '2026-04-18',
+  updatedAt: '2026-05-27',
   readingTime: 4,
   toc: [
     { id: 'what', title: '주민등록초본이란? (등본과 차이)' },

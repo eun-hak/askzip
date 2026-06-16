@@ -7,8 +7,8 @@ export const carTaxAnnualPrepay: Article = {
       '자동차세를 1월에 연납하면 최대 5% 할인받을 수 있습니다. 위택스(WeTax) 또는 스마트위택스 앱에서 신청하는 방법을 안내합니다.',
     category: 'tax-payment',
     tags: ['자동차세', '연납', '위택스'],
-    publishedAt: '2025-01-03',
-    updatedAt: '2025-01-05',
+    publishedAt: '2026-03-27',
+    updatedAt: '2026-05-09',
     readingTime: 4,
     toc: [
       { id: 'what', title: '자동차세 연납이란?' },

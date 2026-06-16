@@ -7,8 +7,8 @@ export const carInspectionCheck: Article = {
     '한국교통안전공단 사이버검사소에서 자동차 정기검사 대상·유효기간을 조회하고 예약하는 방법을 안내합니다. 과태료와 수검 기간도 정리했습니다.',
   category: 'inquiry-service',
   tags: ['자동차검사', '정기검사', '사이버검사소'],
-  publishedAt: '2026-06-16',
-  updatedAt: '2026-06-16',
+  publishedAt: '2026-03-21',
+  updatedAt: '2026-05-06',
   readingTime: 4,
   toc: [
     { id: 'what', title: '자동차 정기검사란?' },

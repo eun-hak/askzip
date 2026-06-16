@@ -7,8 +7,8 @@ export const cashReceipt: Article = {
     '현금 사용액을 소득공제로 돌려받기 위한 현금영수증. 휴대폰번호 등록, 사용 내역 조회, 미발급 신고 방법을 홈택스 기준으로 안내합니다.',
   category: 'tax-payment',
   tags: ['현금영수증', '홈택스', '소득공제'],
-  publishedAt: '2026-06-16',
-  updatedAt: '2026-06-16',
+  publishedAt: '2026-03-19',
+  updatedAt: '2026-05-09',
   readingTime: 4,
   toc: [
     { id: 'what', title: '현금영수증이란?' },

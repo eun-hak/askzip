@@ -7,8 +7,8 @@ export const unemploymentBenefit: Article = {
     '비자발적 퇴사 시 받을 수 있는 실업급여. 2026년 인상된 상·하한액, 피보험단위기간 등 수급 조건, 고용24 신청 절차를 정리했습니다.',
   category: 'living-support',
   tags: ['실업급여', '구직급여', '고용보험'],
-  publishedAt: '2026-06-16',
-  updatedAt: '2026-06-16',
+  publishedAt: '2026-04-01',
+  updatedAt: '2026-04-28',
   readingTime: 5,
   toc: [
     { id: 'what', title: '실업급여란?' },

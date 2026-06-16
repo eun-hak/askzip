@@ -7,8 +7,8 @@ export const nationalPensionHistory: Article = {
       '국민연금공단 내 연금 알아보기 서비스를 통해 국민연금 납부 이력, 가입 기간, 예상 수령액을 확인하는 방법을 안내합니다.',
     category: 'inquiry-service',
     tags: ['국민연금', '납부내역', '노후준비'],
-    publishedAt: '2025-03-10',
-    updatedAt: '2025-03-20',
+    publishedAt: '2026-04-28',
+    updatedAt: '2026-06-02',
     readingTime: 4,
     toc: [
       { id: 'what', title: '조회 가능한 정보' },

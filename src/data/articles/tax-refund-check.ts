@@ -7,8 +7,8 @@ export const taxRefundCheck: Article = {
     '돌려받지 못한 세금(미환급금)을 정부24 통합조회, 홈택스(국세), 위택스(지방세)에서 조회하고 환급받는 방법을 안내합니다.',
   category: 'tax-payment',
   tags: ['미환급금', '국세환급금', '지방세환급'],
-  publishedAt: '2026-06-16',
-  updatedAt: '2026-06-16',
+  publishedAt: '2026-05-21',
+  updatedAt: '2026-05-31',
   readingTime: 4,
   toc: [
     { id: 'what', title: '세금 미환급금이란?' },

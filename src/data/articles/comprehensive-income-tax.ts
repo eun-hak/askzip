@@ -7,8 +7,8 @@ export const comprehensiveIncomeTax: Article = {
       '매년 5월, 홈택스에서 종합소득세를 전자 신고하는 방법을 안내합니다. 근로소득자, 프리랜서, 사업자 모두에게 해당하는 신고 절차를 정리했습니다.',
     category: 'tax-payment',
     tags: ['종합소득세', '홈택스', '세금신고'],
-    publishedAt: '2025-04-28',
-    updatedAt: '2025-05-10',
+    publishedAt: '2026-04-04',
+    updatedAt: '2026-05-06',
     readingTime: 6,
     toc: [
       { id: 'who', title: '신고 대상자' },
