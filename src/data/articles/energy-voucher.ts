@@ -8,7 +8,7 @@ export const energyVoucher: Article = {
   category: 'living-support',
   tags: ['에너지바우처', '냉난방비', '복지급여'],
   publishedAt: '2026-05-04',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-05-28',
   readingTime: 4,
   toc: [
     { id: 'what', title: '에너지바우처란?' },

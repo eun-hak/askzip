@@ -8,7 +8,7 @@ export const nationalPensionHistory: Article = {
   category: 'inquiry-service',
   tags: ['국민연금', '납부내역', '노후준비'],
   publishedAt: '2026-04-28',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-06-01',
   readingTime: 4,
   toc: [
     { id: 'what', title: '조회 가능한 정보' },

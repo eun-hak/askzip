@@ -8,7 +8,7 @@ export const residentRegistrationCopy: Article = {
   category: 'civil-documents',
   tags: ['주민등록등본', '정부24', '민원서류'],
   publishedAt: '2026-05-19',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-06-14',
   readingTime: 5,
   toc: [
     { id: 'what', title: '주민등록등본이란?' },

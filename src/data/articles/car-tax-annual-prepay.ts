@@ -8,7 +8,7 @@ export const carTaxAnnualPrepay: Article = {
   category: 'tax-payment',
   tags: ['자동차세', '연납', '위택스'],
   publishedAt: '2026-03-27',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-06-07',
   readingTime: 4,
   toc: [
     { id: 'what', title: '자동차세 연납이란?' },

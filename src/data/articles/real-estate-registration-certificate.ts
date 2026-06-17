@@ -8,7 +8,7 @@ export const realEstateRegistrationCertificate: Article = {
   category: 'civil-documents',
   tags: ['등기부등본', '인터넷등기소', '부동산'],
   publishedAt: '2026-02-28',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-06-02',
   readingTime: 5,
   toc: [
     { id: 'what', title: '등기부등본이란?' },

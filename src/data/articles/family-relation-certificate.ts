@@ -8,7 +8,7 @@ export const familyRelationCertificate: Article = {
   category: 'civil-documents',
   tags: ['가족관계증명서', '대법원', '민원서류'],
   publishedAt: '2026-05-31',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-06-13',
   readingTime: 4,
   toc: [
     { id: 'what', title: '가족관계증명서란?' },

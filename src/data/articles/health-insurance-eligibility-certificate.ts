@@ -8,7 +8,7 @@ export const healthInsuranceEligibilityCertificate: Article = {
   category: 'civil-documents',
   tags: ['건강보험', '자격득실확인서', '민원서류'],
   publishedAt: '2026-03-31',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-06-07',
   readingTime: 4,
   toc: [
     { id: 'what', title: '자격득실확인서란?' },

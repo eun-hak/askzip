@@ -8,7 +8,7 @@ export const valueAddedTax: Article = {
   category: 'tax-payment',
   tags: ['부가가치세', '부가세', '홈택스'],
   publishedAt: '2026-05-28',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-06-11',
   readingTime: 5,
   toc: [
     { id: 'what', title: '부가가치세란?' },

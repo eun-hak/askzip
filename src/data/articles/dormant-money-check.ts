@@ -8,7 +8,7 @@ export const dormantMoneyCheck: Article = {
   category: 'inquiry-service',
   tags: ['휴면예금', '숨은보험금', '미환급금'],
   publishedAt: '2026-05-13',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-05-27',
   readingTime: 5,
   toc: [
     { id: 'what', title: '휴면예금·숨은보험금이란?' },

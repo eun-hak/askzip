@@ -8,7 +8,7 @@ export const telecomUnrefundedFee: Article = {
   category: 'inquiry-service',
   tags: ['통신비', '미환급금', '환급신청'],
   publishedAt: '2026-03-17',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-06-10',
   readingTime: 4,
   toc: [
     { id: 'what', title: '통신비 미환급금이란?' },

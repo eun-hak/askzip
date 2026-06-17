@@ -8,7 +8,7 @@ export const fourMajorInsuranceHistory: Article = {
   category: 'inquiry-service',
   tags: ['4대보험', '가입내역', '국민연금'],
   publishedAt: '2026-04-10',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-06-07',
   readingTime: 4,
   toc: [
     { id: 'what', title: '4대보험 가입내역 조회가 필요한 경우' },

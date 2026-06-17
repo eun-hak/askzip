@@ -8,7 +8,7 @@ export const comprehensiveIncomeTax: Article = {
   category: 'tax-payment',
   tags: ['종합소득세', '홈택스', '세금신고'],
   publishedAt: '2026-04-04',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-06-07',
   readingTime: 6,
   toc: [
     { id: 'who', title: '신고 대상자' },

@@ -8,7 +8,7 @@ export const childTaxCredit: Article = {
   category: 'living-support',
   tags: ['자녀장려금', '홈택스', '복지급여'],
   publishedAt: '2026-03-27',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-06-01',
   readingTime: 5,
   toc: [
     { id: 'what', title: '자녀장려금이란?' },

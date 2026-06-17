@@ -8,7 +8,7 @@ export const emergencyWelfareSupport: Article = {
   category: 'living-support',
   tags: ['긴급복지지원', '생계지원금', '위기가구'],
   publishedAt: '2026-02-25',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-06-01',
   readingTime: 4,
   toc: [
     { id: 'what', title: '긴급복지지원이란?' },

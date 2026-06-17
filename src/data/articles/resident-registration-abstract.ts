@@ -8,7 +8,7 @@ export const residentRegistrationAbstract: Article = {
   category: 'civil-documents',
   tags: ['주민등록초본', '정부24', '민원서류'],
   publishedAt: '2026-04-18',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-05-20',
   readingTime: 4,
   toc: [
     { id: 'what', title: '주민등록초본이란? (등본과 차이)' },

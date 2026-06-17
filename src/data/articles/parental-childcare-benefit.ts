@@ -8,7 +8,7 @@ export const parentalChildcareBenefit: Article = {
   category: 'living-support',
   tags: ['부모급여', '첫만남이용권', '아동수당'],
   publishedAt: '2026-05-04',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-05-26',
   readingTime: 5,
   toc: [
     { id: 'overview', title: '육아 지원금 3종 한눈에' },

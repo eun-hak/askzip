@@ -8,7 +8,7 @@ export const acquisitionTax: Article = {
   category: 'tax-payment',
   tags: ['취득세', '위택스', '부동산세금'],
   publishedAt: '2026-03-14',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-05-20',
   readingTime: 5,
   toc: [
     { id: 'what', title: '취득세란?' },

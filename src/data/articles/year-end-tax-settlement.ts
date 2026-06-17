@@ -8,7 +8,7 @@ export const yearEndTaxSettlement: Article = {
   category: 'tax-payment',
   tags: ['연말정산', '홈택스', '소득공제'],
   publishedAt: '2026-03-10',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-05-23',
   readingTime: 5,
   toc: [
     { id: 'what', title: '연말정산 간소화란?' },

@@ -8,7 +8,7 @@ export const cashReceipt: Article = {
   category: 'tax-payment',
   tags: ['현금영수증', '홈택스', '소득공제'],
   publishedAt: '2026-03-19',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-06-01',
   readingTime: 4,
   toc: [
     { id: 'what', title: '현금영수증이란?' },

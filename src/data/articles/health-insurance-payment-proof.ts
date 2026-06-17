@@ -8,7 +8,7 @@ export const healthInsurancePaymentProof: Article = {
   category: 'civil-documents',
   tags: ['건강보험료', '납부확인서', '민원서류'],
   publishedAt: '2026-04-21',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-06-14',
   readingTime: 4,
   toc: [
     { id: 'what', title: '납부확인서가 필요한 경우' },

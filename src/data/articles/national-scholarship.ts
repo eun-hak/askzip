@@ -8,7 +8,7 @@ export const nationalScholarship: Article = {
   category: 'living-support',
   tags: ['국가장학금', '한국장학재단', '등록금'],
   publishedAt: '2026-06-10',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-06-02',
   readingTime: 5,
   toc: [
     { id: 'what', title: '국가장학금이란?' },

@@ -8,7 +8,7 @@ export const incomeAmountCertificate: Article = {
   category: 'tax-payment',
   tags: ['소득금액증명원', '홈택스', '소득증빙'],
   publishedAt: '2026-04-03',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-05-31',
   readingTime: 4,
   toc: [
     { id: 'what', title: '소득금액증명원이란?' },

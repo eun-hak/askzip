@@ -8,7 +8,7 @@ export const hometaxPaymentStatement: Article = {
   category: 'tax-payment',
   tags: ['홈택스', '지급명세서', '소득조회'],
   publishedAt: '2026-02-24',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-06-04',
   readingTime: 5,
   toc: [
     { id: 'what', title: '지급명세서란?' },

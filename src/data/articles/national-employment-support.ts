@@ -8,7 +8,7 @@ export const nationalEmploymentSupport: Article = {
   category: 'living-support',
   tags: ['국민취업지원제도', '구직촉진수당', '고용24'],
   publishedAt: '2026-05-24',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-06-15',
   readingTime: 5,
   toc: [
     { id: 'what', title: '국민취업지원제도란?' },

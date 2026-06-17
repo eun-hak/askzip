@@ -8,7 +8,7 @@ export const earnedIncomeCredit: Article = {
   category: 'living-support',
   tags: ['근로장려금', '홈택스', '복지급여'],
   publishedAt: '2026-05-14',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-05-22',
   readingTime: 5,
   toc: [
     { id: 'what', title: '근로장려금이란?' },

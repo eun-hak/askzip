@@ -8,7 +8,7 @@ export const sealCertificate: Article = {
   category: 'civil-documents',
   tags: ['인감증명서', '정부24', '민원서류'],
   publishedAt: '2026-02-21',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-06-08',
   readingTime: 5,
   toc: [
     { id: 'what', title: '인감증명서란?' },

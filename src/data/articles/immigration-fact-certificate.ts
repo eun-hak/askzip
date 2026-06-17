@@ -8,7 +8,7 @@ export const immigrationFactCertificate: Article = {
   category: 'civil-documents',
   tags: ['출입국사실증명', '정부24', '하이코리아'],
   publishedAt: '2026-06-10',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-06-09',
   readingTime: 4,
   toc: [
     { id: 'what', title: '출입국 사실증명이란?' },

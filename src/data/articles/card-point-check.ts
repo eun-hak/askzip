@@ -8,7 +8,7 @@ export const cardPointCheck: Article = {
   category: 'inquiry-service',
   tags: ['카드포인트', '현금화', '통합조회'],
   publishedAt: '2026-05-20',
-  updatedAt: '2026-05-26',
+  updatedAt: '2026-06-10',
   readingTime: 4,
   toc: [
     { id: 'what', title: '카드포인트 통합조회란?' },

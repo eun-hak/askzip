@@ -8,7 +8,7 @@ export const carInspectionCheck: Article = {
   category: 'inquiry-service',
   tags: ['자동차검사', '정기검사', '사이버검사소'],
   publishedAt: '2026-03-21',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-05-21',
   readingTime: 4,
   toc: [
     { id: 'what', title: '자동차 정기검사란?' },

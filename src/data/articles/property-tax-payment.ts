@@ -8,7 +8,7 @@ export const propertyTaxPayment: Article = {
   category: 'tax-payment',
   tags: ['재산세', '위택스', '세금납부'],
   publishedAt: '2026-05-29',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-05-26',
   readingTime: 4,
   toc: [
     { id: 'what', title: '재산세란?' },

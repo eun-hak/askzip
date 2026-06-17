@@ -8,7 +8,7 @@ export const taxRefundCheck: Article = {
   category: 'tax-payment',
   tags: ['미환급금', '국세환급금', '지방세환급'],
   publishedAt: '2026-05-21',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-05-25',
   readingTime: 4,
   toc: [
     { id: 'what', title: '세금 미환급금이란?' },

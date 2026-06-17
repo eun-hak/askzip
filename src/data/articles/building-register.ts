@@ -8,7 +8,7 @@ export const buildingRegister: Article = {
   category: 'civil-documents',
   tags: ['건축물대장', '정부24', '부동산'],
   publishedAt: '2026-06-04',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-06-02',
   readingTime: 4,
   toc: [
     { id: 'what', title: '건축물대장이란?' },

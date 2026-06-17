@@ -8,7 +8,7 @@ export const drivingRecordCertificate: Article = {
   category: 'civil-documents',
   tags: ['운전경력증명서', '이파인', '민원서류'],
   publishedAt: '2026-04-20',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-06-10',
   readingTime: 4,
   toc: [
     { id: 'what', title: '운전경력증명서란?' },

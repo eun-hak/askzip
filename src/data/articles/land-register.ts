@@ -8,7 +8,7 @@ export const landRegister: Article = {
   category: 'civil-documents',
   tags: ['토지대장', '정부24', '부동산'],
   publishedAt: '2026-04-24',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-06-11',
   readingTime: 4,
   toc: [
     { id: 'what', title: '토지대장이란?' },

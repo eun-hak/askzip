@@ -8,7 +8,7 @@ export const localTaxCertificate: Article = {
   category: 'tax-payment',
   tags: ['지방세', '과세증명서', '위택스'],
   publishedAt: '2026-06-06',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-06-07',
   readingTime: 4,
   toc: [
     { id: 'what', title: '세목별 과세증명서란?' },

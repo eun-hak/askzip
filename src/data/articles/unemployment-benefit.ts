@@ -8,7 +8,7 @@ export const unemploymentBenefit: Article = {
   category: 'living-support',
   tags: ['실업급여', '구직급여', '고용보험'],
   publishedAt: '2026-04-01',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-05-29',
   readingTime: 5,
   toc: [
     { id: 'what', title: '실업급여란?' },

@@ -8,7 +8,7 @@ export const trafficFineCheck: Article = {
   category: 'inquiry-service',
   tags: ['교통과태료', '범칙금', '이파인'],
   publishedAt: '2026-02-26',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-06-16',
   readingTime: 4,
   toc: [
     { id: 'diff', title: '범칙금과 과태료의 차이' },

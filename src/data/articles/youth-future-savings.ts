@@ -8,7 +8,7 @@ export const youthFutureSavings: Article = {
   category: 'living-support',
   tags: ['청년미래적금', '청년도약계좌', '자산형성'],
   publishedAt: '2026-02-13',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-06-11',
   readingTime: 5,
   toc: [
     { id: 'what', title: '청년미래적금이란?' },

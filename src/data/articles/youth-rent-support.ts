@@ -8,7 +8,7 @@ export const youthRentSupport: Article = {
   category: 'living-support',
   tags: ['청년지원', '월세지원', '주거급여'],
   publishedAt: '2026-05-30',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-06-09',
   readingTime: 5,
   toc: [
     { id: 'what', title: '사업 개요 (2026년 변경 사항)' },

@@ -8,7 +8,7 @@ export const basicPension: Article = {
   category: 'living-support',
   tags: ['기초연금', '노령연금', '복지급여'],
   publishedAt: '2026-02-09',
-  updatedAt: '2026-06-17',
+  updatedAt: '2026-05-22',
   readingTime: 4,
   toc: [
     { id: 'what', title: '기초연금이란?' },
