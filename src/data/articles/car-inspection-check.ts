@@ -8,7 +8,7 @@ export const carInspectionCheck: Article = {
   category: 'inquiry-service',
   tags: ['자동차검사', '정기검사', '사이버검사소'],
   publishedAt: '2026-03-21',
-  updatedAt: '2026-05-06',
+  updatedAt: '2026-06-17',
   readingTime: 4,
   toc: [
     { id: 'what', title: '자동차 정기검사란?' },
@@ -86,7 +86,7 @@ export const carInspectionCheck: Article = {
     },
     {
       type: 'warning',
-      text: '이 사이트에서 제공하는 정보는 참고 목적입니다. 차종별 검사 주기·비용·과태료는 변동될 수 있으므로 한국교통안전공단 사이버검사소(cyberts.kr)에서 확인하세요.',
+      text: '검사 안내 문자를 받지 못해도 검사는 차량 소유자의 의무이므로 과태료가 부과됩니다. 지연 30일 이내 4만원, 이후 3일마다 2만원씩 늘어 115일을 넘기면 60만원에 이르고, 장기 미수검 시 운행정지·보험 보상 제한으로 이어질 수 있으니 기간을 꼭 챙기세요.',
     },
     {
       type: 'h2',

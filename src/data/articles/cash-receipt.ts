@@ -8,7 +8,7 @@ export const cashReceipt: Article = {
   category: 'tax-payment',
   tags: ['현금영수증', '홈택스', '소득공제'],
   publishedAt: '2026-03-19',
-  updatedAt: '2026-05-09',
+  updatedAt: '2026-06-17',
   readingTime: 4,
   toc: [
     { id: 'what', title: '현금영수증이란?' },
@@ -86,7 +86,7 @@ export const cashReceipt: Article = {
     },
     {
       type: 'warning',
-      text: '이 사이트에서 제공하는 정보는 참고 목적입니다. 공제율·한도는 변동될 수 있으므로 홈택스(hometax.go.kr) 또는 국세청 상담센터(126)에서 확인하세요.',
+      text: '등록하지 않은 휴대폰번호로 현금영수증을 받으면 국세청 전산에서 본인과 매칭되지 않아 소득공제에서 누락될 수 있습니다. 자주 쓰는 번호는 미리 발급수단으로 등록해 두고, 연말정산 전에 사용내역에 빠진 거래가 없는지 꼭 확인하세요.',
     },
     {
       type: 'h2',
@@ -96,6 +96,11 @@ export const cashReceipt: Article = {
     {
       type: 'faq',
       items: [
+        {
+          question: '현금영수증을 받았는데 홈택스 사용내역에 안 보여요.',
+          answer:
+            '등록되지 않은 번호로 발급받았거나, 가맹점이 국세청에 전송하기 전(보통 며칠 소요)일 수 있습니다. 발급수단에 해당 번호가 등록돼 있는지 확인하고, 며칠 뒤에도 안 잡히면 영수증을 증빙으로 [현금영수증 민원신고]에서 정정·발급 처리를 요청하세요.',
+        },
         {
           question: '휴대폰번호를 등록 안 하고 받은 현금영수증도 공제되나요?',
           answer:

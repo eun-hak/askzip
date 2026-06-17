@@ -8,7 +8,7 @@ export const incomeAmountCertificate: Article = {
   category: 'tax-payment',
   tags: ['소득금액증명원', '홈택스', '소득증빙'],
   publishedAt: '2026-04-03',
-  updatedAt: '2026-04-13',
+  updatedAt: '2026-06-17',
   readingTime: 4,
   toc: [
     { id: 'what', title: '소득금액증명원이란?' },
@@ -99,7 +99,7 @@ export const incomeAmountCertificate: Article = {
     },
     {
       type: 'warning',
-      text: '이 사이트에서 제공하는 정보는 참고 목적입니다. 정확한 발급 절차·조회 가능 시점은 홈택스(hometax.go.kr) 또는 국세청 상담센터(126)에서 확인하세요.',
+      text: '소득금액증명원에 찍히는 것은 실제로 번 돈이 아니라 "국세청에 신고·확정된 소득"입니다. 통장에 들어온 돈이 있어도 신고가 안 됐으면 증명되지 않으니, 대출 등 제출 일정이 있다면 신고가 완료됐는지부터 확인하세요.',
     },
     {
       type: 'h2',
@@ -109,6 +109,11 @@ export const incomeAmountCertificate: Article = {
     {
       type: 'faq',
       items: [
+        {
+          question: '"발급할 수 없는 대상입니다"라고 떠요.',
+          answer:
+            '신고·확정된 소득이 없을 때 나오는 메시지입니다. 5월 종합소득세 신고 전이거나, 휴·폐업으로 무실적 신고를 하지 않았거나, 무직 기간이라면 국세청에 잡힌 소득이 없어 발급되지 않습니다. 신고를 마친 뒤 다시 발급하거나, 소득이 없음을 증명해야 한다면 "사실증명(신고사실 없음)"을 발급받으세요.',
+        },
         {
           question: '소득금액증명원과 지급명세서는 무엇이 다른가요?',
           answer:

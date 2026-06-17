@@ -8,7 +8,7 @@ export const nationalEmploymentSupport: Article = {
   category: 'living-support',
   tags: ['국민취업지원제도', '구직촉진수당', '고용24'],
   publishedAt: '2026-05-24',
-  updatedAt: '2026-05-27',
+  updatedAt: '2026-06-17',
   readingTime: 5,
   toc: [
     { id: 'what', title: '국민취업지원제도란?' },
@@ -20,7 +20,7 @@ export const nationalEmploymentSupport: Article = {
   summary: [
     { label: '소관 기관', value: '고용노동부 / 고용센터' },
     { label: '신청 사이트', value: '고용24 (work24.go.kr)' },
-    { label: '1유형 수당', value: '월 60만원 × 6개월 (2025년 50만→60만 인상)' },
+    { label: '1유형 수당', value: '월 60만원 × 6개월 (2026년 50만→60만 인상)' },
     { label: '부양가족 추가', value: '1인당 월 10만원 (최대 4명, 월 최대 100만원)' },
   ],
   content: [
@@ -53,7 +53,7 @@ export const nationalEmploymentSupport: Article = {
     },
     {
       type: 'notice',
-      text: '2026년부터 1유형 구직촉진수당이 월 50만원에서 60만원으로 인상되었습니다(6개월 최대 360만원). 부양가족이 있으면 1인당 월 10만원(최대 4명)이 추가되어 월 최대 100만원까지 받을 수 있습니다.',
+      text: '2026년 1월 1일 지급분부터 1유형 구직촉진수당이 월 50만원에서 60만원으로 인상되었습니다(6개월 최대 360만원). 부양가족이 있으면 1인당 월 10만원(최대 4명)이 추가되어 월 최대 100만원까지 받을 수 있습니다.',
     },
     {
       type: 'h2',
@@ -106,7 +106,7 @@ export const nationalEmploymentSupport: Article = {
     },
     {
       type: 'warning',
-      text: '이 사이트에서 제공하는 정보는 참고 목적입니다. 수당·소득·재산 기준은 변경될 수 있으므로 고용24(work24.go.kr) 또는 고용노동부 상담센터(1350)에서 확인하세요.',
+      text: '수당을 받는 동안 월 소득이 한도(2026년 기준 약 113만원)를 넘거나 주 30시간 이상 근무하면 그 달 수당이 끊길 수 있습니다. 아르바이트 등 모든 소득은 반드시 사전에 상담사에게 신고하세요. 수당·소득·재산 기준은 변경될 수 있으므로 고용24나 고용노동부 상담센터(1350)에서 확인하세요.',
     },
     {
       type: 'h2',
@@ -116,6 +116,11 @@ export const nationalEmploymentSupport: Article = {
     {
       type: 'faq',
       items: [
+        {
+          question: '1유형 심사에서 떨어지면 아무 지원도 못 받나요?',
+          answer:
+            '소득·재산·취업경험 요건을 못 채워 1유형(현금 수당)에 해당하지 않더라도, 요건이 더 완화된 2유형(취업지원 서비스·활동비)으로 안내받을 수 있습니다. 결정 통지서의 사유를 확인하고 고용센터에 2유형 전환을 문의하세요.',
+        },
         {
           question: '수당 받으면서 아르바이트를 해도 되나요?',
           answer:

@@ -8,7 +8,7 @@ export const dormantMoneyCheck: Article = {
   category: 'inquiry-service',
   tags: ['휴면예금', '숨은보험금', '미환급금'],
   publishedAt: '2026-05-13',
-  updatedAt: '2026-05-19',
+  updatedAt: '2026-06-17',
   readingTime: 5,
   toc: [
     { id: 'what', title: '휴면예금·숨은보험금이란?' },
@@ -93,10 +93,6 @@ export const dormantMoneyCheck: Article = {
     {
       type: 'warning',
       text: '"숨은보험금·휴면예금을 찾아준다"며 개인정보를 요구하는 광고·전화·유사 사이트가 많습니다. 이런 곳에 이름·생년월일·전화번호를 입력하면 영업·판매 목적으로 악용될 수 있습니다. 반드시 위에 안내된 공식 사이트(accountinfo.or.kr, cont.insure.or.kr 등) 주소를 직접 확인하고 접속하세요.',
-    },
-    {
-      type: 'warning',
-      text: '이 사이트에서 제공하는 정보는 참고 목적입니다. 정확한 조회·환급 절차는 각 공식 서비스 또는 서민금융콜센터(1397)에서 확인하세요.',
     },
     {
       type: 'h2',

@@ -8,7 +8,7 @@ export const unemploymentBenefit: Article = {
   category: 'living-support',
   tags: ['실업급여', '구직급여', '고용보험'],
   publishedAt: '2026-04-01',
-  updatedAt: '2026-04-28',
+  updatedAt: '2026-06-17',
   readingTime: 5,
   toc: [
     { id: 'what', title: '실업급여란?' },
@@ -21,7 +21,7 @@ export const unemploymentBenefit: Article = {
     { label: '소관 기관', value: '고용노동부 / 고용센터' },
     { label: '신청 사이트', value: '고용24 (work24.go.kr)' },
     { label: '1일 하한액', value: '66,048원 (2026년)' },
-    { label: '1일 상한액', value: '68,100원 (2026년, 7년 만에 인상)' },
+    { label: '1일 상한액', value: '68,100원 (2026년, 6년 만에 인상)' },
   ],
   content: [
     {
@@ -114,7 +114,7 @@ export const unemploymentBenefit: Article = {
     },
     {
       type: 'warning',
-      text: '이 사이트에서 제공하는 정보는 참고 목적입니다. 수급 자격·금액·반복수급 규정은 변경될 수 있으므로 고용24(work24.go.kr) 또는 고용노동부 고객상담센터(1350)에서 확인하세요.',
+      text: '실업급여는 구직급여 신청 자체가 자동 지급이 아니라, 실업인정일마다 재취업 활동을 증빙해야 그 기간분이 지급됩니다. 활동을 빠뜨리면 해당 회차가 지급되지 않습니다. 또 짧은 기간에 반복 수급하면 지급액이 단계적으로 감액될 수 있습니다.',
     },
     {
       type: 'h2',
@@ -124,6 +124,11 @@ export const unemploymentBenefit: Article = {
     {
       type: 'faq',
       items: [
+        {
+          question: '신청하려는데 회사가 이직확인서를 안 내서 진행이 안 돼요.',
+          answer:
+            '구직급여는 회사가 제출한 이직확인서로 이직 사유·피보험단위기간을 확인해야 처리됩니다. 근로자가 회사에 이직확인서 발급을 요청하면 사업주는 10일 이내에 제출해야 합니다. 회사가 미루면 고용센터(1350)에 사실을 알려 처리를 요청할 수 있습니다.',
+        },
         {
           question: '자진퇴사하면 무조건 못 받나요?',
           answer:

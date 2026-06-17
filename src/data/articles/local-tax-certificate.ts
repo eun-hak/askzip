@@ -8,7 +8,7 @@ export const localTaxCertificate: Article = {
   category: 'tax-payment',
   tags: ['지방세', '과세증명서', '위택스'],
   publishedAt: '2026-06-06',
-  updatedAt: '2026-06-08',
+  updatedAt: '2026-06-17',
   readingTime: 4,
   toc: [
     { id: 'what', title: '세목별 과세증명서란?' },
@@ -34,7 +34,7 @@ export const localTaxCertificate: Article = {
     },
     {
       type: 'notice',
-      text: '"과세증명서"는 세금이 부과된 내역을 보여주는 서류이고, "납세증명서"는 체납 없이 완납했음을 증명하는 서류입니다. 제출처가 요구하는 것이 어느 쪽인지 먼저 확인하세요.',
+      text: '"과세증명서"는 세금이 부과된 내역을 보여주는 서류이고, "납세증명서(완납증명서)"는 체납 없이 완납했음을 증명하는 서류입니다. 메뉴 이름이 비슷해 자주 헷갈리니, 제출처가 요구하는 것이 어느 쪽인지 먼저 확인하세요.',
     },
     {
       type: 'h2',
@@ -67,7 +67,7 @@ export const localTaxCertificate: Article = {
         {
           step: 2,
           title: '발급 → 지방세 세목별 과세증명 선택',
-          description: '[발급] 메뉴에서 [지방세 세목별 과세증명]을 선택합니다.',
+          description: '[발급] 메뉴에서 [지방세 세목별 과세증명]을 선택합니다. "납세증명(완납)"과 다른 메뉴이니 주의하세요.',
         },
         {
           step: 3,
@@ -87,7 +87,7 @@ export const localTaxCertificate: Article = {
     },
     {
       type: 'warning',
-      text: '이 사이트에서 제공하는 정보는 참고 목적입니다. 정확한 발급 절차는 위택스(wetax.go.kr) 또는 관할 지자체에서 확인하세요.',
+      text: '서울에 있는 재산·물건은 위택스가 아니라 서울시 전용 전산망(서울시 ETAX)에서 관리됩니다. 정부24에서도 "서울"과 "서울 외" 메뉴가 갈리므로, 서울과 그 외 지역 과세 내역은 한 번에 통합 발급되지 않고 관할별로 따로 신청해야 합니다.',
     },
     {
       type: 'h2',
@@ -97,6 +97,11 @@ export const localTaxCertificate: Article = {
     {
       type: 'faq',
       items: [
+        {
+          question: '분명히 세금을 냈는데 "조회된 내역이 없습니다"라고 떠요.',
+          answer:
+            '먼저 과세 연도 범위를 더 넓게 설정해 보세요. 그래도 안 나오면 관할이 다른 경우가 많습니다. 서울 소재 재산·물건은 위택스가 아니라 서울시 ETAX(정부24의 "서울" 메뉴)에서 조회되므로 거기서 신청해야 합니다. 과세 사실 자체가 없다면 "미과세 증명서"를 요청하면 됩니다.',
+        },
         {
           question: '과세증명서와 납세증명서 중 무엇을 떼야 하나요?',
           answer:

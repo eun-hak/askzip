@@ -8,7 +8,7 @@ export const residentRegistrationAbstract: Article = {
   category: 'civil-documents',
   tags: ['주민등록초본', '정부24', '민원서류'],
   publishedAt: '2026-04-18',
-  updatedAt: '2026-05-27',
+  updatedAt: '2026-06-17',
   readingTime: 4,
   toc: [
     { id: 'what', title: '주민등록초본이란? (등본과 차이)' },
@@ -41,6 +41,10 @@ export const residentRegistrationAbstract: Article = {
         ['주소 변동 이력', '현재 주소 위주', '과거 주소 변동 이력 포함 가능'],
         ['주요 용도', '세대 구성 증명, 임대차·금융', '본인 거주 이력, 병역, 자동차·법원 제출'],
       ],
+    },
+    {
+      type: 'notice',
+      text: '초본은 과거 주소 변동 이력이 길게 표시될 수 있습니다. 제출처가 "전체 주소 이력"을 원하는지 "최근 주소"만 원하는지 먼저 확인하고, 필요 없는 이력은 빼고 발급하면 개인정보 노출을 줄일 수 있습니다.',
     },
     {
       type: 'h2',
@@ -113,7 +117,7 @@ export const residentRegistrationAbstract: Article = {
     },
     {
       type: 'warning',
-      text: '이 사이트에서 제공하는 정보는 참고 목적입니다. 정확한 절차와 최신 정보는 정부24(gov.kr) 또는 가까운 주민센터에서 확인하세요.',
+      text: '초본에는 과거 주소 이력, 주민등록번호 뒷자리, 병역 사항 등 민감한 정보가 함께 담길 수 있습니다. 제출 목적에 꼭 필요한 항목만 "포함"으로 선택하세요. 한 번 제출한 서류는 회수가 어렵습니다.',
     },
     {
       type: 'h2',
@@ -123,6 +127,11 @@ export const residentRegistrationAbstract: Article = {
     {
       type: 'faq',
       items: [
+        {
+          question: '발급 버튼을 눌러도 인쇄가 안 되거나 백지로 나와요.',
+          answer:
+            '정부24 출력 오류는 대부분 브라우저나 보안 프로그램 문제입니다. 팝업 차단을 해제하고 다른 브라우저(엣지·크롬)로 시도하거나, 정부24 앱에서 수령 방법을 "전자문서지갑"으로 선택하면 종이 출력 없이 제출처에 바로 전송할 수 있습니다. 그래도 안 되면 정부24 고객센터(1588-2188)로 문의하세요.',
+        },
         {
           question: '등본과 초본 중 무엇을 떼야 하나요?',
           answer:

@@ -8,7 +8,7 @@ export const taxRefundCheck: Article = {
   category: 'tax-payment',
   tags: ['미환급금', '국세환급금', '지방세환급'],
   publishedAt: '2026-05-21',
-  updatedAt: '2026-05-31',
+  updatedAt: '2026-06-17',
   readingTime: 4,
   toc: [
     { id: 'what', title: '세금 미환급금이란?' },
@@ -86,7 +86,7 @@ export const taxRefundCheck: Article = {
     },
     {
       type: 'warning',
-      text: '이 사이트에서 제공하는 정보는 참고 목적입니다. "환급금을 찾아준다"며 개인정보를 요구하는 유사 사이트에 주의하고, 반드시 정부24·홈택스·위택스 공식 주소로 접속하세요.',
+      text: '"환급금을 대신 찾아준다"며 이름·주민번호·계좌·카드정보를 요구하는 문자·전화·유사 사이트는 사기일 수 있습니다. 환급은 정부24·홈택스·위택스 공식 사이트에서 본인이 직접 조회·신청하는 것이며 수수료가 없습니다. 반드시 공식 주소를 직접 입력해 접속하세요.',
     },
     {
       type: 'h2',
@@ -96,6 +96,11 @@ export const taxRefundCheck: Article = {
     {
       type: 'faq',
       items: [
+        {
+          question: '미환급금이 조회되는데 입금이 안 돼요.',
+          answer:
+            '대부분 환급 계좌가 등록되지 않았기 때문입니다. 홈택스(국세)·위택스(지방세)에 로그인해 본인 명의 환급 계좌를 등록·신청해야 입금됩니다. 계좌를 등록하지 않으면 우편 통지서로만 안내되며, 계좌 등록 후에도 입금이 없으면 관할 세무서·지방세과에 문의하세요.',
+        },
         {
           question: '미환급금에도 소멸 시효가 있나요?',
           answer:

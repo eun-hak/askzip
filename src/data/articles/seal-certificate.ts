@@ -8,7 +8,7 @@ export const sealCertificate: Article = {
   category: 'civil-documents',
   tags: ['인감증명서', '정부24', '민원서류'],
   publishedAt: '2026-02-21',
-  updatedAt: '2026-03-25',
+  updatedAt: '2026-06-17',
   readingTime: 5,
   toc: [
     { id: 'what', title: '인감증명서란?' },
@@ -101,7 +101,7 @@ export const sealCertificate: Article = {
     },
     {
       type: 'warning',
-      text: '이 사이트에서 제공하는 정보는 참고 목적입니다. 온라인 발급 가능 용도는 변경될 수 있으므로 정부24(gov.kr) 또는 주민센터(주민등록·인감 담당)에서 확인하세요.',
+      text: '온라인 발급은 일반용 일부에만 해당하며, 부동산·자동차 매도용, 법원·금융기관 제출용은 여전히 주민센터 방문이 필요합니다. 발급이 되더라도 제출처가 온라인 발급본을 인정하지 않으면 다시 떼야 하니, 용도가 애매하면 제출처에 먼저 확인하세요.',
     },
     {
       type: 'h2',
@@ -111,6 +111,11 @@ export const sealCertificate: Article = {
     {
       type: 'faq',
       items: [
+        {
+          question: '온라인으로 발급했는데 제출처에서 안 받아줘요.',
+          answer:
+            '온라인 발급은 일반용 일부 용도만 가능하고, 같은 일반용이라도 제출처가 온라인 발급본을 인정하지 않으면 접수가 거부될 수 있습니다. 이 경우 주민센터를 방문해 발급해야 합니다. 발급 전에 제출처(기관·법무사 등)가 요구하는 용도와 온라인본 인정 여부를 먼저 확인하세요.',
+        },
         {
           question: '부동산을 팔 때 쓸 인감증명서도 온라인으로 되나요?',
           answer:

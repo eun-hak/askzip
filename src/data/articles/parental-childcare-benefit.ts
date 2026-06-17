@@ -8,7 +8,7 @@ export const parentalChildcareBenefit: Article = {
   category: 'living-support',
   tags: ['부모급여', '첫만남이용권', '아동수당'],
   publishedAt: '2026-05-04',
-  updatedAt: '2026-05-24',
+  updatedAt: '2026-06-17',
   readingTime: 5,
   toc: [
     { id: 'overview', title: '육아 지원금 3종 한눈에' },
@@ -117,7 +117,7 @@ export const parentalChildcareBenefit: Article = {
     },
     {
       type: 'warning',
-      text: '이 사이트에서 제공하는 정보는 참고 목적입니다. 출생일 포함 일정 기간(통상 60일) 내 신청해야 소급 지급되며, 정확한 금액·기한은 보건복지상담센터(129) 또는 복지로에서 확인하세요.',
+      text: '출생일이 포함된 달부터 소급해 받으려면 출생일 포함 60일 이내에 신청해야 합니다. 이 기한을 넘기면 신청한 달분부터만 지급되어 이전 달치를 놓치게 되니, 출생신고와 함께 한 번에 신청하는 것이 가장 안전합니다.',
     },
     {
       type: 'h2',
@@ -127,6 +127,11 @@ export const parentalChildcareBenefit: Article = {
     {
       type: 'faq',
       items: [
+        {
+          question: '어린이집에 보내는데 부모급여가 통장에 안 들어와요.',
+          answer:
+            '어린이집을 이용하면 부모급여에서 보육료(바우처)가 먼저 차감되고 남은 차액만 현금으로 입금됩니다. 0세는 100만원에서 보육료를 뺀 차액이 들어오고, 1세는 보육료가 지원액과 비슷해 현금 입금이 적거나 없을 수 있습니다. 통장에 안 들어왔다고 자격이 없는 것은 아닙니다.',
+        },
         {
           question: '세 가지를 모두 동시에 받을 수 있나요?',
           answer:

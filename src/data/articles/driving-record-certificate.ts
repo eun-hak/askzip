@@ -8,7 +8,7 @@ export const drivingRecordCertificate: Article = {
   category: 'civil-documents',
   tags: ['운전경력증명서', '이파인', '민원서류'],
   publishedAt: '2026-04-20',
-  updatedAt: '2026-06-13',
+  updatedAt: '2026-06-17',
   readingTime: 4,
   toc: [
     { id: 'what', title: '운전경력증명서란?' },
@@ -31,6 +31,10 @@ export const drivingRecordCertificate: Article = {
     {
       type: 'paragraph',
       text: '운전경력증명서는 운전면허 취득일, 무사고 경력, 교통사고·법규위반 이력 등을 공식적으로 확인할 수 있는 문서입니다. 경찰청·도로교통공단에서 발급하며, 운전 경력을 증명해야 하는 다양한 상황에서 활용됩니다.',
+    },
+    {
+      type: 'notice',
+      text: '운전경력증명서 온라인 발급은 본인만 가능하며 대리 발급은 되지 않습니다. 발급 시 사고·법규위반 기록 포함 여부를 선택할 수 있는데, 무사고 경력을 강조하려면 위반 기록을 빼고, 보험·채용 제출용은 제출처가 요구하는 범위에 맞춰 고르세요.',
     },
     {
       type: 'h2',
@@ -83,7 +87,7 @@ export const drivingRecordCertificate: Article = {
     },
     {
       type: 'warning',
-      text: '이 사이트에서 제공하는 정보는 참고 목적입니다. 정확한 절차와 최신 정보는 정부24(gov.kr) 또는 경찰청 교통민원24(efine.go.kr)에서 확인하세요.',
+      text: '제출처가 사고·위반 기록 포함본을 원하는지, 무사고 경력 위주를 원하는지 먼저 확인하세요. 또 대부분의 기관은 최근 3개월 이내 발급본만 인정하므로, 미리 떼어 두기보다 제출 직전에 발급하는 것이 안전합니다. 영문본이 필요하면 정부24에서 발급 시 영문을 선택하세요.',
     },
     {
       type: 'h2',
@@ -93,6 +97,11 @@ export const drivingRecordCertificate: Article = {
     {
       type: 'faq',
       items: [
+        {
+          question: '정부24·이파인에서 인쇄가 안 되거나 증명서가 백지로 나와요.',
+          answer:
+            '정부24의 출력 오류는 대부분 브라우저 호환성이나 보안 프로그램 문제입니다. 다른 브라우저(엣지·크롬)로 다시 시도하거나, 정부24 앱에서 수령 방법을 "전자문서지갑"으로 선택하면 종이 출력 없이 제출처에 바로 전송할 수 있습니다. 그래도 안 되면 정부24 고객센터(1588-2188)로 문의하세요.',
+        },
         {
           question: '개명했는데 이전 이름으로 조회해야 하나요?',
           answer:

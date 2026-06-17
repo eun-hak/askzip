@@ -124,7 +124,7 @@ export const articleSources: Record<string, ArticleSource[]> = {
 
   // ── 조회서비스 ──────────────────────────────────────────────────
   'telecom-unrefunded-fee': [
-    { label: '통신미환급금 조회 (ktoa.or.kr)', url: 'https://www.ktoa.or.kr' },
+    { label: '통신요금 정보포털 스마트초이스 (smartchoice.or.kr)', url: 'https://www.smartchoice.or.kr' },
   ],
   'four-major-insurance-history': [
     { label: '4대사회보험 정보연계센터 (4insure.or.kr)', url: 'https://www.4insure.or.kr' },

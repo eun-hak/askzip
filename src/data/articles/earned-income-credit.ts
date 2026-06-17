@@ -8,7 +8,7 @@ export const earnedIncomeCredit: Article = {
   category: 'living-support',
   tags: ['근로장려금', '홈택스', '복지급여'],
   publishedAt: '2026-05-14',
-  updatedAt: '2026-05-16',
+  updatedAt: '2026-06-17',
   readingTime: 5,
   toc: [
     { id: 'what', title: '근로장려금이란?' },
@@ -130,7 +130,7 @@ export const earnedIncomeCredit: Article = {
     },
     {
       type: 'warning',
-      text: '이 사이트에서 제공하는 정보는 참고 목적입니다. 지급 기준 및 금액은 매년 변동될 수 있으므로 국세청 홈택스(hometax.go.kr) 또는 상담센터(126)에서 최신 정보를 확인하세요.',
+      text: '소득 요건을 채워도 가구 재산이 1억 7,000만원 이상이면 산정액의 50%만, 2억 4,000만원 이상이면 지급되지 않습니다. 부모와 같은 세대면 부모 재산까지 합산될 수 있고, 5월 정기신청을 놓쳐 기한 후 신청하면 10%가 감액됩니다. 미리 모의계산으로 확인하세요.',
     },
     {
       type: 'h2',
@@ -140,6 +140,11 @@ export const earnedIncomeCredit: Article = {
     {
       type: 'faq',
       items: [
+        {
+          question: '대상이라고 안내받았는데 막상 지급액이 깎이거나 안 나왔어요.',
+          answer:
+            '대부분 재산 때문입니다. 가구 재산이 1억 7,000만원 이상이면 산정액의 50%만, 2억 4,000만원 이상이면 지급되지 않습니다(부채 차감 없음). 또 부모와 같은 세대를 이루고 있으면 부모 재산이 합산될 수 있고, 5월 정기신청을 놓치고 기한 후(6~11월) 신청하면 10%가 감액됩니다.',
+        },
         {
           question: '국세청에서 안내 문자를 받았는데, 별도로 신청해야 하나요?',
           answer:

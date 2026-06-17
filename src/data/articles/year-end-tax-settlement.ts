@@ -8,7 +8,7 @@ export const yearEndTaxSettlement: Article = {
   category: 'tax-payment',
   tags: ['연말정산', '홈택스', '소득공제'],
   publishedAt: '2026-03-10',
-  updatedAt: '2026-05-23',
+  updatedAt: '2026-06-17',
   readingTime: 5,
   toc: [
     { id: 'what', title: '연말정산 간소화란?' },
@@ -99,7 +99,7 @@ export const yearEndTaxSettlement: Article = {
     },
     {
       type: 'warning',
-      text: '이 사이트에서 제공하는 정보는 참고 목적입니다. 일정은 매년 1~2일 차이가 날 수 있으므로 홈택스(hometax.go.kr) 또는 국세청 상담센터(126)에서 확인하세요.',
+      text: '맞벌이 부부가 같은 자녀를, 또는 형제자매가 같은 부모님을 각자 부양가족으로 올리는 "중복 공제"는 나중에 가산세와 함께 추징될 수 있습니다. 부양가족은 한 사람만 공제받도록 미리 정하세요. 일정은 매년 1~2일 차이가 날 수 있으니 홈택스나 국세청 상담센터(126)에서 확인하세요.',
     },
     {
       type: 'h2',
@@ -109,6 +109,11 @@ export const yearEndTaxSettlement: Article = {
     {
       type: 'faq',
       items: [
+        {
+          question: '맞벌이인데 자녀를 부부가 같이 공제하면 어떻게 되나요?',
+          answer:
+            '같은 부양가족은 부부 중 한 사람만 공제받을 수 있습니다. 양쪽이 중복으로 올리면 나중에 공제가 부인되고 가산세까지 추징될 수 있으니, 소득이 높은 쪽으로 몰아주는 것이 보통 유리합니다. 누가 공제받을지 미리 정하세요.',
+        },
         {
           question: '간소화 자료에 모든 공제가 다 나오나요?',
           answer:

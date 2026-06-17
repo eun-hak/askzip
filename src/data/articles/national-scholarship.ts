@@ -8,7 +8,7 @@ export const nationalScholarship: Article = {
   category: 'living-support',
   tags: ['국가장학금', '한국장학재단', '등록금'],
   publishedAt: '2026-06-10',
-  updatedAt: '2026-06-13',
+  updatedAt: '2026-06-17',
   readingTime: 5,
   toc: [
     { id: 'what', title: '국가장학금이란?' },
@@ -113,7 +113,7 @@ export const nationalScholarship: Article = {
     },
     {
       type: 'warning',
-      text: '이 사이트에서 제공하는 정보는 참고 목적입니다. 지원 단가·구간 기준은 변경될 수 있으므로 한국장학재단(kosaf.go.kr, 1599-2000)에서 최신 공고를 확인하세요.',
+      text: '재학생은 1차 신청이 원칙이고, 1차를 놓쳐 2차로 신청하면 재학 중 최대 2회까지만 구제 신청이 인정됩니다. 또 신청만 하고 가구원 정보제공 동의와 서류 제출을 기한 내 끝내지 않으면 소득구간이 산정되지 않아 지원을 못 받습니다. 마감일을 꼭 지키세요.',
     },
     {
       type: 'h2',
@@ -123,6 +123,11 @@ export const nationalScholarship: Article = {
     {
       type: 'faq',
       items: [
+        {
+          question: '1차 신청을 놓쳤어요. 이번 학기는 못 받나요?',
+          answer:
+            '2차 신청 기간에 다시 신청할 수 있지만, 재학생의 2차 신청은 대학 재학 기간 중 최대 2회까지만 구제 신청으로 인정됩니다. 가급적 1차 기간에 신청하세요. 또 신청 후 가구원 정보제공 동의와 서류 제출을 기한 내 완료해야 소득구간이 산정되어 실제 지원으로 이어집니다.',
+        },
         {
           question: '가구원 정보제공 동의를 꼭 해야 하나요?',
           answer:

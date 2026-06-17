@@ -8,7 +8,7 @@ export const buildingRegister: Article = {
   category: 'civil-documents',
   tags: ['건축물대장', '정부24', '부동산'],
   publishedAt: '2026-06-04',
-  updatedAt: '2026-06-09',
+  updatedAt: '2026-06-17',
   readingTime: 4,
   toc: [
     { id: 'what', title: '건축물대장이란?' },
@@ -56,6 +56,10 @@ export const buildingRegister: Article = {
       text: '아파트·오피스텔 등 집합건물은 "전유부(해당 호실)"를 발급해야 본인 호실의 전용면적·용도를 확인할 수 있습니다.',
     },
     {
+      type: 'notice',
+      text: '평면도·배치도 같은 건축물 현황도는 정부24에서 발급되지 않습니다. 현황도가 필요하면 건축행정시스템 세움터(cloud.eais.go.kr)에서 따로 신청해야 합니다.',
+    },
+    {
       type: 'h2',
       id: 'steps',
       text: '정부24 발급 방법',
@@ -87,7 +91,7 @@ export const buildingRegister: Article = {
     },
     {
       type: 'warning',
-      text: '이 사이트에서 제공하는 정보는 참고 목적입니다. 정확한 절차와 최신 정보는 정부24(gov.kr) 또는 관할 시·군·구청에서 확인하세요.',
+      text: '건축물대장과 등기부등본의 면적·용도가 다를 때, 물리적 현황은 건축물대장이 기준이 되는 경우가 많습니다. 전세·매매 전에는 대장 상단의 "위반건축물" 표시 여부를 반드시 함께 확인하세요. 위반건축물로 등재되면 대출·전입 등에서 불이익이 생길 수 있습니다.',
     },
     {
       type: 'h2',
@@ -97,6 +101,11 @@ export const buildingRegister: Article = {
     {
       type: 'faq',
       items: [
+        {
+          question: '주소를 입력했는데 "해당 주소에 대한 정보가 없습니다"라고 나와요.',
+          answer:
+            '대부분 대장 구분이나 종류 선택이 맞지 않아서입니다. 단독·공동명의 건물은 "일반", 아파트·빌라 같은 집합건물은 "집합"을 고르고, 집합건물에서 내 호실은 "전유부", 한 동 전체는 "표제부"를 선택해야 합니다. 그래도 안 나오면 대표지번이 다르거나, 무허가·미작성 건물이라 대장 자체가 없는 경우이니 관할 시·군·구청에 정확한 지번을 확인하세요.',
+        },
         {
           question: '건축물대장과 등기부등본은 무엇이 다른가요?',
           answer:

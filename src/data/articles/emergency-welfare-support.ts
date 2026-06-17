@@ -8,7 +8,7 @@ export const emergencyWelfareSupport: Article = {
   category: 'living-support',
   tags: ['긴급복지지원', '생계지원금', '위기가구'],
   publishedAt: '2026-02-25',
-  updatedAt: '2026-03-11',
+  updatedAt: '2026-06-17',
   readingTime: 4,
   toc: [
     { id: 'what', title: '긴급복지지원이란?' },
@@ -125,7 +125,7 @@ export const emergencyWelfareSupport: Article = {
     },
     {
       type: 'warning',
-      text: '이 사이트에서 제공하는 정보는 참고 목적입니다. 위기 인정 여부·금액·재산 기준은 개별 상황에 따라 다르므로 보건복지상담센터(129) 또는 주민센터에서 확인하세요.',
+      text: '긴급지원은 "선지원 후조사" 원칙이라 먼저 지급되더라도, 사후 소득·재산 조사에서 기준을 초과한 것으로 확인되면 받은 금액을 환수할 수 있습니다. 위기 사유와 소득·재산 기준을 사실대로 알리고, 애매하면 보건복지상담센터(129)나 주민센터에서 먼저 상담하세요.',
     },
     {
       type: 'h2',
@@ -135,6 +135,11 @@ export const emergencyWelfareSupport: Article = {
     {
       type: 'faq',
       items: [
+        {
+          question: '급해서 먼저 받았는데, 나중에 환수될 수도 있나요?',
+          answer:
+            '네. 긴급복지지원은 긴급성이 인정되면 먼저 지급한 뒤 소득·재산을 조사하는 "선지원 후조사" 방식입니다. 사후 조사에서 소득·재산 기준을 초과한 것으로 확인되면 지원이 중단되거나 이미 받은 금액을 돌려줘야 할 수 있으니, 신청 단계에서 위기 사유와 재산을 정확히 알리는 것이 중요합니다.',
+        },
         {
           question: '기초생활수급자가 아니어도 받을 수 있나요?',
           answer:

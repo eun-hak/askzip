@@ -8,7 +8,7 @@ export const youthRentSupport: Article = {
   category: 'living-support',
   tags: ['청년지원', '월세지원', '주거급여'],
   publishedAt: '2026-05-30',
-  updatedAt: '2026-06-10',
+  updatedAt: '2026-06-17',
   readingTime: 5,
   toc: [
     { id: 'what', title: '사업 개요 (2026년 변경 사항)' },
@@ -116,7 +116,7 @@ export const youthRentSupport: Article = {
     },
     {
       type: 'warning',
-      text: '이 사이트에서 제공하는 정보는 참고 목적입니다. 소득·재산 기준선과 보증금·월세 상한은 매년·공고별로 달라질 수 있으므로 복지로(bokjiro.go.kr) 또는 국토교통부 공식 안내에서 반드시 확인하세요.',
+      text: '임대차계약서상 주택 소재지, 주민등록상 주소지, 실제 거주지가 모두 일치해야 지원됩니다. 셋 중 하나라도 다르면 반려될 수 있으니 전입신고 상태를 먼저 확인하세요. 신청일이 속한 달부터 소급 지급되므로 자격을 갖췄다면 빨리 신청하는 것이 유리합니다.',
     },
     {
       type: 'h2',
@@ -126,6 +126,11 @@ export const youthRentSupport: Article = {
     {
       type: 'faq',
       items: [
+        {
+          question: '신청했는데 주소가 안 맞는다고 반려됐어요.',
+          answer:
+            '임대차계약서의 주택 소재지, 주민등록상 주소지, 실제 거주지가 모두 같아야 합니다. 전입신고를 안 했거나 계약서 주소와 등본 주소가 다르면 반려될 수 있습니다. 전입신고를 정리한 뒤 다시 신청하면 됩니다. 상시 사업이라 자격을 갖춘 시점에 다시 접수할 수 있습니다.',
+        },
         {
           question: '예전 한시 지원에서 12개월을 다 받았는데 또 받을 수 있나요?',
           answer:

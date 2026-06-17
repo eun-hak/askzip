@@ -8,7 +8,7 @@ export const realEstateRegistrationCertificate: Article = {
   category: 'civil-documents',
   tags: ['등기부등본', '인터넷등기소', '부동산'],
   publishedAt: '2026-02-28',
-  updatedAt: '2026-04-18',
+  updatedAt: '2026-06-17',
   readingTime: 5,
   toc: [
     { id: 'what', title: '등기부등본이란?' },
@@ -109,7 +109,7 @@ export const realEstateRegistrationCertificate: Article = {
     },
     {
       type: 'warning',
-      text: '이 사이트에서 제공하는 정보는 참고 목적입니다. 정확한 절차·수수료는 대법원 인터넷등기소(iros.go.kr)에서 확인하세요. 민간 부동산 플랫폼은 인터넷등기소 자료를 재판매하며 비용이 더 비싸거나 열람용만 제공하는 경우가 많습니다.',
+      text: '계약·소송·관공서 제출이 목적이면 반드시 "발급(출력)"을 선택해야 하며, "열람"본은 제출 시 거부될 수 있습니다. 또 민간 부동산 플랫폼은 인터넷등기소 자료를 재판매하는 것이라 비용이 더 비싸거나 열람용만 제공하는 경우가 많으니, 공식 인터넷등기소(iros.go.kr)를 직접 이용하세요.',
     },
     {
       type: 'h2',
@@ -119,6 +119,11 @@ export const realEstateRegistrationCertificate: Article = {
     {
       type: 'faq',
       items: [
+        {
+          question: '700원짜리로 뽑아 제출했더니 안 받아준다고 해요.',
+          answer:
+            '700원은 "열람"본으로 개인 확인용이라 법적 효력이 없어 제출 시 거부됩니다. 관공서·금융기관·법원 제출용은 1,000원짜리 "발급(출력)"본을 선택해야 합니다. 화면에서 "열람"과 "발급(출력)"을 헷갈리지 않도록 주의하세요.',
+        },
         {
           question: '주민센터에서 등기부등본을 뗄 수 있나요?',
           answer:

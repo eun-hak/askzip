@@ -8,7 +8,7 @@ export const youthFutureSavings: Article = {
   category: 'living-support',
   tags: ['청년미래적금', '청년도약계좌', '자산형성'],
   publishedAt: '2026-02-13',
-  updatedAt: '2026-04-04',
+  updatedAt: '2026-06-17',
   readingTime: 5,
   toc: [
     { id: 'what', title: '청년미래적금이란?' },
@@ -112,7 +112,7 @@ export const youthFutureSavings: Article = {
     },
     {
       type: 'warning',
-      text: '이 사이트에서 제공하는 정보는 참고 목적입니다. 매칭비율·소득 기준·중도해지 규정은 정책에 따라 변경될 수 있으므로, 가입 전 취급 은행과 서민금융진흥원(1397)에서 최신 조건을 확인하세요.',
+      text: '중도 해지하면 정부 기여금과 비과세 혜택을 받지 못할 수 있으니 3년 만기까지 유지할 수 있는 납입 계획을 세우세요. 출시 초기에는 취급 은행이 일부에 한정될 수 있으므로, 가입 전 본인 거래 은행이 청년미래적금을 취급하는지 확인하세요.',
     },
     {
       type: 'h2',
@@ -122,6 +122,11 @@ export const youthFutureSavings: Article = {
     {
       type: 'faq',
       items: [
+        {
+          question: '가입 신청했는데 심사에서 탈락했어요.',
+          answer:
+            '개인소득(총급여 7,500만원·종합소득 6,300만원) 또는 가구소득(중위 200%, 맞벌이 2인 250%) 기준을 넘으면 가입이 제한됩니다. 직전 과세기간 소득이 아직 확정되지 않은 경우 전전년도 소득으로 심사할 수 있어 결과가 예상과 다를 수 있으니, 서민금융진흥원(1397)에 산정 기준을 확인해 보세요.',
+        },
         {
           question: '기존 청년도약계좌를 청년미래적금으로 갈아탈 수 있나요?',
           answer:
