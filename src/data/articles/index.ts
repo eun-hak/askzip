@@ -94,22 +94,28 @@ export function getArticleBySlug(slug: string): Article | undefined {
   return articles.find((a) => a.slug === slug);
 }
 
+function sortArticlesByUpdatedAt(list: Article[]): Article[] {
+  return [...list].sort(
+    (a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()
+  );
+}
+
 export function getArticlesByCategory(categorySlug: string): Article[] {
-  return articles.filter((a) => a.category === categorySlug);
+  return sortArticlesByUpdatedAt(articles.filter((a) => a.category === categorySlug));
 }
 
 export function getLatestArticles(count: number = 6): Article[] {
-  return [...articles]
-    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
-    .slice(0, count);
+  return sortArticlesByUpdatedAt(articles).slice(0, count);
 }
 
 export function searchArticles(query: string): Article[] {
   const q = query.toLowerCase();
-  return articles.filter(
-    (a) =>
-      a.title.toLowerCase().includes(q) ||
-      a.description.toLowerCase().includes(q) ||
-      a.tags.some((t) => t.toLowerCase().includes(q))
+  return sortArticlesByUpdatedAt(
+    articles.filter(
+      (a) =>
+        a.title.toLowerCase().includes(q) ||
+        a.description.toLowerCase().includes(q) ||
+        a.tags.some((t) => t.toLowerCase().includes(q))
+    )
   );
 }

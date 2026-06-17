@@ -43,7 +43,7 @@ export default function Footer() {
             © {currentYear} {SITE_NAME}. All rights reserved.
           </p>
           <p className="text-muted text-[12px] leading-relaxed max-w-[620px]">
-            {SITE_DISCLAIMER} 정확한 정보는 관련 기관 공식 사이트를 반드시 확인하시기 바랍니다.
+            {SITE_DISCLAIMER}
           </p>
         </div>
       </div>
