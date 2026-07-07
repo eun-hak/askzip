@@ -7,8 +7,8 @@ export const fourMajorInsuranceHistory: Article = {
     '4대사회보험 정보연계센터(4insure.or.kr)에서 국민연금, 건강보험, 고용보험, 산재보험 가입 이력을 한 번에 조회하는 방법을 안내합니다.',
   category: 'inquiry-service',
   tags: ['4대보험', '가입내역', '국민연금'],
-  publishedAt: '2026-04-10',
-  updatedAt: '2026-06-07',
+  publishedAt: '2026-06-16',
+  updatedAt: '2026-06-17',
   readingTime: 4,
   toc: [
     { id: 'what', title: '4대보험 가입내역 조회가 필요한 경우' },

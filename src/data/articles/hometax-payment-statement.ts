@@ -7,8 +7,8 @@ export const hometaxPaymentStatement: Article = {
     '국세청 홈택스에서 근로소득 지급명세서, 사업소득 지급명세서, 기타소득 지급명세서를 조회하고 출력하는 방법을 안내합니다.',
   category: 'tax-payment',
   tags: ['홈택스', '지급명세서', '소득조회'],
-  publishedAt: '2026-02-24',
-  updatedAt: '2026-06-04',
+  publishedAt: '2026-06-16',
+  updatedAt: '2026-06-17',
   readingTime: 5,
   toc: [
     { id: 'what', title: '지급명세서란?' },

@@ -7,8 +7,8 @@ export const dormantMoneyCheck: Article = {
     '은행·보험사·서민금융진흥원에 흩어진 잠자는 돈을 어카운트인포, 휴면예금 찾아줌, 내보험찾아줌에서 조회하고 환급받는 방법을 순서대로 안내합니다.',
   category: 'inquiry-service',
   tags: ['휴면예금', '숨은보험금', '미환급금'],
-  publishedAt: '2026-05-13',
-  updatedAt: '2026-05-27',
+  publishedAt: '2026-06-16',
+  updatedAt: '2026-06-17',
   readingTime: 5,
   toc: [
     { id: 'what', title: '휴면예금·숨은보험금이란?' },

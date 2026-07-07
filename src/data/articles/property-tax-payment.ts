@@ -7,8 +7,8 @@ export const propertyTaxPayment: Article = {
     '매년 7월과 9월에 부과되는 재산세를 위택스, 인터넷뱅킹, ARS, 편의점 등 다양한 방법으로 납부하는 방법을 안내합니다.',
   category: 'tax-payment',
   tags: ['재산세', '위택스', '세금납부'],
-  publishedAt: '2026-05-29',
-  updatedAt: '2026-05-26',
+  publishedAt: '2026-06-16',
+  updatedAt: '2026-06-17',
   readingTime: 4,
   toc: [
     { id: 'what', title: '재산세란?' },

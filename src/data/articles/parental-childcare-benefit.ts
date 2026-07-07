@@ -7,8 +7,8 @@ export const parentalChildcareBenefit: Article = {
     '출산 후 챙겨야 할 핵심 육아 지원금 3종. 2026년 기준 부모급여, 첫만남이용권, 아동수당의 금액과 신청 방법을 한 번에 정리했습니다.',
   category: 'living-support',
   tags: ['부모급여', '첫만남이용권', '아동수당'],
-  publishedAt: '2026-05-04',
-  updatedAt: '2026-05-26',
+  publishedAt: '2026-06-16',
+  updatedAt: '2026-06-17',
   readingTime: 5,
   toc: [
     { id: 'overview', title: '육아 지원금 3종 한눈에' },

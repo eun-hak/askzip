@@ -7,8 +7,8 @@ export const localTaxCertificate: Article = {
     '대출, 입찰, 인허가, 복지 신청 등에 필요한 지방세 세목별 과세증명서를 위택스 또는 정부24에서 무료로 발급받는 방법을 안내합니다.',
   category: 'tax-payment',
   tags: ['지방세', '과세증명서', '위택스'],
-  publishedAt: '2026-06-06',
-  updatedAt: '2026-06-07',
+  publishedAt: '2026-06-16',
+  updatedAt: '2026-06-17',
   readingTime: 4,
   toc: [
     { id: 'what', title: '세목별 과세증명서란?' },

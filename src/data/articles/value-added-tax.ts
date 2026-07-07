@@ -7,8 +7,8 @@ export const valueAddedTax: Article = {
     '개인 일반과세자·간이과세자·법인의 부가가치세 신고 기간과 세율, 홈택스 신고 절차를 정리했습니다. 예정신고와 확정신고의 차이도 함께 안내합니다.',
   category: 'tax-payment',
   tags: ['부가가치세', '부가세', '홈택스'],
-  publishedAt: '2026-05-28',
-  updatedAt: '2026-06-11',
+  publishedAt: '2026-06-16',
+  updatedAt: '2026-06-17',
   readingTime: 5,
   toc: [
     { id: 'what', title: '부가가치세란?' },

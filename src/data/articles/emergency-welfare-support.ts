@@ -7,8 +7,8 @@ export const emergencyWelfareSupport: Article = {
     '실직·폐업·질병 등 갑작스러운 위기 상황에 처한 가구를 신속하게 돕는 긴급복지지원. 2026년 생계지원금, 위기 사유, 소득 기준, 신청 방법을 정리했습니다.',
   category: 'living-support',
   tags: ['긴급복지지원', '생계지원금', '위기가구'],
-  publishedAt: '2026-02-25',
-  updatedAt: '2026-06-01',
+  publishedAt: '2026-06-16',
+  updatedAt: '2026-06-17',
   readingTime: 4,
   toc: [
     { id: 'what', title: '긴급복지지원이란?' },

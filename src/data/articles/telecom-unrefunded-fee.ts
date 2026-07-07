@@ -7,8 +7,8 @@ export const telecomUnrefundedFee: Article = {
     '모르고 놓친 통신비 미환급금을 스마트초이스 통합조회 또는 통신사 앱에서 조회하고 환급받는 방법을 안내합니다. 미환급금 사칭 스미싱 주의사항도 함께 정리했습니다.',
   category: 'inquiry-service',
   tags: ['통신비', '미환급금', '환급신청'],
-  publishedAt: '2026-03-17',
-  updatedAt: '2026-06-10',
+  publishedAt: '2026-06-16',
+  updatedAt: '2026-06-17',
   readingTime: 4,
   toc: [
     { id: 'what', title: '통신비 미환급금이란?' },

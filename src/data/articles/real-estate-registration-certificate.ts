@@ -7,8 +7,8 @@ export const realEstateRegistrationCertificate: Article = {
     '부동산 등기부등본(등기사항전부증명서)을 대법원 인터넷등기소에서 발급·열람하는 방법을 안내합니다. 열람·발급 차이, 수수료, 말소사항 포함 여부까지 정리했습니다.',
   category: 'civil-documents',
   tags: ['등기부등본', '인터넷등기소', '부동산'],
-  publishedAt: '2026-02-28',
-  updatedAt: '2026-06-02',
+  publishedAt: '2026-06-16',
+  updatedAt: '2026-06-17',
   readingTime: 5,
   toc: [
     { id: 'what', title: '등기부등본이란?' },

@@ -7,8 +7,8 @@ export const cardPointCheck: Article = {
     '여러 카드사에 흩어진 카드포인트를 여신금융협회 통합조회 시스템이나 어카운트인포에서 한 번에 조회하고 현금(계좌입금)으로 받는 방법을 안내합니다.',
   category: 'inquiry-service',
   tags: ['카드포인트', '현금화', '통합조회'],
-  publishedAt: '2026-05-20',
-  updatedAt: '2026-06-10',
+  publishedAt: '2026-06-16',
+  updatedAt: '2026-06-17',
   readingTime: 4,
   toc: [
     { id: 'what', title: '카드포인트 통합조회란?' },
