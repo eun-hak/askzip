@@ -11,6 +11,7 @@ const navLinks = [
   { href: '/category/tax-payment', label: '세금·납부' },
   { href: '/category/living-support', label: '지원금' },
   { href: '/category/inquiry-service', label: '조회서비스' },
+  { href: '/tools', label: '계산기' },
   { href: '/about', label: '사이트 소개' },
 ];
 

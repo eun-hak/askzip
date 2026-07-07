@@ -33,6 +33,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.4,
     },
     {
+      url: `${SITE_URL}/terms`,
+      lastModified: policyLastModified,
+      changeFrequency: 'yearly',
+      priority: 0.4,
+    },
+    {
+      url: `${SITE_URL}/disclaimer`,
+      lastModified: policyLastModified,
+      changeFrequency: 'yearly',
+      priority: 0.4,
+    },
+    {
       url: `${SITE_URL}/contact`,
       lastModified: policyLastModified,
       changeFrequency: 'monthly',
@@ -44,6 +56,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.4,
     },
+    ...['', '/car-tax-calculator', '/eitc-calculator', '/insurance-calculator'].map((path) => ({
+      url: `${SITE_URL}/tools${path}`,
+      lastModified: latestContent,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    })),
   ];
 
   const categoryPages: MetadataRoute.Sitemap = categories.map((cat) => {

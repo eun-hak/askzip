@@ -1,9 +1,12 @@
 import type { Metadata } from 'next';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import {
+  AUTHOR_BIO,
+  AUTHOR_NAME,
   POLICY_DATE,
   SITE_DESCRIPTION,
   SITE_DISCLAIMER,
+  SITE_EMAIL,
   SITE_NAME,
 } from '@/lib/site';
 
@@ -62,6 +65,24 @@ export default function AboutPage() {
 
         <div className="w-full h-px bg-border-light" />
 
+        {/* 운영자 소개 */}
+        <section className="flex flex-col gap-3">
+          <h2 className="text-primary text-[17px] font-semibold">운영자 소개</h2>
+          <div className="bg-surface border border-site-border rounded-lg px-5 py-4 flex flex-col gap-2">
+            <p className="text-primary text-[15px] font-semibold">{AUTHOR_NAME}</p>
+            <p className="text-secondary text-[14px] leading-[1.8]">{AUTHOR_BIO}</p>
+            <p className="text-muted text-[13px] leading-[1.7]">
+              모든 안내글은 운영자가 직접 작성·검수하며, 잘못된 정보 제보나 문의는{' '}
+              <a href={`mailto:${SITE_EMAIL}`} className="text-accent hover:underline">
+                {SITE_EMAIL}
+              </a>
+              로 보내 주세요.
+            </p>
+          </div>
+        </section>
+
+        <div className="w-full h-px bg-border-light" />
+
         {/* 섹션 3 */}
         <section className="flex flex-col gap-3">
           <h2 className="text-primary text-[17px] font-semibold">콘텐츠 작성 기준</h2>
@@ -73,7 +94,8 @@ export default function AboutPage() {
               '각 기관의 공식 홈페이지 안내를 기반으로 작성합니다.',
               '실제 발급·신청 절차를 직접 확인한 후 단계별로 정리합니다.',
               '전문 용어는 가능한 쉬운 표현으로 풀어서 설명합니다.',
-              '스크린샷이나 첨부 이미지 없이 텍스트만으로 이해할 수 있도록 상세하게 안내합니다.',
+              '직접 진행하며 확인한 화면 캡처(개인정보 마스킹 처리)를 순차적으로 추가하고 있습니다.',
+              '절차만 나열하지 않고, 실제로 막히기 쉬운 지점과 실패 사례를 함께 담습니다.',
             ].map((item, i) => (
               <li key={i} className="text-secondary text-[14px] leading-[1.7]">
                 · {item}

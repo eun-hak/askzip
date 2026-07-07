@@ -21,12 +21,18 @@ export default function Footer() {
               운영자 문의: {SITE_EMAIL}
             </a>
           </div>
-          <div className="flex items-center gap-8">
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-2">
+            <Link href="/about" className="text-secondary text-[13px] hover:text-primary transition-colors">
+              사이트 소개
+            </Link>
             <Link href="/privacy" className="text-secondary text-[13px] hover:text-primary transition-colors">
               개인정보처리방침
             </Link>
-            <Link href="/about" className="text-secondary text-[13px] hover:text-primary transition-colors">
-              사이트 소개
+            <Link href="/terms" className="text-secondary text-[13px] hover:text-primary transition-colors">
+              이용약관
+            </Link>
+            <Link href="/disclaimer" className="text-secondary text-[13px] hover:text-primary transition-colors">
+              면책조항
             </Link>
             <Link href="/contact" className="text-secondary text-[13px] hover:text-primary transition-colors">
               문의
