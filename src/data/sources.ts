@@ -88,6 +88,16 @@ export const articleSources: Record<string, ArticleSource[]> = {
   'local-tax-certificate': [
     { label: '위택스 지방세 납세증명 발급 (wetax.go.kr)', url: 'https://www.wetax.go.kr' },
   ],
+  'tax-payment-certificate-delay': [
+    { label: '홈택스 납세증명서 발급 (hometax.go.kr)', url: 'https://www.hometax.go.kr' },
+    { label: '위택스 납세증명서 발급 (wetax.go.kr)', url: 'https://www.wetax.go.kr' },
+    { label: '국가법령정보센터 국세징수법 시행령 (law.go.kr)', url: 'https://www.law.go.kr' },
+  ],
+  'income-certificate-not-available': [
+    { label: '정부24 소득금액증명 발급 (gov.kr)', url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000021' },
+    { label: '국세청 종합소득세 신고 안내 (nts.go.kr)', url: 'https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2225&cntntsId=7665' },
+    { label: '정부24 사실증명 발급 (gov.kr)', url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000352' },
+  ],
   'cash-receipt': [
     { label: '국세청 홈택스 현금영수증 조회·발급 (hometax.go.kr)', url: 'https://www.hometax.go.kr' },
   ],

@@ -23,6 +23,8 @@ import { acquisitionTax } from './acquisition-tax';
 import { localTaxCertificate } from './local-tax-certificate';
 import { cashReceipt } from './cash-receipt';
 import { taxRefundCheck } from './tax-refund-check';
+import { taxPaymentCertificateDelay } from './tax-payment-certificate-delay';
+import { incomeCertificateNotAvailable } from './income-certificate-not-available';
 import { youthRentSupport } from './youth-rent-support';
 import { earnedIncomeCredit } from './earned-income-credit';
 import { childTaxCredit } from './child-tax-credit';
@@ -73,6 +75,8 @@ export const articles: Article[] = [
   localTaxCertificate,
   cashReceipt,
   taxRefundCheck,
+  taxPaymentCertificateDelay,
+  incomeCertificateNotAvailable,
   // 생활지원금
   youthRentSupport,
   earnedIncomeCredit,

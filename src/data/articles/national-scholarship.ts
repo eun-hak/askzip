@@ -2,13 +2,13 @@ import type { Article } from '../types';
 
 const article: Article = {
   slug: 'national-scholarship',
-  title: '국가장학금 신청 방법 및 소득구간별 지원금액 (2026년)',
+  title: '국가장학금 신청 조건·기간 및 소득구간별 지원금액 (2026년)',
   description:
     '대학생 등록금 부담을 덜어주는 국가장학금. 2026년 기준 소득구간별 지원 금액과 성적 기준은 물론, I·II유형 구분, 1차·2차 신청 기간을 놓쳤을 때의 선택지, 가구원 동의·서류 제출이 막히는 케이스까지 정리했습니다.',
   category: 'living-support',
   tags: ['국가장학금', '한국장학재단', '등록금'],
   publishedAt: '2026-06-16',
-  updatedAt: '2026-07-14',
+  updatedAt: '2026-07-20',
   readingTime: 7,
   toc: [
     { id: 'what', title: '국가장학금이란? (I유형·II유형)' },

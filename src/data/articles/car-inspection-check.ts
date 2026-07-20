@@ -11,13 +11,13 @@ TODO(경험담): 운영자가 직접 수행 후 채울 부분
 
 export const carInspectionCheck: Article = {
   slug: 'car-inspection-check',
-  title: '자동차 정기검사 대상 조회 및 예약 방법 (사이버검사소)',
+  title: '자동차 검사 대상·기간 조회 및 예약 방법 (사이버검사소)',
   description:
     '자동차 정기검사·종합검사 구분부터 한국교통안전공단 사이버검사소에서 검사 대상·유효기간을 조회하고 예약하는 방법까지 정리했습니다. 수검 기간을 넘겼을 때의 불이익과 대처도 함께 안내합니다.',
   category: 'inquiry-service',
   tags: ['자동차검사', '정기검사', '사이버검사소'],
   publishedAt: '2026-06-16',
-  updatedAt: '2026-07-14',
+  updatedAt: '2026-07-20',
   readingTime: 5,
   toc: [
     { id: 'what', title: '자동차 정기검사란?' },
