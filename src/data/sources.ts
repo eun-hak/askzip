@@ -45,6 +45,20 @@ export const articleSources: Record<string, ArticleSource[]> = {
     { label: '정부24 출입국사실증명 발급 (gov.kr)', url: 'https://www.gov.kr' },
     { label: '출입국·외국인정책본부 민원신청 (immigration.go.kr)', url: 'https://www.immigration.go.kr' },
   ],
+  'health-insurance-loss-date-delay': [
+    { label: '찾기쉬운 생활법령정보 — 직장가입자 자격 상실 (easylaw.go.kr)', url: 'https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1063&ccfNo=2&cciNo=1&cnpClsNo=2' },
+    { label: '국민연금공단 사업장 가입자 신고 안내 (nps.or.kr)', url: 'https://www.nps.or.kr' },
+    { label: '고용24 피보험자격 확인 (work24.go.kr)', url: 'https://www.work24.go.kr' },
+  ],
+  'foreigner-family-registration-proof': [
+    { label: '정부24 외국인 등의 세대별 주민등록표 기록 등 신청 (gov.kr)', url: 'https://www.gov.kr/mw/AA020InfoCappView.do?HighCtgCD=A01010&CappBizCD=17410000015' },
+    { label: '하이코리아 증명서 발급 안내 (hikorea.go.kr)', url: 'https://www.hikorea.go.kr' },
+    { label: '전자가족관계등록시스템 (efamily.scourt.go.kr)', url: 'https://efamily.scourt.go.kr' },
+  ],
+  'overseas-korean-authentication': [
+    { label: '재외동포청 재외동포인증센터 안내 (oka.go.kr)', url: 'https://www.oka.go.kr' },
+    { label: '재외국민 365민원포털 공동인증서 발급 안내 (g4k.go.kr)', url: 'https://www.g4k.go.kr/cms/cntnts/guide01/guide01.html' },
+  ],
 
   // ── 세금·납부 ───────────────────────────────────────────────────
   'car-tax-annual-prepay': [
@@ -142,8 +156,5 @@ export const articleSources: Record<string, ArticleSource[]> = {
   ],
   'car-inspection-check': [
     { label: '한국교통안전공단 자동차검사 안내 (kotsa.or.kr)', url: 'https://www.kotsa.or.kr' },
-  ],
-  'card-point-check': [
-    { label: '여신금융협회 카드포인트 통합조회 (cardpoint.or.kr)', url: 'https://www.cardpoint.or.kr' },
   ],
 };

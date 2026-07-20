@@ -9,6 +9,9 @@ import { sealCertificate } from './seal-certificate';
 import { landRegister } from './land-register';
 import { drivingRecordCertificate } from './driving-record-certificate';
 import { immigrationFactCertificate } from './immigration-fact-certificate';
+import { healthInsuranceLossDateDelay } from './health-insurance-loss-date-delay';
+import { foreignerFamilyRegistrationProof } from './foreigner-family-registration-proof';
+import { overseasKoreanAuthentication } from './overseas-korean-authentication';
 import { carTaxAnnualPrepay } from './car-tax-annual-prepay';
 import { propertyTaxPayment } from './property-tax-payment';
 import { hometaxPaymentStatement } from './hometax-payment-statement';
@@ -37,7 +40,6 @@ import { nationalPensionHistory } from './national-pension-history';
 import { dormantMoneyCheck } from './dormant-money-check';
 import { trafficFineCheck } from './traffic-fine-check';
 import { carInspectionCheck } from './car-inspection-check';
-import { cardPointCheck } from './card-point-check';
 
 import type { Article } from '../types';
 
@@ -56,6 +58,9 @@ export const articles: Article[] = [
   landRegister,
   drivingRecordCertificate,
   immigrationFactCertificate,
+  healthInsuranceLossDateDelay,
+  foreignerFamilyRegistrationProof,
+  overseasKoreanAuthentication,
   // 세금·납부
   carTaxAnnualPrepay,
   propertyTaxPayment,
@@ -87,7 +92,6 @@ export const articles: Article[] = [
   dormantMoneyCheck,
   trafficFineCheck,
   carInspectionCheck,
-  cardPointCheck,
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
