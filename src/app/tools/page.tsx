@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Breadcrumb from '@/components/ui/Breadcrumb';
-import { Car, HandCoins, ShieldCheck } from 'lucide-react';
+import { Car, HandCoins, ShieldCheck, Wallet } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: '생활 행정 계산기',
@@ -28,6 +28,12 @@ const tools = [
     icon: ShieldCheck,
     title: '4대보험 계산기',
     description: '월급 입력 → 2026년 요율(국민연금 9.5% 인상 반영) 기준 공제액 계산',
+  },
+  {
+    href: '/tools/severance-calculator',
+    icon: Wallet,
+    title: '퇴직금 계산기',
+    description: '입사일·퇴직일·3개월 임금 입력 → 상여금·연차수당 3/12 반영한 법정 퇴직금 계산',
   },
 ];
 

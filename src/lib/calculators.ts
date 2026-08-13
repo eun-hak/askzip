@@ -188,6 +188,58 @@ export function calcInsurance(monthlySalary: number): InsuranceResult {
   return { pension, health, longTermCare, employment, total, netPay: monthlySalary - total };
 }
 
+// ── 퇴직금 (근로자퇴직급여 보장법, 근로기준법 평균임금) ──────────────
+
+export interface SeveranceResult {
+  /** 재직일수 (퇴직일 - 입사일) */
+  serviceDays: number;
+  /** 평균임금 산정 기간(퇴직 전 3개월)의 총 일수 */
+  periodDays: number;
+  /** 1일 평균임금 (원) */
+  avgDailyWage: number;
+  /** 예상 퇴직금 (세전, 원) */
+  severance: number;
+  /** 계속근로 1년 이상 여부 */
+  eligible: boolean;
+}
+
+/**
+ * 퇴직금 = 1일 평균임금 × 30일 × (재직일수 ÷ 365)
+ * 1일 평균임금 = (퇴직 전 3개월 임금총액 + 연간 상여금 × 3/12 + 전년도 연차수당 × 3/12)
+ *              ÷ 퇴직 전 3개월 총일수
+ * 퇴직일은 마지막 근무일의 다음 날 기준 (고용노동부 방식).
+ * 평균임금이 통상임금보다 낮으면 통상임금을 쓰는 규정은 이 계산기에서 다루지 않음(참고 고지).
+ */
+export function calcSeverance(params: {
+  joinDate: string; // yyyy-mm-dd
+  leaveDate: string; // yyyy-mm-dd (마지막 근무일 다음 날)
+  threeMonthWages: number; // 퇴직 전 3개월 임금 총액 (원)
+  annualBonus?: number; // 연간 상여금 총액 (원)
+  annualLeavePay?: number; // 전년도 연차수당 (원)
+}): SeveranceResult | null {
+  const join = new Date(params.joinDate);
+  const leave = new Date(params.leaveDate);
+  if (Number.isNaN(join.getTime()) || Number.isNaN(leave.getTime()) || leave <= join) return null;
+
+  const MS_DAY = 86_400_000;
+  const serviceDays = Math.round((leave.getTime() - join.getTime()) / MS_DAY);
+
+  const periodStart = new Date(leave);
+  periodStart.setMonth(periodStart.getMonth() - 3);
+  const periodDays = Math.round((leave.getTime() - periodStart.getTime()) / MS_DAY);
+
+  const totalWages =
+    params.threeMonthWages +
+    ((params.annualBonus ?? 0) * 3) / 12 +
+    ((params.annualLeavePay ?? 0) * 3) / 12;
+
+  const avgDailyWage = Math.floor(totalWages / periodDays);
+  const eligible = serviceDays >= 365;
+  const severance = eligible ? Math.floor(avgDailyWage * 30 * (serviceDays / 365)) : 0;
+
+  return { serviceDays, periodDays, avgDailyWage, severance, eligible };
+}
+
 export function formatKrw(value: number): string {
   return value.toLocaleString('ko-KR');
 }

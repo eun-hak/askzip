@@ -50,6 +50,16 @@ const relatedTools: Record<string, { href: string; label: string; description: s
     label: '4대보험 계산기',
     description: '2026년 인상된 국민연금 보험료를 바로 계산해 보세요.',
   },
+  'unemployment-benefit': {
+    href: '/tools/severance-calculator',
+    label: '퇴직금 계산기',
+    description: '퇴사 전이라면 받을 퇴직금부터 계산해 보세요 (상여금·연차수당 반영).',
+  },
+  'health-insurance-loss-date-delay': {
+    href: '/tools/severance-calculator',
+    label: '퇴직금 계산기',
+    description: '퇴사 정산 중이라면 법정 퇴직금도 확인해 보세요.',
+  },
 };
 
 interface Props {
