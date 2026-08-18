@@ -59,6 +59,11 @@ export const articleSources: Record<string, ArticleSource[]> = {
     { label: '재외동포청 재외동포인증센터 안내 (oka.go.kr)', url: 'https://www.oka.go.kr' },
     { label: '재외국민 365민원포털 공동인증서 발급 안내 (g4k.go.kr)', url: 'https://www.g4k.go.kr/cms/cntnts/guide01/guide01.html' },
   ],
+  'digital-wallet-rejected': [
+    { label: '정부 전자문서지갑 전자증명서 안내 (dpaper.kr)', url: 'https://dpaper.kr' },
+    { label: '국가법령정보센터 전자문서 및 전자거래 기본법 (law.go.kr)', url: 'https://www.law.go.kr' },
+    { label: '전자가족관계등록시스템 전자문서지갑 이용안내 (efamily.scourt.go.kr)', url: 'https://efamily.scourt.go.kr/pt/PtEcertIssGuidePW.do' },
+  ],
 
   // ── 세금·납부 ───────────────────────────────────────────────────
   'car-tax-annual-prepay': [

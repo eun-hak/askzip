@@ -12,6 +12,7 @@ import { immigrationFactCertificate } from './immigration-fact-certificate';
 import { healthInsuranceLossDateDelay } from './health-insurance-loss-date-delay';
 import { foreignerFamilyRegistrationProof } from './foreigner-family-registration-proof';
 import { overseasKoreanAuthentication } from './overseas-korean-authentication';
+import { digitalWalletRejected } from './digital-wallet-rejected';
 import { carTaxAnnualPrepay } from './car-tax-annual-prepay';
 import { propertyTaxPayment } from './property-tax-payment';
 import { hometaxPaymentStatement } from './hometax-payment-statement';
@@ -63,6 +64,7 @@ export const articles: Article[] = [
   healthInsuranceLossDateDelay,
   foreignerFamilyRegistrationProof,
   overseasKoreanAuthentication,
+  digitalWalletRejected,
   // 세금·납부
   carTaxAnnualPrepay,
   propertyTaxPayment,
