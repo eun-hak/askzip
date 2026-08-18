@@ -1,41 +1,16 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Breadcrumb from '@/components/ui/Breadcrumb';
-import { Car, HandCoins, ShieldCheck, Wallet } from 'lucide-react';
+import { TOOLS } from '@/lib/tools-list';
 
 export const metadata: Metadata = {
   title: '생활 행정 계산기',
   description:
-    '자동차세 연납 공제액, 근로장려금 예상 지급액, 4대보험 공제액을 바로 계산해 볼 수 있는 무료 계산기 모음입니다. 2026년 요율 기준.',
+    '자동차세 연납 공제액, 근로장려금 예상 지급액, 4대보험 공제액, 퇴직금을 바로 계산해 볼 수 있는 무료 계산기 모음입니다. 2026년 요율 기준.',
   alternates: { canonical: '/tools' },
 };
 
-const tools = [
-  {
-    href: '/tools/car-tax-calculator',
-    icon: Car,
-    title: '자동차세 연납 계산기',
-    description: '배기량·차령·신청 시기 입력 → 연세액과 연납 공제액 계산 (차령 경감·교육세 반영)',
-  },
-  {
-    href: '/tools/eitc-calculator',
-    icon: HandCoins,
-    title: '근로장려금 모의계산기',
-    description: '가구 유형·총급여·재산 입력 → 점증·평탄·점감 구간 반영한 예상 지급액 계산',
-  },
-  {
-    href: '/tools/insurance-calculator',
-    icon: ShieldCheck,
-    title: '4대보험 계산기',
-    description: '월급 입력 → 2026년 요율(국민연금 9.5% 인상 반영) 기준 공제액 계산',
-  },
-  {
-    href: '/tools/severance-calculator',
-    icon: Wallet,
-    title: '퇴직금 계산기',
-    description: '입사일·퇴직일·3개월 임금 입력 → 상여금·연차수당 3/12 반영한 법정 퇴직금 계산',
-  },
-];
+const tools = TOOLS;
 
 export default function ToolsPage() {
   return (

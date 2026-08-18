@@ -13,6 +13,7 @@ import { Clock, Calendar, UserRound } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 import SourcesBox from '@/components/article/SourcesBox';
+import AuthorCard from '@/components/article/AuthorCard';
 import { articleSources } from '@/data/sources';
 import { AUTHOR_NAME, SITE_NAME, SITE_URL } from '@/lib/site';
 
@@ -299,6 +300,9 @@ export default async function ArticleDetailPage({ params }: Props) {
                 </Link>
               </p>
             </div>
+
+            {/* 저자 카드 */}
+            <AuthorCard />
 
             {/* 관련 글 */}
             {relatedArticles.length > 0 && (

@@ -68,15 +68,37 @@ export default function AboutPage() {
         {/* 운영자 소개 */}
         <section className="flex flex-col gap-3">
           <h2 className="text-primary text-[17px] font-semibold">운영자 소개</h2>
-          <div className="bg-surface border border-site-border rounded-lg px-5 py-4 flex flex-col gap-2">
+          <div className="bg-surface border border-site-border rounded-lg px-5 py-4 flex flex-col gap-3">
             <p className="text-primary text-[15px] font-semibold">{AUTHOR_NAME}</p>
             <p className="text-secondary text-[14px] leading-[1.8]">{AUTHOR_BIO}</p>
+            <p className="text-secondary text-[14px] leading-[1.8]">
+              이 사이트를 시작한 계기는 단순합니다. 등본 한 통, 지원금 신청 하나를 할 때마다
+              공공기관 사이트, 블로그, 뉴스가 제각각 다른 이야기를 해서 매번 처음부터 검색해야
+              했습니다. 그래서 흩어진 절차를 한곳에 모으되, &ldquo;어느 메뉴를 누르라&rdquo;는
+              나열이 아니라 <strong>어떤 상황에서 무엇을 골라야 하는지</strong>를 기준으로
+              정리하기로 했습니다. 계산기 도구를 함께 만드는 것도 같은 이유입니다 — 절차를 읽기
+              전에 금액부터 확인하고 싶은 게 실제 마음이니까요.
+            </p>
+            <div className="flex flex-col gap-1.5">
+              <p className="text-primary text-[14px] font-semibold">콘텐츠 검증 방식</p>
+              <ul className="flex flex-col gap-1 pl-1">
+                {[
+                  '① 각 기관의 공식 안내·법령을 기준으로 초안을 잡습니다. 초안 정리에는 AI 도구를 활용하되, 사실 확인과 최종 검수는 운영자가 직접 합니다.',
+                  '② 온라인으로 직접 발급·신청할 수 있는 절차는 직접 수행하고, 그 화면을 캡처해(개인정보 마스킹) 글에 싣습니다.',
+                  '③ 글마다 공식 출처 링크와 확인일을 표기하고, 확인하지 못한 정보는 수치 없이 "기관 확인 필요"로 적습니다.',
+                ].map((item, i) => (
+                  <li key={i} className="text-secondary text-[13px] leading-[1.8]">
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
             <p className="text-muted text-[13px] leading-[1.7]">
-              모든 안내글은 운영자가 직접 작성·검수하며, 잘못된 정보 제보나 문의는{' '}
+              <strong>정정 정책</strong>: 제도가 바뀌었거나 잘못 적힌 부분을 발견하시면{' '}
               <a href={`mailto:${SITE_EMAIL}`} className="text-accent hover:underline">
                 {SITE_EMAIL}
               </a>
-              로 보내 주세요.
+              로 알려주세요. 확인 후 수정하고, 글의 업데이트 날짜를 갱신합니다.
             </p>
           </div>
         </section>
