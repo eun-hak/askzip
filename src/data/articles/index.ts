@@ -43,12 +43,25 @@ import { nationalPensionHistory } from './national-pension-history';
 import { dormantMoneyCheck } from './dormant-money-check';
 import { trafficFineCheck } from './traffic-fine-check';
 import { carInspectionCheck } from './car-inspection-check';
+import { irosSearchFail } from './iros-search-fail';
+import { kioskFingerprintFail } from './kiosk-fingerprint-fail';
+import { nhisRefundSmishing } from './nhis-refund-smishing';
+import { gov24PrintRefund } from './gov24-print-refund';
+import { delegationFormRejected } from './delegation-form-rejected';
+import { movingReportMistake } from './moving-report-mistake';
+import { siblingDocumentIssuance } from './sibling-document-issuance';
+import { basicPensionHistoryManagement } from './basic-pension-history-management';
+import { seizureProtectedAccount } from './seizure-protected-account';
+import { deceasedFamilyAffairs } from './deceased-family-affairs';
+import { voluntaryContinuousInsurance } from './voluntary-continuous-insurance';
+import { minorChildDocuments } from './minor-child-documents';
+import { autoDebitStillCharged } from './auto-debit-still-charged';
 
 import type { Article } from '../types';
 
 export type { Article, ContentBlock } from '../types';
 
-export const articles: Article[] = [
+const allArticles: Article[] = [
   // 민원서류 발급
   healthInsuranceEligibilityCertificate,
   residentRegistrationCopy,
@@ -65,6 +78,15 @@ export const articles: Article[] = [
   foreignerFamilyRegistrationProof,
   overseasKoreanAuthentication,
   digitalWalletRejected,
+  irosSearchFail,
+  kioskFingerprintFail,
+  gov24PrintRefund,
+  delegationFormRejected,
+  movingReportMistake,
+  siblingDocumentIssuance,
+  deceasedFamilyAffairs,
+  voluntaryContinuousInsurance,
+  minorChildDocuments,
   // 세금·납부
   carTaxAnnualPrepay,
   propertyTaxPayment,
@@ -91,6 +113,8 @@ export const articles: Article[] = [
   youthFutureSavings,
   nationalScholarship,
   emergencyWelfareSupport,
+  basicPensionHistoryManagement,
+  seizureProtectedAccount,
   // 조회서비스
   telecomUnrefundedFee,
   fourMajorInsuranceHistory,
@@ -98,7 +122,17 @@ export const articles: Article[] = [
   dormantMoneyCheck,
   trafficFineCheck,
   carInspectionCheck,
+  nhisRefundSmishing,
+  autoDebitStillCharged,
 ];
+
+/**
+ * 예약 발행: publishedAt이 빌드 시점(UTC 날짜) 이후인 글은 사이트 전체에서 제외된다.
+ * .github/workflows/daily-publish.yml이 매일 아침 재빌드를 트리거해
+ * 그날 발행일이 된 글이 자동 공개된다.
+ */
+const buildDate = new Date().toISOString().slice(0, 10);
+export const articles: Article[] = allArticles.filter((a) => a.publishedAt <= buildDate);
 
 export function getArticleBySlug(slug: string): Article | undefined {
   return articles.find((a) => a.slug === slug);

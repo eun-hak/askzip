@@ -172,4 +172,64 @@ export const articleSources: Record<string, ArticleSource[]> = {
   'car-inspection-check': [
     { label: '한국교통안전공단 자동차검사 안내 (kotsa.or.kr)', url: 'https://www.kotsa.or.kr' },
   ],
+  'iros-search-fail': [
+    { label: '대법원 인터넷등기소 (iros.go.kr)', url: 'https://www.iros.go.kr' },
+    { label: '행정안전부 주소정보누리집 (juso.go.kr)', url: 'https://www.juso.go.kr' },
+    { label: '정부24 건축물대장 발급·열람 (gov.kr)', url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000098' },
+  ],
+  'kiosk-fingerprint-fail': [
+    { label: '정책브리핑 무인민원발급기 지문 인식 안내 (korea.kr)', url: 'https://www.korea.kr/multi/visualNewsView.do?newsId=148909842' },
+    { label: '정부24 주민등록증 재발급 신청 (gov.kr)', url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000018' },
+  ],
+  'nhis-refund-smishing': [
+    { label: '국민건강보험 본인부담상한액 초과금 신청 (nhis.or.kr)', url: 'https://www.nhis.or.kr/nhis/minwon/minwonServiceBoard.do?mode=view&articleNo=10945830' },
+    { label: '한국인터넷진흥원 118 상담센터 (kisa.or.kr)', url: 'https://www.kisa.or.kr/118' },
+  ],
+  'gov24-print-refund': [
+    { label: '정부24 전자결제 안내 (gov.kr)', url: 'https://www.gov.kr/new_info/customer/AA090_info_customer_elect.jsp' },
+    { label: '정부24 자주묻는질문 — 수수료·환불 (gov.kr)', url: 'https://m.gov.kr/portal/faq/500' },
+  ],
+  'delegation-form-rejected': [
+    { label: '국가법령정보센터 주민등록법 시행규칙 (law.go.kr)', url: 'https://www.law.go.kr' },
+    { label: '정부24 인감증명서 발급 안내 (gov.kr)', url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000025' },
+    { label: '정책브리핑 인감증명서 온라인 발급 (korea.kr)', url: 'https://www.korea.kr/news/policyNewsView.do?newsId=148928691' },
+  ],
+  'moving-report-mistake': [
+    { label: '정부24 FAQ — 온라인 전입신고 세대주확인 (gov.kr)', url: 'https://www.gov.kr/portal/faq/869' },
+    { label: '찾기쉬운 생활법령정보 — 전입신고 (easylaw.go.kr)', url: 'https://www.easylaw.go.kr/CSP/CnpClsMainBtr.laf?csmSeq=666&ccfNo=4&cciNo=1&cnpClsNo=1' },
+    { label: '정부24 전입신고 민원안내 (gov.kr)', url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000016' },
+  ],
+  'sibling-document-issuance': [
+    { label: '전자가족관계등록시스템 (efamily.scourt.go.kr)', url: 'https://efamily.scourt.go.kr' },
+    { label: '정부24 주민등록표 등본(초본) 발급 (gov.kr)', url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000015' },
+    { label: '국가법령정보센터 주민등록법 (law.go.kr)', url: 'https://www.law.go.kr' },
+  ],
+  'basic-pension-history-management': [
+    { label: '정책브리핑 기초연금 신청간주 제도 시행 (korea.kr)', url: 'https://www.korea.kr/multi/visualNewsView.do?newsId=148969138' },
+    { label: '보건복지부 2026년 기초연금 선정기준액 (mohw.go.kr)', url: 'https://www.mohw.go.kr/board.es?act=view&bid=0027&list_no=1488478&mid=a10503010100' },
+    { label: '사회보장정보시스템 수급희망 이력관리제 (ssis.or.kr)', url: 'https://www.ssis.or.kr/lay1/bbs/S1T67C101/B/101/view.do?article_seq=115442' },
+  ],
+  'seizure-protected-account': [
+    { label: '찾기쉬운 생활법령정보 — 압류방지 전용통장 (easylaw.go.kr)', url: 'https://www.easylaw.go.kr/CSP/OnhunqueansInfoRetrieve.laf?onhunqnaAstSeq=97&onhunqueSeq=5742' },
+    { label: '법무부 생계비계좌 안내 (moj.go.kr)', url: 'https://www.moj.go.kr/bbs/moj/189/603060/artclView.do' },
+    { label: '국민연금공단 안심통장 (nps.or.kr)', url: 'https://www.nps.or.kr' },
+  ],
+  'deceased-family-affairs': [
+    { label: '정부24 안심상속 원스톱 서비스 (gov.kr)', url: 'https://www.gov.kr/portal/service/serviceInfo/442000000189' },
+    { label: '금융감독원 상속인 금융거래조회 (fss.or.kr)', url: 'https://fss.or.kr/fss/cvpl/inhCerEc/main.do?menuNo=200010' },
+    { label: '국세청 상속세 신고 안내 (nts.go.kr)', url: 'https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2328&cntntsId=7722' },
+  ],
+  'voluntary-continuous-insurance': [
+    { label: '국민건강보험 임의계속가입 안내 (nhis.or.kr)', url: 'https://www.nhis.or.kr' },
+    { label: '찾기쉬운 생활법령정보 — 실업자의 직장가입자 자격 유지 (easylaw.go.kr)', url: 'https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1063&ccfNo=2&cciNo=1&cnpClsNo=3' },
+  ],
+  'minor-child-documents': [
+    { label: '전자가족관계등록시스템 발급 안내 (efamily.scourt.go.kr)', url: 'https://efamily.scourt.go.kr' },
+    { label: '정부24 주민등록표 등본(초본) 발급 (gov.kr)', url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000015' },
+    { label: '찾기쉬운 생활법령정보 — 가족관계등록부 발급·열람 (easylaw.go.kr)', url: 'https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=707&ccfNo=1&cciNo=1&cnpClsNo=2' },
+  ],
+  'auto-debit-still-charged': [
+    { label: '계좌정보통합관리서비스 페이인포 (payinfo.or.kr)', url: 'https://www.payinfo.or.kr' },
+    { label: '금융감독원 (fss.or.kr)', url: 'https://www.fss.or.kr' },
+  ],
 };
