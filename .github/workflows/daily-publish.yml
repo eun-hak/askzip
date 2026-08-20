@@ -5,6 +5,7 @@ name: daily-publish
 on:
   schedule:
     - cron: '5 0 * * *' # 00:05 UTC = 09:05 KST
+    - cron: '37 1 * * *' # 01:37 UTC = 10:37 KST — 스케줄러 지연 대비 백업 (중복 실행은 아래에서 무해 처리)
   workflow_dispatch:
 
 permissions:
@@ -29,6 +30,10 @@ jobs:
           git config user.name "askzip-daily-publish"
           git config user.email "actions@users.noreply.github.com"
           date -u +%F > .publish-stamp
+          if git diff --quiet -- .publish-stamp; then
+            echo "already stamped today — nothing to do"
+            exit 0
+          fi
           git add .publish-stamp
           git commit -m "chore: daily publish rebuild ($(date -u +%F))"
           git push
