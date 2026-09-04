@@ -56,6 +56,16 @@ import { deceasedFamilyAffairs } from './deceased-family-affairs';
 import { voluntaryContinuousInsurance } from './voluntary-continuous-insurance';
 import { minorChildDocuments } from './minor-child-documents';
 import { autoDebitStillCharged } from './auto-debit-still-charged';
+import { carTransferSellerProxy } from './car-transfer-seller-proxy';
+import { schoolEntryNotice } from './school-entry-notice';
+import { residenceUnknownRegistration } from './residence-unknown-registration';
+import { unemploymentPensionCredit } from './unemployment-pension-credit';
+import { energyVoucherOverlap } from './energy-voucher-overlap';
+import { leaseReportFixedDate } from './lease-report-fixed-date';
+import { utilityDiscountReapply } from './utility-discount-reapply';
+import { healthCheckupTargetCheck } from './health-checkup-target-check';
+import { subsidy24MissingBenefits } from './subsidy24-missing-benefits';
+import { carTaxExemptionClawback } from './car-tax-exemption-clawback';
 
 import type { Article } from '../types';
 
@@ -87,6 +97,10 @@ const allArticles: Article[] = [
   deceasedFamilyAffairs,
   voluntaryContinuousInsurance,
   minorChildDocuments,
+  carTransferSellerProxy,
+  schoolEntryNotice,
+  residenceUnknownRegistration,
+  leaseReportFixedDate,
   // 세금·납부
   carTaxAnnualPrepay,
   propertyTaxPayment,
@@ -101,6 +115,7 @@ const allArticles: Article[] = [
   taxRefundCheck,
   taxPaymentCertificateDelay,
   incomeCertificateNotAvailable,
+  carTaxExemptionClawback,
   // 생활지원금
   youthRentSupport,
   earnedIncomeCredit,
@@ -115,6 +130,10 @@ const allArticles: Article[] = [
   emergencyWelfareSupport,
   basicPensionHistoryManagement,
   seizureProtectedAccount,
+  unemploymentPensionCredit,
+  energyVoucherOverlap,
+  utilityDiscountReapply,
+  subsidy24MissingBenefits,
   // 조회서비스
   telecomUnrefundedFee,
   fourMajorInsuranceHistory,
@@ -124,6 +143,7 @@ const allArticles: Article[] = [
   carInspectionCheck,
   nhisRefundSmishing,
   autoDebitStillCharged,
+  healthCheckupTargetCheck,
 ];
 
 /**

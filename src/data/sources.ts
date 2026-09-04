@@ -232,4 +232,46 @@ export const articleSources: Record<string, ArticleSource[]> = {
     { label: '계좌정보통합관리서비스 페이인포 (payinfo.or.kr)', url: 'https://www.payinfo.or.kr' },
     { label: '금융감독원 (fss.or.kr)', url: 'https://www.fss.or.kr' },
   ],
+  'car-transfer-seller-proxy': [
+    { label: '찾기쉬운 생활법령정보 자동차 이전등록 (easylaw.go.kr)', url: 'https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=675&ccfNo=1&cciNo=2&cnpClsNo=3' },
+    { label: '정부24 자동차 이전등록 신청 (gov.kr)', url: 'https://www.gov.kr/mw/AA020InfoCappView.do?HighCtgCD=A09006&CappBizCD=15000000370' },
+  ],
+  'school-entry-notice': [
+    { label: '정부24 취학통지서 온라인 신청·발급 (gov.kr)', url: 'https://www.gov.kr/portal/service/serviceInfo/134200005008' },
+    { label: '학구도안내서비스 초등학교 취학 사무 절차 (schoolzone.emac.kr)', url: 'https://schoolzone.emac.kr/institution/procedures.do' },
+  ],
+  'residence-unknown-registration': [
+    { label: '국가법령정보센터 주민등록법 (law.go.kr)', url: 'https://www.law.go.kr/LSW/lsInfoP.do?urlMode=lsInfoP&lsId=001655' },
+    { label: '정부24 주민등록 재등록 신고 (gov.kr)', url: 'https://www.gov.kr/mw/AA020InfoCappView.do?HighCtgCD=A01010&CappBizCD=13100000011' },
+  ],
+  'unemployment-pension-credit': [
+    { label: '국민연금공단 실업크레딧 신청 (nps.or.kr)', url: 'https://www.nps.or.kr/elctcvlcpt/comm/getOHAC0000M5.do?menuId=MN24001073' },
+    { label: '정부24 실업크레딧 지원 (gov.kr)', url: 'https://www.gov.kr/portal/service/serviceInfo/B55201500004' },
+  ],
+  'energy-voucher-overlap': [
+    { label: '에너지바우처 지원 안내 (energyv.or.kr)', url: 'https://www.energyv.or.kr/info/support_info.do' },
+    { label: '등유바우처 사용안내 (energyv.or.kr)', url: 'https://www.energyv.or.kr/info/heato_info.do' },
+    { label: '정부24 연탄쿠폰 (gov.kr)', url: 'https://www.gov.kr/portal/service/serviceInfo/145000000111' },
+  ],
+  'lease-report-fixed-date': [
+    { label: '부동산거래관리시스템 주택임대차계약신고 (rtms.molit.go.kr)', url: 'https://rtms.molit.go.kr/main/serviceInfo.do' },
+    { label: '찾기쉬운 생활법령정보 주택 임대차 계약 신고제 (easylaw.go.kr)', url: 'https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo=2&cciNo=2&cnpClsNo=5' },
+  ],
+  'utility-discount-reapply': [
+    { label: '한국전력공사 복지할인 안내 (kepco.co.kr)', url: 'https://online.kepco.co.kr/MIM021D00' },
+    { label: '정부24 요금감면 일괄신청 (gov.kr)', url: 'https://www.gov.kr/portal/service/serviceInfo/174100000049' },
+    { label: '한국가스공사 도시가스요금경감 안내 (kogas.or.kr)', url: 'https://www.kogas.or.kr/site/koGas/1020408010000' },
+  ],
+  'health-checkup-target-check': [
+    { label: '국민건강보험 일반건강검진 실시안내 (nhis.or.kr)', url: 'https://www.nhis.or.kr/nhis/healthin/wbhaca04500m01.do' },
+    { label: '정부24 건강검진 대상 조회 및 출력 (gov.kr)', url: 'https://www.gov.kr/portal/service/serviceInfo/PTR000050336' },
+  ],
+  'subsidy24-missing-benefits': [
+    { label: '정부24 보조금24 맞춤안내 (gov.kr)', url: 'https://www.gov.kr/portal/rcvfvrSvc/main' },
+    { label: '행정안전부 보조금24 안내 (mois.go.kr)', url: 'https://www.mois.go.kr' },
+  ],
+  'car-tax-exemption-clawback': [
+    { label: '국가법령정보센터 지방세특례제한법 (law.go.kr)', url: 'https://www.law.go.kr' },
+    { label: '찾기쉬운 생활법령정보 다자녀가구 자동차 취득세 감면 (easylaw.go.kr)', url: 'https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1126&ccfNo=6&cciNo=1&cnpClsNo=1' },
+  ],
 };

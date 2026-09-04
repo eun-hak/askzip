@@ -1,22 +1,29 @@
 # 콘텐츠 발행 큐
 
-자동 발행 루틴이 위에서부터 순서대로 소비합니다. 형식: `- [ ] slug | 제목안 | 연결 slug | 핵심 포인트`
-발행 완료 시 `- [x]`로 바꾸고 끝에 `(발행 YYYY-MM-DD)` 기입.
+예약 발행 방식: 글의 `publishedAt`을 미래 날짜로 지정하면 `src/data/articles/index.ts` 필터가 그날까지 숨기고,
+`.github/workflows/daily-publish.yml`이 매일 재빌드를 트리거해 자동 공개합니다.
+형식: `- [ ] slug | 제목안 | 연결 slug | 핵심 포인트`. 예약 완료 시 `- [x]` + `(예약발행 YYYY-MM-DD)`.
 
-## 대기
+## 3차 (2026-09, 격일 발행 — 심사 기간 중 운영 지속용)
 
-- [x] digital-wallet-rejected | 전자문서지갑으로 냈는데 기관이 안 받아줄 때 — 전자증명서 거부 대처법 | resident-registration-copy, family-relation-certificate | 전자증명서 법적 효력 근거 / 거부 시 즉시 대안(PDF·무인발급기) / 지원 서류 vs 미지원 서류 (발행 2026-08-18)
-- [x] iros-search-fail | 등기부등본이 주소로 검색 안 될 때 — 도로명·지번·신축 케이스별 해결 | real-estate-registration-certificate, building-register | 도로명은 건물에만 부여 / 신축은 보존등기 전 조회 불가 / 건축물대장·고유번호 우회 (예약발행 2026-08-19)
-- [x] kiosk-fingerprint-fail | 무인발급기 지문인증이 계속 실패할 때 — 원인과 우회 경로 | resident-registration-copy, seal-certificate | 실패 원인별 현장 대처 / 정부24 비대면 지문 재등록 / 모바일 신분증 등 대안 (예약발행 2026-08-20)
-- [x] nhis-refund-smishing | "건강보험 환급금 확인하세요" 문자, 진짜와 사기 구분법 | tax-refund-check, dormant-money-check | 공단·국세청은 URL 문자 안 보냄 / 공식 확인 경로 목록 / 링크 눌렀을 때 즉시 대처 (예약발행 2026-08-21)
-- [x] gov24-print-refund | 정부24 수수료 결제됐는데 출력이 안 될 때 — 재출력과 환불 절차 | resident-registration-copy, seal-certificate | 미출력 문서 재출력 메뉴·기한 / 환불 신청 절차 / 출력 실패 예방 설정 (예약발행 2026-08-22)
+- [x] car-transfer-seller-proxy | 차를 팔았는데 상대가 명의이전을 안 해줄 때 — 양도인 대위등록 | car-tax-annual-prepay, traffic-fine-check, car-inspection-check | 대위등록 요건·서류·창구 / 이전 전 세금·과태료 귀속과 정정 / 대위등록 후에도 남는 문제(보험·저당·번호판) (예약발행 2026-09-04)
+- [x] school-entry-notice | 취학통지서가 오기 전에 알아야 할 것 — 예비소집·취학유예·해외체류 | minor-child-documents, resident-registration-copy, family-relation-certificate | 명부는 주민등록 기준(주소 오류 정정) / 유예 vs 면제 차이 / 예비소집 불참 시 확인 절차 (예약발행 2026-09-06)
+- [x] residence-unknown-registration | 주민등록 사실조사 후 '거주불명 등록' 통지를 받았다면 | resident-registration-copy, moving-report-mistake, resident-registration-abstract | 이의신청 vs 전입신고 두 갈래 / 거주불명 상태에서 막히는 행정 / 자진신고 과태료 감경 (예약발행 2026-09-08)
+- [x] unemployment-pension-credit | 실업급여 받는 동안 국민연금 채우는 법 — 실업크레딧은 자동이 아니다 | unemployment-benefit, national-pension-history, national-employment-support | 별도 신청·기한 / 제외 대상 기준 / 본인 부담 구조와 판단 기준 (예약발행 2026-09-10)
+- [x] energy-voucher-overlap | 에너지바우처·등유바우처·연탄쿠폰은 왜 하나만 되나 | energy-voucher, emergency-welfare-support, basic-pension | 중복 불가 조합 / 난방 방식 변경 시 전환 절차 / 잘못 받았을 때 정정·반납 (예약발행 2026-09-12)
+- [x] lease-report-fixed-date | 임대차 신고를 했는데 확정일자가 안 붙었을 때 | real-estate-registration-certificate, iros-search-fail, moving-report-mistake | 자동 부여 예외 조건 / 신고필증에서 확인하는 위치 / 부여현황 사후 확인 (예약발행 2026-09-14)
+- [x] utility-discount-reapply | 이사했더니 전기·가스 요금 할인이 끊겼을 때 | energy-voucher, emergency-welfare-support, moving-report-mistake | 감면은 주소·자격에 붙어 승계 안 됨 / 전입신고 동시신청 + 도시가스사 별도 통보 / 소급 불가 범위 (예약발행 2026-09-16)
+- [x] health-checkup-target-check | 건강검진 대상인데 조회가 안 될 때 — 이직·퇴사한 해의 대상자 판정 | health-insurance-eligibility-certificate, four-major-insurance-history, health-insurance-loss-date-delay | 조회 불가 3대 원인 / 대상자 변경 신청 창구 / 과태료 부과 구조 ※행정 절차만, 검진 항목·건강 조언 금지 (예약발행 2026-09-18)
+- [x] subsidy24-missing-benefits | 보조금24에 내가 받을 지원금이 안 뜰 때 | emergency-welfare-support, youth-rent-support, energy-voucher | 개인 vs 가족 맞춤안내·정보연계 동의 / 분리세대 구성·취소 / 안내≠자격 확정 (예약발행 2026-09-20)
+- [x] car-tax-exemption-clawback | 취득세 감면받은 차, 나중에 토해내는 경우 | acquisition-tax, car-tax-annual-prepay, local-tax-certificate | 감면 유형별 요건 / 1년 내 이전·세대분가 추징 구조 / 신청 누락 시 경정청구 (예약발행 2026-09-22)
 
-- [x] delegation-form-rejected | 주민센터 위임장, 왜 반려될까 — 대리발급 위임장의 서식·자필·도장 요건 | seal-certificate, resident-registration-copy | 서류별 지정 서식 필수 / 자필+도장 요건 / 인감 위임장은 별도 요건 (예약발행 2026-08-23)
-- [x] moving-report-mistake | 정부24 전입신고 잘못 썼을 때 — 처리상태별 취소·정정 방법 | resident-registration-copy, resident-registration-abstract | 처리상태별 3갈래 대응 / 세대주 확인 8일 자동취소 / 수정 불가·취소 후 재신청 원칙 (예약발행 2026-08-24)
-- [x] sibling-document-issuance | 형제자매 등본·가족관계증명서는 왜 인터넷으로 못 뗄까 | family-relation-certificate, resident-registration-copy | 온라인 발급은 직계·배우자만 / 형제자매는 방문+위임장 / 등본·가족관계증명서 권한 차이 (예약발행 2026-08-25)
-- [x] basic-pension-history-management | 기초연금 탈락해도 끝이 아니다 — 수급희망 이력관리제와 2026년 7월 자동심사 개편 | basic-pension, national-pension-history | 이력관리 5년 자동 조사 / 2026.7 간주신청제 개편 / 과거 탈락자가 지금 할 일 (예약발행 2026-08-26)
-- [x] seizure-protected-account | 압류방지통장 개설이 안 될 때 — 대상·거절 사유·이미 압류된 경우 | basic-pension, emergency-welfare-support | 급여별 전용통장·1인 1계좌 / 창구 거절 사유 / 기존 압류 소급 보호 안 됨·생계비계좌 차이 (예약발행 2026-08-27)
-- [x] deceased-family-affairs | 가족 사망 후 명의 정리 순서 — 휴대폰·자동이체·안심상속 6개월 기한 | family-relation-certificate, dormant-money-check | 안심상속 기한·경과 시 대안 / 통신사 사망 해지 서류 / 자동이체·공과금 정리 순서 (예약발행 2026-08-28)
-- [x] voluntary-continuous-insurance | 퇴사 후 건강보험료 고지서가 이상할 때 — 임의계속가입 2개월 기한과 조정신청 | health-insurance-loss-date-delay, four-major-insurance-history | 임의계속 2개월 기한·1년 요건 / 조정신청 대상·증빙 / 피부양자 포함 세 갈래 비교 (예약발행 2026-08-29)
-- [x] minor-child-documents | 미성년 자녀 서류, 부모가 대신 발급하는 법 | resident-registration-copy, family-relation-certificate | 부모 등본으로 충분한 경우 구분 / 자녀 인증수단 없으면 온라인 불가·대안 / 기본증명서 상세·특정 차이 (예약발행 2026-08-30)
-- [x] auto-debit-still-charged | 자동이체 해지했는데 돈이 계속 빠져나갈 때 — 원인·차단·환불 | telecom-unrefunded-fee, dormant-money-check | 해지 후 출금되는 구조적 원인 / 페이인포 일괄 조회·해지 / 오류 정정·환불 절차 (예약발행 2026-08-31)
+## 4차 대기 (3차 소진 후)
+
+- [ ] single-parent-certificate | 한부모가족증명서는 왜 아무나 못 떼나 — 지원대상자 선정이 선행
+- [ ] dual-job-insurance | 투잡·부업의 4대보험 이중가입과 정산
+- [ ] move-in-household-certificate | 전입세대확인서는 정부24로 안 된다
+- [ ] business-suspension-vs-closure | 휴업 vs 폐업과 건보료 조정신청
+
+## 완료 (1~2차, 2026-08)
+
+14편 전량 발행 완료 (08-18 ~ 08-31): digital-wallet-rejected · iros-search-fail · kiosk-fingerprint-fail · nhis-refund-smishing · gov24-print-refund · delegation-form-rejected · moving-report-mistake · sibling-document-issuance · basic-pension-history-management · seizure-protected-account · deceased-family-affairs · voluntary-continuous-insurance · minor-child-documents · auto-debit-still-charged
