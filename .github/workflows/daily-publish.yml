@@ -1,7 +1,7 @@
 name: daily-publish
 
 # 예약 발행: 매일 아침 재빌드를 트리거해 publishedAt이 도래한 글을 공개한다.
-# 글 노출 필터는 src/data/articles/index.ts 참조. 2026-09-01 이후엔 자동 중단.
+# 글 노출 필터는 src/data/articles/index.ts 참조. 2026-10-31 이후엔 자동 중단.
 on:
   schedule:
     - cron: '5 0 * * *' # 00:05 UTC = 09:05 KST
@@ -16,10 +16,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Stop after final scheduled article (2026-09-01)
+      - name: Stop after final scheduled article (2026-10-31)
         id: guard
         run: |
-          if [ "$(date -u +%F)" \> "2026-09-01" ]; then
+          if [ "$(date -u +%F)" \> "2026-10-31" ]; then
             echo "expired=true" >> "$GITHUB_OUTPUT"
           else
             echo "expired=false" >> "$GITHUB_OUTPUT"
