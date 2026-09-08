@@ -1,4 +1,4 @@
-import { Car, ClipboardList, HandCoins, ShieldCheck, Wallet, type LucideIcon } from 'lucide-react';
+import { Car, ClipboardList, HandCoins, ShieldCheck, Sofa, Wallet, type LucideIcon } from 'lucide-react';
 
 export interface ToolInfo {
   href: string;
@@ -14,6 +14,12 @@ export const TOOLS: ToolInfo[] = [
     icon: ClipboardList,
     title: '민원서류 진단기',
     description: '상황 선택 → 필요한 서류 목록과 발급 경로·수수료·유효기간을 한 화면에',
+  },
+  {
+    href: '/tools/waste-fee',
+    icon: Sofa,
+    title: '대형폐기물 수수료 검색',
+    description: '우리 동네 선택 → 소파·매트리스 등 버리는 비용 검색 (전국 142개 지자체)',
   },
   {
     href: '/tools/car-tax-calculator',

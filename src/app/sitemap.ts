@@ -56,7 +56,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.4,
     },
-    ...['', '/document-finder', '/car-tax-calculator', '/eitc-calculator', '/insurance-calculator', '/severance-calculator'].map((path) => ({
+    ...['', '/document-finder', '/waste-fee', '/car-tax-calculator', '/eitc-calculator', '/insurance-calculator', '/severance-calculator'].map((path) => ({
       url: `${SITE_URL}/tools${path}`,
       lastModified: latestContent,
       changeFrequency: 'monthly' as const,
