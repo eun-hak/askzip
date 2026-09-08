@@ -1,4 +1,4 @@
-import { Car, HandCoins, ShieldCheck, Wallet, type LucideIcon } from 'lucide-react';
+import { Car, ClipboardList, HandCoins, ShieldCheck, Wallet, type LucideIcon } from 'lucide-react';
 
 export interface ToolInfo {
   href: string;
@@ -9,6 +9,12 @@ export interface ToolInfo {
 
 /** 계산기 도구 목록 — 홈·/tools 인덱스에서 공용 */
 export const TOOLS: ToolInfo[] = [
+  {
+    href: '/tools/document-finder',
+    icon: ClipboardList,
+    title: '민원서류 진단기',
+    description: '상황 선택 → 필요한 서류 목록과 발급 경로·수수료·유효기간을 한 화면에',
+  },
   {
     href: '/tools/car-tax-calculator',
     icon: Car,
