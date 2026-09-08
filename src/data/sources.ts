@@ -72,20 +72,11 @@ export const articleSources: Record<string, ArticleSource[]> = {
   'property-tax-payment': [
     { label: '위택스 재산세 납부 (wetax.go.kr)', url: 'https://www.wetax.go.kr' },
   ],
-  'hometax-payment-statement': [
-    { label: '국세청 홈택스 지급명세서 조회 (hometax.go.kr)', url: 'https://www.hometax.go.kr' },
-  ],
-  'comprehensive-income-tax': [
-    { label: '국세청 홈택스 종합소득세 신고 (hometax.go.kr)', url: 'https://www.hometax.go.kr' },
-  ],
   'income-amount-certificate': [
     { label: '국세청 홈택스 소득금액증명 발급 (hometax.go.kr)', url: 'https://www.hometax.go.kr' },
   ],
   'year-end-tax-settlement': [
     { label: '국세청 홈택스 연말정산 간소화 (hometax.go.kr)', url: 'https://www.hometax.go.kr' },
-  ],
-  'value-added-tax': [
-    { label: '국세청 홈택스 부가가치세 신고 (hometax.go.kr)', url: 'https://www.hometax.go.kr' },
   ],
   'acquisition-tax': [
     { label: '위택스 취득세 신고·납부 (wetax.go.kr)', url: 'https://www.wetax.go.kr' },
@@ -103,18 +94,8 @@ export const articleSources: Record<string, ArticleSource[]> = {
     { label: '국세청 종합소득세 신고 안내 (nts.go.kr)', url: 'https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2225&cntntsId=7665' },
     { label: '정부24 사실증명 발급 (gov.kr)', url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000352' },
   ],
-  'cash-receipt': [
-    { label: '국세청 홈택스 현금영수증 조회·발급 (hometax.go.kr)', url: 'https://www.hometax.go.kr' },
-  ],
-  'tax-refund-check': [
-    { label: '국세청 홈택스 환급금 조회 (hometax.go.kr)', url: 'https://www.hometax.go.kr' },
-  ],
 
   // ── 생활지원금 ──────────────────────────────────────────────────
-  'youth-rent-support': [
-    { label: '복지로 청년월세지원 신청 (bokjiro.go.kr)', url: 'https://www.bokjiro.go.kr' },
-    { label: '마이홈 청년주거 안내 (myhome.go.kr)', url: 'https://www.myhome.go.kr' },
-  ],
   'earned-income-credit': [
     { label: '국세청 홈택스 근로장려금 신청 (hometax.go.kr)', url: 'https://www.hometax.go.kr' },
   ],
@@ -129,19 +110,12 @@ export const articleSources: Record<string, ArticleSource[]> = {
     { label: '복지로 기초연금 신청 (bokjiro.go.kr)', url: 'https://www.bokjiro.go.kr' },
     { label: '국민연금공단 기초연금 안내 (nps.or.kr)', url: 'https://www.nps.or.kr' },
   ],
-  'parental-childcare-benefit': [
-    { label: '복지로 부모급여 신청 (bokjiro.go.kr)', url: 'https://www.bokjiro.go.kr' },
-    { label: '아이사랑 보육포털 (childcare.go.kr)', url: 'https://www.childcare.go.kr' },
-  ],
   'national-employment-support': [
     { label: '고용24 국민취업지원제도 신청 (work24.go.kr)', url: 'https://www.work24.go.kr' },
   ],
   'energy-voucher': [
     { label: '에너지바우처 공식 사이트 (energyvoucher.go.kr)', url: 'https://www.energyvoucher.go.kr' },
     { label: '복지로 에너지바우처 신청 (bokjiro.go.kr)', url: 'https://www.bokjiro.go.kr' },
-  ],
-  'youth-future-savings': [
-    { label: '서민금융진흥원 청년도약계좌 (kinfa.or.kr)', url: 'https://www.kinfa.or.kr' },
   ],
   'national-scholarship': [
     { label: '한국장학재단 국가장학금 신청 (kosaf.go.kr)', url: 'https://www.kosaf.go.kr' },
@@ -161,10 +135,6 @@ export const articleSources: Record<string, ArticleSource[]> = {
   ],
   'national-pension-history': [
     { label: '국민연금공단 가입내역 조회 (nps.or.kr)', url: 'https://www.nps.or.kr' },
-  ],
-  'dormant-money-check': [
-    { label: '잠자는 내 돈 찾기 (sleepmoney.or.kr)', url: 'https://www.sleepmoney.or.kr' },
-    { label: '금융감독원 파인 (fine.fss.or.kr)', url: 'https://fine.fss.or.kr' },
   ],
   'traffic-fine-check': [
     { label: '경찰청 교통민원24 과태료 조회 (efine.go.kr)', url: 'https://www.efine.go.kr' },

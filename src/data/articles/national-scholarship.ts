@@ -215,7 +215,7 @@ const article: Article = {
       ],
     },
   ],
-  relatedSlugs: ['youth-future-savings', 'income-amount-certificate', 'youth-rent-support'],
+  relatedSlugs: ['income-amount-certificate'],
 };
 
 /*

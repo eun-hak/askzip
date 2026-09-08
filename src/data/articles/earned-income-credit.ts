@@ -236,7 +236,7 @@ const article: Article = {
       ],
     },
   ],
-  relatedSlugs: ['child-tax-credit', 'youth-rent-support', 'comprehensive-income-tax'],
+  relatedSlugs: ['child-tax-credit'],
 };
 
 /*

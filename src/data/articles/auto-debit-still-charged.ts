@@ -161,7 +161,7 @@ const article: Article = {
       ],
     },
   ],
-  relatedSlugs: ['telecom-unrefunded-fee', 'dormant-money-check'],
+  relatedSlugs: ['telecom-unrefunded-fee'],
 };
 
 /*

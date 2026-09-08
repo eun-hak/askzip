@@ -162,7 +162,7 @@ export const nhisRefundSmishing: Article = {
       ],
     },
   ],
-  relatedSlugs: ['tax-refund-check', 'dormant-money-check'],
+  relatedSlugs: [],
 };
 
 /*

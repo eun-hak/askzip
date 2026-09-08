@@ -229,7 +229,7 @@ const article: Article = {
       ],
     },
   ],
-  relatedSlugs: ['earned-income-credit', 'youth-rent-support', 'comprehensive-income-tax'],
+  relatedSlugs: ['earned-income-credit'],
 };
 
 /*

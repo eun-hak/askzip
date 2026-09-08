@@ -15,32 +15,23 @@ import { overseasKoreanAuthentication } from './overseas-korean-authentication';
 import { digitalWalletRejected } from './digital-wallet-rejected';
 import { carTaxAnnualPrepay } from './car-tax-annual-prepay';
 import { propertyTaxPayment } from './property-tax-payment';
-import { hometaxPaymentStatement } from './hometax-payment-statement';
-import { comprehensiveIncomeTax } from './comprehensive-income-tax';
 import { incomeAmountCertificate } from './income-amount-certificate';
 import { yearEndTaxSettlement } from './year-end-tax-settlement';
-import { valueAddedTax } from './value-added-tax';
 import { acquisitionTax } from './acquisition-tax';
 import { localTaxCertificate } from './local-tax-certificate';
-import { cashReceipt } from './cash-receipt';
-import { taxRefundCheck } from './tax-refund-check';
 import { taxPaymentCertificateDelay } from './tax-payment-certificate-delay';
 import { incomeCertificateNotAvailable } from './income-certificate-not-available';
-import { youthRentSupport } from './youth-rent-support';
 import { earnedIncomeCredit } from './earned-income-credit';
 import { childTaxCredit } from './child-tax-credit';
 import { unemploymentBenefit } from './unemployment-benefit';
 import { basicPension } from './basic-pension';
-import { parentalChildcareBenefit } from './parental-childcare-benefit';
 import { nationalEmploymentSupport } from './national-employment-support';
 import { energyVoucher } from './energy-voucher';
-import { youthFutureSavings } from './youth-future-savings';
 import { nationalScholarship } from './national-scholarship';
 import { emergencyWelfareSupport } from './emergency-welfare-support';
 import { telecomUnrefundedFee } from './telecom-unrefunded-fee';
 import { fourMajorInsuranceHistory } from './four-major-insurance-history';
 import { nationalPensionHistory } from './national-pension-history';
-import { dormantMoneyCheck } from './dormant-money-check';
 import { trafficFineCheck } from './traffic-fine-check';
 import { carInspectionCheck } from './car-inspection-check';
 import { irosSearchFail } from './iros-search-fail';
@@ -104,28 +95,20 @@ const allArticles: Article[] = [
   // 세금·납부
   carTaxAnnualPrepay,
   propertyTaxPayment,
-  hometaxPaymentStatement,
-  comprehensiveIncomeTax,
   incomeAmountCertificate,
   yearEndTaxSettlement,
-  valueAddedTax,
   acquisitionTax,
   localTaxCertificate,
-  cashReceipt,
-  taxRefundCheck,
   taxPaymentCertificateDelay,
   incomeCertificateNotAvailable,
   carTaxExemptionClawback,
   // 생활지원금
-  youthRentSupport,
   earnedIncomeCredit,
   childTaxCredit,
   unemploymentBenefit,
   basicPension,
-  parentalChildcareBenefit,
   nationalEmploymentSupport,
   energyVoucher,
-  youthFutureSavings,
   nationalScholarship,
   emergencyWelfareSupport,
   basicPensionHistoryManagement,
@@ -138,7 +121,6 @@ const allArticles: Article[] = [
   telecomUnrefundedFee,
   fourMajorInsuranceHistory,
   nationalPensionHistory,
-  dormantMoneyCheck,
   trafficFineCheck,
   carInspectionCheck,
   nhisRefundSmishing,

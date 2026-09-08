@@ -228,5 +228,5 @@ export const yearEndTaxSettlement: Article = {
       ],
     },
   ],
-  relatedSlugs: ['comprehensive-income-tax', 'hometax-payment-statement', 'cash-receipt'],
+  relatedSlugs: [],
 };

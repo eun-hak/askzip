@@ -247,7 +247,7 @@ const article: Article = {
       ],
     },
   ],
-  relatedSlugs: ['unemployment-benefit', 'youth-future-savings', 'earned-income-credit'],
+  relatedSlugs: ['unemployment-benefit', 'earned-income-credit'],
 };
 
 /*

@@ -225,7 +225,7 @@ const article: Article = {
       ],
     },
   ],
-  relatedSlugs: ['property-tax-payment', 'local-tax-certificate', 'comprehensive-income-tax'],
+  relatedSlugs: ['property-tax-payment', 'local-tax-certificate'],
 };
 
 /*

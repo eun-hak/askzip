@@ -200,7 +200,7 @@ const article: Article = {
       ],
     },
   ],
-  relatedSlugs: ['hometax-payment-statement', 'comprehensive-income-tax', 'health-insurance-payment-proof'],
+  relatedSlugs: ['health-insurance-payment-proof'],
 };
 
 /*

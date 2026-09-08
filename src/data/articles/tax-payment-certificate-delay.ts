@@ -183,7 +183,7 @@ const article: Article = {
       ],
     },
   ],
-  relatedSlugs: ['local-tax-certificate', 'property-tax-payment', 'hometax-payment-statement'],
+  relatedSlugs: ['local-tax-certificate', 'property-tax-payment'],
 };
 
 /*

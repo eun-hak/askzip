@@ -176,7 +176,7 @@ const article: Article = {
       ],
     },
   ],
-  relatedSlugs: ['emergency-welfare-support', 'youth-rent-support', 'energy-voucher'],
+  relatedSlugs: ['emergency-welfare-support', 'energy-voucher'],
 };
 
 /*

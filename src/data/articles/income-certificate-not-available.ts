@@ -149,7 +149,7 @@ const article: Article = {
       ],
     },
   ],
-  relatedSlugs: ['income-amount-certificate', 'comprehensive-income-tax', 'year-end-tax-settlement'],
+  relatedSlugs: ['income-amount-certificate', 'year-end-tax-settlement'],
 };
 
 /*

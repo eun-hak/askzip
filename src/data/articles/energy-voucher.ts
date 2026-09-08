@@ -188,7 +188,7 @@ const article: Article = {
       ],
     },
   ],
-  relatedSlugs: ['emergency-welfare-support', 'basic-pension', 'youth-rent-support'],
+  relatedSlugs: ['emergency-welfare-support', 'basic-pension'],
 };
 
 /*

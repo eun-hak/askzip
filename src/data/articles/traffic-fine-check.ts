@@ -185,7 +185,7 @@ const article: Article = {
       ],
     },
   ],
-  relatedSlugs: ['driving-record-certificate', 'car-inspection-check', 'tax-refund-check'],
+  relatedSlugs: ['driving-record-certificate', 'car-inspection-check'],
 };
 
 /*

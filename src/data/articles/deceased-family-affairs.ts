@@ -170,7 +170,7 @@ const article: Article = {
       ],
     },
   ],
-  relatedSlugs: ['family-relation-certificate', 'dormant-money-check'],
+  relatedSlugs: ['family-relation-certificate'],
 };
 
 /*
