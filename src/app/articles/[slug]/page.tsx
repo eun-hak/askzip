@@ -56,6 +56,11 @@ const relatedTools: Record<string, { href: string; label: string; description: s
     label: '퇴직금 계산기',
     description: '퇴사 전이라면 받을 퇴직금부터 계산해 보세요 (상여금·연차수당 반영).',
   },
+  'bulky-waste-fee-analysis': {
+    href: '/tools/waste-fee',
+    label: '대형폐기물 수수료 검색',
+    description: '이 분석의 원본 데이터를 우리 동네 기준으로 직접 검색해 보세요.',
+  },
   'health-insurance-loss-date-delay': {
     href: '/tools/severance-calculator',
     label: '퇴직금 계산기',

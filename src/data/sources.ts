@@ -244,4 +244,8 @@ export const articleSources: Record<string, ArticleSource[]> = {
     { label: '국가법령정보센터 지방세특례제한법 (law.go.kr)', url: 'https://www.law.go.kr' },
     { label: '찾기쉬운 생활법령정보 다자녀가구 자동차 취득세 감면 (easylaw.go.kr)', url: 'https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1126&ccfNo=6&cciNo=1&cnpClsNo=1' },
   ],
+  'bulky-waste-fee-analysis': [
+    { label: '공공데이터포털 전국대형폐기물수거수수료정보표준데이터 (data.go.kr)', url: 'https://www.data.go.kr/data/15114146/standard.do' },
+    { label: '폐가전제품 무상방문수거 (15990903.or.kr)', url: 'https://www.15990903.or.kr' },
+  ],
 };

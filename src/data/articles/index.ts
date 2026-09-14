@@ -47,6 +47,7 @@ import { deceasedFamilyAffairs } from './deceased-family-affairs';
 import { voluntaryContinuousInsurance } from './voluntary-continuous-insurance';
 import { minorChildDocuments } from './minor-child-documents';
 import { autoDebitStillCharged } from './auto-debit-still-charged';
+import { bulkyWasteFeeAnalysis } from './bulky-waste-fee-analysis';
 import { carTransferSellerProxy } from './car-transfer-seller-proxy';
 import { schoolEntryNotice } from './school-entry-notice';
 import { residenceUnknownRegistration } from './residence-unknown-registration';
@@ -126,6 +127,7 @@ const allArticles: Article[] = [
   nhisRefundSmishing,
   autoDebitStillCharged,
   healthCheckupTargetCheck,
+  bulkyWasteFeeAnalysis,
 ];
 
 /**
