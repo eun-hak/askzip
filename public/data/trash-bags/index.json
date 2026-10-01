@@ -1,0 +1,1145 @@
+{
+ "updatedAt": "2026-10-01",
+ "source": "공공데이터포털 전국종량제봉투가격표준데이터(15025538)",
+ "sido": [
+  {
+   "name": "강원특별자치도",
+   "file": "gangwon.json",
+   "sigungu": [
+    {
+     "name": "강릉시",
+     "baseDate": "2026-01-27",
+     "itemCount": 4
+    },
+    {
+     "name": "고성군",
+     "baseDate": "2025-03-10",
+     "itemCount": 3
+    },
+    {
+     "name": "동해시",
+     "baseDate": "2026-08-18",
+     "itemCount": 2
+    },
+    {
+     "name": "삼척시",
+     "baseDate": "2025-07-28",
+     "itemCount": 3
+    },
+    {
+     "name": "속초시",
+     "baseDate": "2025-06-25",
+     "itemCount": 4
+    },
+    {
+     "name": "양구군",
+     "baseDate": "2026-05-26",
+     "itemCount": 4
+    },
+    {
+     "name": "양양군",
+     "baseDate": "2026-08-04",
+     "itemCount": 4
+    },
+    {
+     "name": "영월군",
+     "baseDate": "2026-09-03",
+     "itemCount": 3
+    },
+    {
+     "name": "원주시",
+     "baseDate": "2025-11-25",
+     "itemCount": 4
+    },
+    {
+     "name": "인제군",
+     "baseDate": "2024-12-13",
+     "itemCount": 2
+    },
+    {
+     "name": "정선군",
+     "baseDate": "2026-05-28",
+     "itemCount": 3
+    },
+    {
+     "name": "철원군",
+     "baseDate": "2024-12-06",
+     "itemCount": 4
+    },
+    {
+     "name": "춘천시",
+     "baseDate": "2025-11-17",
+     "itemCount": 4
+    },
+    {
+     "name": "태백시",
+     "baseDate": "2023-12-05",
+     "itemCount": 1
+    },
+    {
+     "name": "평창군",
+     "baseDate": "2025-06-20",
+     "itemCount": 4
+    },
+    {
+     "name": "홍천군",
+     "baseDate": "2023-10-05",
+     "itemCount": 5
+    },
+    {
+     "name": "화천군",
+     "baseDate": "2026-03-13",
+     "itemCount": 6
+    }
+   ]
+  },
+  {
+   "name": "경기도",
+   "file": "gyeonggi.json",
+   "sigungu": [
+    {
+     "name": "가평군",
+     "baseDate": "2025-12-24",
+     "itemCount": 5
+    },
+    {
+     "name": "고양시",
+     "baseDate": "2026-03-20",
+     "itemCount": 2
+    },
+    {
+     "name": "과천시",
+     "baseDate": "2026-06-24",
+     "itemCount": 3
+    },
+    {
+     "name": "광명시",
+     "baseDate": "2026-05-22",
+     "itemCount": 2
+    },
+    {
+     "name": "광주시",
+     "baseDate": "2026-03-30",
+     "itemCount": 4
+    },
+    {
+     "name": "구리시",
+     "baseDate": "2025-12-19",
+     "itemCount": 1
+    },
+    {
+     "name": "군포시",
+     "baseDate": "2025-12-31",
+     "itemCount": 5
+    },
+    {
+     "name": "김포시",
+     "baseDate": "2025-09-08",
+     "itemCount": 5
+    },
+    {
+     "name": "남양주시",
+     "baseDate": "2026-04-07",
+     "itemCount": 1
+    },
+    {
+     "name": "동두천시",
+     "baseDate": "2026-06-26",
+     "itemCount": 3
+    },
+    {
+     "name": "부천시",
+     "baseDate": "2026-03-17",
+     "itemCount": 4
+    },
+    {
+     "name": "성남시",
+     "baseDate": "2026-08-26",
+     "itemCount": 4
+    },
+    {
+     "name": "수원시",
+     "baseDate": "2026-01-24",
+     "itemCount": 3
+    },
+    {
+     "name": "시흥시",
+     "baseDate": "2026-09-05",
+     "itemCount": 10
+    },
+    {
+     "name": "안산시",
+     "baseDate": "2025-12-19",
+     "itemCount": 2
+    },
+    {
+     "name": "안성시",
+     "baseDate": "2026-08-11",
+     "itemCount": 4
+    },
+    {
+     "name": "안양시",
+     "baseDate": "2026-05-31",
+     "itemCount": 15
+    },
+    {
+     "name": "양주시",
+     "baseDate": "2026-08-18",
+     "itemCount": 3
+    },
+    {
+     "name": "양평군",
+     "baseDate": "2024-11-20",
+     "itemCount": 4
+    },
+    {
+     "name": "여주시",
+     "baseDate": "2025-08-20",
+     "itemCount": 3
+    },
+    {
+     "name": "연천군",
+     "baseDate": "2026-04-27",
+     "itemCount": 3
+    },
+    {
+     "name": "오산시",
+     "baseDate": "2026-08-25",
+     "itemCount": 4
+    },
+    {
+     "name": "용인시",
+     "baseDate": "2025-11-19",
+     "itemCount": 4
+    },
+    {
+     "name": "의왕시",
+     "baseDate": "2025-11-28",
+     "itemCount": 4
+    },
+    {
+     "name": "의정부시",
+     "baseDate": "2026-07-15",
+     "itemCount": 6
+    },
+    {
+     "name": "이천시",
+     "baseDate": "2026-01-21",
+     "itemCount": 2
+    },
+    {
+     "name": "파주시",
+     "baseDate": "2026-04-13",
+     "itemCount": 4
+    },
+    {
+     "name": "평택시",
+     "baseDate": "2026-02-27",
+     "itemCount": 4
+    },
+    {
+     "name": "포천시",
+     "baseDate": "2024-11-14",
+     "itemCount": 4
+    },
+    {
+     "name": "하남시",
+     "baseDate": "2025-12-10",
+     "itemCount": 1
+    },
+    {
+     "name": "화성시",
+     "baseDate": "2026-01-20",
+     "itemCount": 6
+    }
+   ]
+  },
+  {
+   "name": "경상남도",
+   "file": "gyeongnam.json",
+   "sigungu": [
+    {
+     "name": "거제시",
+     "baseDate": "2026-07-07",
+     "itemCount": 4
+    },
+    {
+     "name": "거창군",
+     "baseDate": "2026-06-15",
+     "itemCount": 2
+    },
+    {
+     "name": "고성군",
+     "baseDate": "2026-07-11",
+     "itemCount": 1
+    },
+    {
+     "name": "김해시",
+     "baseDate": "2026-04-29",
+     "itemCount": 1
+    },
+    {
+     "name": "남해군",
+     "baseDate": "2025-03-10",
+     "itemCount": 1
+    },
+    {
+     "name": "밀양시",
+     "baseDate": "2026-09-01",
+     "itemCount": 3
+    },
+    {
+     "name": "사천시",
+     "baseDate": "2025-08-13",
+     "itemCount": 3
+    },
+    {
+     "name": "산청군",
+     "baseDate": "2026-07-31",
+     "itemCount": 4
+    },
+    {
+     "name": "양산시",
+     "baseDate": "2025-11-17",
+     "itemCount": 4
+    },
+    {
+     "name": "의령군",
+     "baseDate": "2025-09-11",
+     "itemCount": 3
+    },
+    {
+     "name": "진주시",
+     "baseDate": "2025-12-19",
+     "itemCount": 6
+    },
+    {
+     "name": "창녕군",
+     "baseDate": "2026-05-12",
+     "itemCount": 3
+    },
+    {
+     "name": "창원시",
+     "baseDate": "2025-08-19",
+     "itemCount": 1
+    },
+    {
+     "name": "통영시",
+     "baseDate": "2026-02-04",
+     "itemCount": 3
+    },
+    {
+     "name": "하동군",
+     "baseDate": "2024-12-11",
+     "itemCount": 1
+    },
+    {
+     "name": "함안군",
+     "baseDate": "2025-12-23",
+     "itemCount": 4
+    },
+    {
+     "name": "함양군",
+     "baseDate": "2026-08-25",
+     "itemCount": 2
+    },
+    {
+     "name": "합천군",
+     "baseDate": "2026-07-07",
+     "itemCount": 3
+    }
+   ]
+  },
+  {
+   "name": "경상북도",
+   "file": "gyeongbuk.json",
+   "sigungu": [
+    {
+     "name": "경산시",
+     "baseDate": "2025-11-14",
+     "itemCount": 1
+    },
+    {
+     "name": "경주시",
+     "baseDate": "2025-08-22",
+     "itemCount": 3
+    },
+    {
+     "name": "고령군",
+     "baseDate": "2026-07-31",
+     "itemCount": 2
+    },
+    {
+     "name": "구미시",
+     "baseDate": "2026-07-01",
+     "itemCount": 4
+    },
+    {
+     "name": "김천시",
+     "baseDate": "2026-07-13",
+     "itemCount": 1
+    },
+    {
+     "name": "문경시",
+     "baseDate": "2026-08-07",
+     "itemCount": 1
+    },
+    {
+     "name": "봉화군",
+     "baseDate": "2026-04-08",
+     "itemCount": 1
+    },
+    {
+     "name": "상주시",
+     "baseDate": "2025-06-20",
+     "itemCount": 1
+    },
+    {
+     "name": "성주군",
+     "baseDate": "2026-08-05",
+     "itemCount": 1
+    },
+    {
+     "name": "안동시",
+     "baseDate": "2026-08-07",
+     "itemCount": 4
+    },
+    {
+     "name": "영덕군",
+     "baseDate": "2025-08-01",
+     "itemCount": 2
+    },
+    {
+     "name": "영양군",
+     "baseDate": "2026-08-04",
+     "itemCount": 4
+    },
+    {
+     "name": "영주시",
+     "baseDate": "2026-07-28",
+     "itemCount": 4
+    },
+    {
+     "name": "영천시",
+     "baseDate": "2026-06-16",
+     "itemCount": 2
+    },
+    {
+     "name": "예천군",
+     "baseDate": "2026-03-27",
+     "itemCount": 2
+    },
+    {
+     "name": "울릉군",
+     "baseDate": "2025-06-23",
+     "itemCount": 1
+    },
+    {
+     "name": "울진군",
+     "baseDate": "2025-03-20",
+     "itemCount": 1
+    },
+    {
+     "name": "의성군",
+     "baseDate": "2026-08-14",
+     "itemCount": 1
+    },
+    {
+     "name": "청도군",
+     "baseDate": "2025-08-11",
+     "itemCount": 1
+    },
+    {
+     "name": "청송군",
+     "baseDate": "2026-07-21",
+     "itemCount": 4
+    },
+    {
+     "name": "칠곡군",
+     "baseDate": "2025-12-18",
+     "itemCount": 2
+    },
+    {
+     "name": "포항시",
+     "baseDate": "2025-09-08",
+     "itemCount": 1
+    }
+   ]
+  },
+  {
+   "name": "광주광역시",
+   "file": "gwangju.json",
+   "sigungu": [
+    {
+     "name": "없음",
+     "baseDate": "2025-11-12",
+     "itemCount": 2
+    }
+   ]
+  },
+  {
+   "name": "대구광역시",
+   "file": "daegu.json",
+   "sigungu": [
+    {
+     "name": "군위군",
+     "baseDate": "2026-07-15",
+     "itemCount": 2
+    },
+    {
+     "name": "남구",
+     "baseDate": "2026-08-03",
+     "itemCount": 2
+    },
+    {
+     "name": "달서구",
+     "baseDate": "2026-05-07",
+     "itemCount": 1
+    },
+    {
+     "name": "달성군",
+     "baseDate": "2026-09-08",
+     "itemCount": 1
+    },
+    {
+     "name": "동구",
+     "baseDate": "2026-03-26",
+     "itemCount": 1
+    },
+    {
+     "name": "북구",
+     "baseDate": "2026-03-17",
+     "itemCount": 1
+    },
+    {
+     "name": "서구",
+     "baseDate": "2026-07-24",
+     "itemCount": 2
+    },
+    {
+     "name": "수성구",
+     "baseDate": "2026-07-09",
+     "itemCount": 1
+    },
+    {
+     "name": "중구",
+     "baseDate": "2026-06-24",
+     "itemCount": 1
+    }
+   ]
+  },
+  {
+   "name": "대전광역시",
+   "file": "daejeon.json",
+   "sigungu": [
+    {
+     "name": "대덕구",
+     "baseDate": "2024-06-30",
+     "itemCount": 3
+    },
+    {
+     "name": "동구",
+     "baseDate": "2025-08-06",
+     "itemCount": 3
+    },
+    {
+     "name": "서구",
+     "baseDate": "2026-06-08",
+     "itemCount": 1
+    },
+    {
+     "name": "유성구",
+     "baseDate": "2026-05-12",
+     "itemCount": 1
+    },
+    {
+     "name": "중구",
+     "baseDate": "2025-06-30",
+     "itemCount": 2
+    }
+   ]
+  },
+  {
+   "name": "부산광역시",
+   "file": "busan.json",
+   "sigungu": [
+    {
+     "name": "강서구",
+     "baseDate": "2026-09-03",
+     "itemCount": 1
+    },
+    {
+     "name": "금정구",
+     "baseDate": "2025-11-09",
+     "itemCount": 4
+    },
+    {
+     "name": "기장군",
+     "baseDate": "2025-11-10",
+     "itemCount": 1
+    },
+    {
+     "name": "남구",
+     "baseDate": "2026-03-18",
+     "itemCount": 4
+    },
+    {
+     "name": "동구",
+     "baseDate": "2025-11-14",
+     "itemCount": 1
+    },
+    {
+     "name": "동래구",
+     "baseDate": "2026-05-11",
+     "itemCount": 3
+    },
+    {
+     "name": "부산진구",
+     "baseDate": "2026-07-15",
+     "itemCount": 1
+    },
+    {
+     "name": "북구",
+     "baseDate": "2025-05-13",
+     "itemCount": 2
+    },
+    {
+     "name": "사상구",
+     "baseDate": "2026-07-21",
+     "itemCount": 5
+    },
+    {
+     "name": "사하구",
+     "baseDate": "2026-04-09",
+     "itemCount": 4
+    },
+    {
+     "name": "서구",
+     "baseDate": "2025-08-11",
+     "itemCount": 1
+    },
+    {
+     "name": "수영구",
+     "baseDate": "2026-08-05",
+     "itemCount": 4
+    },
+    {
+     "name": "연제구",
+     "baseDate": "2025-11-06",
+     "itemCount": 1
+    },
+    {
+     "name": "영도구",
+     "baseDate": "2026-05-19",
+     "itemCount": 1
+    },
+    {
+     "name": "중구",
+     "baseDate": "2025-12-16",
+     "itemCount": 3
+    },
+    {
+     "name": "해운대구",
+     "baseDate": "2026-07-14",
+     "itemCount": 3
+    }
+   ]
+  },
+  {
+   "name": "서울특별시",
+   "file": "seoul.json",
+   "sigungu": [
+    {
+     "name": "강남구",
+     "baseDate": "2025-08-18",
+     "itemCount": 2
+    },
+    {
+     "name": "강동구",
+     "baseDate": "2026-05-19",
+     "itemCount": 4
+    },
+    {
+     "name": "강북구",
+     "baseDate": "2026-04-20",
+     "itemCount": 4
+    },
+    {
+     "name": "강서구",
+     "baseDate": "2026-02-05",
+     "itemCount": 4
+    },
+    {
+     "name": "관악구",
+     "baseDate": "2025-11-12",
+     "itemCount": 2
+    },
+    {
+     "name": "광진구",
+     "baseDate": "2026-08-07",
+     "itemCount": 6
+    },
+    {
+     "name": "구로구",
+     "baseDate": "2025-11-11",
+     "itemCount": 4
+    },
+    {
+     "name": "금천구",
+     "baseDate": "2026-09-03",
+     "itemCount": 4
+    },
+    {
+     "name": "노원구",
+     "baseDate": "2026-04-13",
+     "itemCount": 2
+    },
+    {
+     "name": "동대문구",
+     "baseDate": "2026-06-23",
+     "itemCount": 4
+    },
+    {
+     "name": "동작구",
+     "baseDate": "2026-04-08",
+     "itemCount": 3
+    },
+    {
+     "name": "마포구",
+     "baseDate": "2026-03-03",
+     "itemCount": 5
+    },
+    {
+     "name": "서대문구",
+     "baseDate": "2026-08-31",
+     "itemCount": 4
+    },
+    {
+     "name": "서초구",
+     "baseDate": "2026-08-04",
+     "itemCount": 5
+    },
+    {
+     "name": "성동구",
+     "baseDate": "2026-09-03",
+     "itemCount": 9
+    },
+    {
+     "name": "성북구",
+     "baseDate": "2026-04-09",
+     "itemCount": 5
+    },
+    {
+     "name": "송파구",
+     "baseDate": "2024-11-20",
+     "itemCount": 5
+    },
+    {
+     "name": "양천구",
+     "baseDate": "2026-03-01",
+     "itemCount": 3
+    },
+    {
+     "name": "영등포구",
+     "baseDate": "2026-01-09",
+     "itemCount": 4
+    },
+    {
+     "name": "용산구",
+     "baseDate": "2025-11-03",
+     "itemCount": 4
+    },
+    {
+     "name": "은평구",
+     "baseDate": "2026-06-30",
+     "itemCount": 5
+    },
+    {
+     "name": "종로구",
+     "baseDate": "2026-07-24",
+     "itemCount": 2
+    },
+    {
+     "name": "중구",
+     "baseDate": "2025-11-17",
+     "itemCount": 4
+    },
+    {
+     "name": "중랑구",
+     "baseDate": "2026-08-26",
+     "itemCount": 3
+    }
+   ]
+  },
+  {
+   "name": "세종특별자치시",
+   "file": "sejong.json",
+   "sigungu": [
+    {
+     "name": "없음",
+     "baseDate": "2025-12-22",
+     "itemCount": 1
+    }
+   ]
+  },
+  {
+   "name": "울산광역시",
+   "file": "ulsan.json",
+   "sigungu": [
+    {
+     "name": "남구",
+     "baseDate": "2026-03-25",
+     "itemCount": 2
+    },
+    {
+     "name": "동구",
+     "baseDate": "2026-03-03",
+     "itemCount": 2
+    },
+    {
+     "name": "북구",
+     "baseDate": "2026-06-22",
+     "itemCount": 1
+    },
+    {
+     "name": "울주군",
+     "baseDate": "2026-04-27",
+     "itemCount": 1
+    },
+    {
+     "name": "중구",
+     "baseDate": "2026-03-06",
+     "itemCount": 4
+    }
+   ]
+  },
+  {
+   "name": "인천광역시",
+   "file": "incheon.json",
+   "sigungu": [
+    {
+     "name": "강화군",
+     "baseDate": "2025-11-20",
+     "itemCount": 3
+    },
+    {
+     "name": "계양구",
+     "baseDate": "2026-05-28",
+     "itemCount": 10
+    },
+    {
+     "name": "남동구",
+     "baseDate": "2025-11-25",
+     "itemCount": 5
+    },
+    {
+     "name": "미추홀구",
+     "baseDate": "2025-06-24",
+     "itemCount": 4
+    },
+    {
+     "name": "부평구",
+     "baseDate": "2025-11-10",
+     "itemCount": 3
+    },
+    {
+     "name": "서해구",
+     "baseDate": "2026-07-03",
+     "itemCount": 6
+    },
+    {
+     "name": "연수구",
+     "baseDate": "2026-03-12",
+     "itemCount": 7
+    },
+    {
+     "name": "옹진군",
+     "baseDate": "2026-07-09",
+     "itemCount": 2
+    },
+    {
+     "name": "제물포구",
+     "baseDate": "2026-07-03",
+     "itemCount": 4
+    },
+    {
+     "name": "중구",
+     "baseDate": "2025-08-14",
+     "itemCount": 9
+    }
+   ]
+  },
+  {
+   "name": "전라남도",
+   "file": "jeonnam.json",
+   "sigungu": [
+    {
+     "name": "광양시",
+     "baseDate": "2026-03-11",
+     "itemCount": 1
+    },
+    {
+     "name": "담양군",
+     "baseDate": "2024-11-14",
+     "itemCount": 1
+    },
+    {
+     "name": "영광군",
+     "baseDate": "2024-03-04",
+     "itemCount": 1
+    },
+    {
+     "name": "영암군",
+     "baseDate": "2025-03-26",
+     "itemCount": 1
+    },
+    {
+     "name": "완도군",
+     "baseDate": "2024-08-14",
+     "itemCount": 2
+    },
+    {
+     "name": "장흥군",
+     "baseDate": "2025-06-23",
+     "itemCount": 1
+    }
+   ]
+  },
+  {
+   "name": "전북특별자치도",
+   "file": "jeonbuk.json",
+   "sigungu": [
+    {
+     "name": "고창군",
+     "baseDate": "2024-05-10",
+     "itemCount": 3
+    },
+    {
+     "name": "군산시",
+     "baseDate": "2026-05-25",
+     "itemCount": 3
+    },
+    {
+     "name": "김제시",
+     "baseDate": "2025-06-10",
+     "itemCount": 3
+    },
+    {
+     "name": "남원시",
+     "baseDate": "2026-06-15",
+     "itemCount": 2
+    },
+    {
+     "name": "무주군",
+     "baseDate": "2026-08-13",
+     "itemCount": 1
+    },
+    {
+     "name": "부안군",
+     "baseDate": "2026-01-16",
+     "itemCount": 9
+    },
+    {
+     "name": "순창군",
+     "baseDate": "2026-07-23",
+     "itemCount": 3
+    },
+    {
+     "name": "완주군",
+     "baseDate": "2026-07-28",
+     "itemCount": 1
+    },
+    {
+     "name": "익산시",
+     "baseDate": "2025-06-11",
+     "itemCount": 1
+    },
+    {
+     "name": "임실군",
+     "baseDate": "2026-07-09",
+     "itemCount": 2
+    },
+    {
+     "name": "장수군",
+     "baseDate": "2026-05-29",
+     "itemCount": 18
+    },
+    {
+     "name": "전주시",
+     "baseDate": "2026-02-10",
+     "itemCount": 4
+    },
+    {
+     "name": "정읍시",
+     "baseDate": "2025-12-01",
+     "itemCount": 4
+    },
+    {
+     "name": "진안군",
+     "baseDate": "2026-01-28",
+     "itemCount": 1
+    }
+   ]
+  },
+  {
+   "name": "제주특별자치도",
+   "file": "jeju.json",
+   "sigungu": [
+    {
+     "name": "서귀포시",
+     "baseDate": "2025-02-19",
+     "itemCount": 3
+    },
+    {
+     "name": "제주시",
+     "baseDate": "2025-03-21",
+     "itemCount": 1
+    }
+   ]
+  },
+  {
+   "name": "충청남도",
+   "file": "chungnam.json",
+   "sigungu": [
+    {
+     "name": "계룡시",
+     "baseDate": "2025-06-24",
+     "itemCount": 4
+    },
+    {
+     "name": "공주시",
+     "baseDate": "2022-11-22",
+     "itemCount": 1
+    },
+    {
+     "name": "금산군",
+     "baseDate": "2025-11-18",
+     "itemCount": 1
+    },
+    {
+     "name": "논산시",
+     "baseDate": "2025-12-28",
+     "itemCount": 2
+    },
+    {
+     "name": "당진시",
+     "baseDate": "2026-01-15",
+     "itemCount": 4
+    },
+    {
+     "name": "보령시",
+     "baseDate": "2025-12-08",
+     "itemCount": 4
+    },
+    {
+     "name": "부여군",
+     "baseDate": "2026-08-05",
+     "itemCount": 3
+    },
+    {
+     "name": "서산시",
+     "baseDate": "2026-05-13",
+     "itemCount": 2
+    },
+    {
+     "name": "서천군",
+     "baseDate": "2026-08-09",
+     "itemCount": 3
+    },
+    {
+     "name": "아산시",
+     "baseDate": "2026-03-01",
+     "itemCount": 4
+    },
+    {
+     "name": "예산군",
+     "baseDate": "2026-01-07",
+     "itemCount": 1
+    },
+    {
+     "name": "천안시",
+     "baseDate": "2024-06-19",
+     "itemCount": 1
+    },
+    {
+     "name": "청양군",
+     "baseDate": "2025-11-20",
+     "itemCount": 4
+    },
+    {
+     "name": "태안군",
+     "baseDate": "2025-12-29",
+     "itemCount": 3
+    },
+    {
+     "name": "홍성군",
+     "baseDate": "2026-06-30",
+     "itemCount": 1
+    }
+   ]
+  },
+  {
+   "name": "충청북도",
+   "file": "chungbuk.json",
+   "sigungu": [
+    {
+     "name": "괴산군",
+     "baseDate": "2025-12-16",
+     "itemCount": 1
+    },
+    {
+     "name": "단양군",
+     "baseDate": "2025-09-30",
+     "itemCount": 2
+    },
+    {
+     "name": "보은군",
+     "baseDate": "2026-08-05",
+     "itemCount": 1
+    },
+    {
+     "name": "영동군",
+     "baseDate": "2023-12-11",
+     "itemCount": 3
+    },
+    {
+     "name": "옥천군",
+     "baseDate": "2025-09-26",
+     "itemCount": 1
+    },
+    {
+     "name": "음성군",
+     "baseDate": "2024-08-05",
+     "itemCount": 3
+    },
+    {
+     "name": "제천시",
+     "baseDate": "2025-12-24",
+     "itemCount": 3
+    },
+    {
+     "name": "증평군",
+     "baseDate": "2025-12-17",
+     "itemCount": 1
+    },
+    {
+     "name": "진천군",
+     "baseDate": "2026-01-14",
+     "itemCount": 1
+    },
+    {
+     "name": "청주시",
+     "baseDate": "2026-08-26",
+     "itemCount": 4
+    },
+    {
+     "name": "충주시",
+     "baseDate": "2026-05-31",
+     "itemCount": 3
+    }
+   ]
+  }
+ ],
+ "totalRows": 629,
+ "sigunguCount": 207
+}

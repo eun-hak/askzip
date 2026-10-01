@@ -248,4 +248,8 @@ export const articleSources: Record<string, ArticleSource[]> = {
     { label: '공공데이터포털 전국대형폐기물수거수수료정보표준데이터 (data.go.kr)', url: 'https://www.data.go.kr/data/15114146/standard.do' },
     { label: '폐가전제품 무상방문수거 (15990903.or.kr)', url: 'https://www.15990903.or.kr' },
   ],
+  'trash-bag-price-analysis': [
+    { label: '공공데이터포털 전국종량제봉투가격표준데이터 (data.go.kr)', url: 'https://www.data.go.kr/tcs/dss/selectStdDataDetailView.do?publicDataPk=15025538' },
+    { label: '행정안전부 지방물가정보 (mois.go.kr)', url: 'https://www.mois.go.kr/frt/sub/a02/lpid010102/screen.do' },
+  ],
 };

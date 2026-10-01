@@ -56,6 +56,11 @@ const relatedTools: Record<string, { href: string; label: string; description: s
     label: '퇴직금 계산기',
     description: '퇴사 전이라면 받을 퇴직금부터 계산해 보세요 (상여금·연차수당 반영).',
   },
+  'trash-bag-price-analysis': {
+    href: '/tools/trash-bag-price',
+    label: '종량제봉투 가격 조회',
+    description: '우리 동네 봉투 가격을 규격별로 바로 확인해 보세요.',
+  },
   'bulky-waste-fee-analysis': {
     href: '/tools/waste-fee',
     label: '대형폐기물 수수료 검색',

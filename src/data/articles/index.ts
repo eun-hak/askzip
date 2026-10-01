@@ -48,6 +48,7 @@ import { voluntaryContinuousInsurance } from './voluntary-continuous-insurance';
 import { minorChildDocuments } from './minor-child-documents';
 import { autoDebitStillCharged } from './auto-debit-still-charged';
 import { bulkyWasteFeeAnalysis } from './bulky-waste-fee-analysis';
+import { trashBagPriceAnalysis } from './trash-bag-price-analysis';
 import { carTransferSellerProxy } from './car-transfer-seller-proxy';
 import { schoolEntryNotice } from './school-entry-notice';
 import { residenceUnknownRegistration } from './residence-unknown-registration';
@@ -128,6 +129,7 @@ const allArticles: Article[] = [
   autoDebitStillCharged,
   healthCheckupTargetCheck,
   bulkyWasteFeeAnalysis,
+  trashBagPriceAnalysis,
 ];
 
 /**
