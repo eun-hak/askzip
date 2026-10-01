@@ -37,3 +37,10 @@ jobs:
           git add .publish-stamp
           git commit -m "chore: daily publish rebuild ($(date -u +%F))"
           git push
+      - name: Notify IndexNow (Naver/Bing) of newly published articles
+        if: steps.guard.outputs.expired == 'false'
+        continue-on-error: true
+        run: |
+          # 오늘 발행된 글이 없으면 스크립트가 아무것도 보내지 않고 종료한다
+          sleep 60   # Vercel 배포가 끝난 뒤 크롤되도록 약간 대기
+          node scripts/indexnow-ping.mjs
